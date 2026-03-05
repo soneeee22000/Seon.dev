@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { NAV_LINKS } from "@/lib/data";
 import { scrollToSection } from "@/lib/hooks";
+import { Logo } from "./logo";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -28,9 +29,12 @@ export function Navbar() {
     >
       <div
         onClick={() => handleNav("hero")}
-        className="cursor-pointer font-playfair text-[20px] font-bold tracking-[.06em] text-accent"
+        className="flex cursor-pointer items-center gap-2"
       >
-        PSK
+        <Logo size={28} />
+        <span className="font-playfair text-[16px] font-bold tracking-[.06em] text-accent">
+          PSK
+        </span>
       </div>
 
       <div className="flex flex-wrap gap-7">
