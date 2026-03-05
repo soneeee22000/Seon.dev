@@ -8,10 +8,26 @@ interface OrbitalRing {
   dur: number;
 }
 
+// Pick representative skills for the orbital: one per category
+const ORBITAL_SKILLS = SKILLS.filter((s) =>
+  [
+    "PyTorch",
+    "Python",
+    "React",
+    "Node.js",
+    "Azure",
+    "Docker",
+    "PostgreSQL",
+    "LangChain",
+    "Pandas",
+    "Next.js",
+  ].includes(s.name),
+);
+
 const RINGS: OrbitalRing[] = [
-  { skills: [SKILLS[0], SKILLS[3], SKILLS[6], SKILLS[9]], r: 108, dur: 22 },
-  { skills: [SKILLS[1], SKILLS[4], SKILLS[7]], r: 156, dur: 30 },
-  { skills: [SKILLS[2], SKILLS[5], SKILLS[8]], r: 204, dur: 40 },
+  { skills: ORBITAL_SKILLS.slice(0, 4), r: 108, dur: 22 },
+  { skills: ORBITAL_SKILLS.slice(4, 7), r: 156, dur: 30 },
+  { skills: ORBITAL_SKILLS.slice(7, 10), r: 204, dur: 40 },
 ];
 
 const RING_COLORS = ["#C9A96E", "#7B9CCC", "#9C7BCC"];

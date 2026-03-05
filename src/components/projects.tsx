@@ -19,7 +19,7 @@ export function Projects() {
     e.currentTarget.style.boxShadow = "none";
   }, []);
 
-  const featured = PROJECTS.find((p) => p.featured)!;
+  const featuredProjects = PROJECTS.filter((p) => p.featured);
   const rest = PROJECTS.filter((p) => !p.featured);
 
   return (
@@ -33,99 +33,118 @@ export function Projects() {
         </h2>
       </div>
 
-      {/* Featured */}
-      <div
-        className="reveal proj3d mb-5"
-        onMouseMove={handleMove}
-        onMouseLeave={handleLeave}
-      >
-        <div
-          className="relative overflow-hidden border bg-surface px-10 py-11"
-          style={{
-            borderColor: `${featured.color}35`,
-            boxShadow: `inset 0 0 80px ${featured.color}06`,
-          }}
-        >
-          <div className="absolute top-0 right-0 bg-accent px-3.5 py-1.5 font-dm-mono text-[8px] tracking-[.25em] text-bg">
-            FEATURED
-          </div>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] items-center gap-11">
-            <div>
-              <div className="mb-4 text-[44px]">{featured.emoji}</div>
-              <h3 className="mb-3.5 font-playfair text-[34px] font-bold text-text">
-                {featured.title}
-              </h3>
-              <p className="mb-6 text-[14px] leading-[1.8] text-body">
-                {featured.desc}
-              </p>
-              <div className="mb-7 flex flex-wrap gap-2">
-                {featured.tags.map((t) => (
-                  <span
-                    key={t}
-                    className="font-dm-mono text-[9px] tracking-[.1em]"
-                    style={{
-                      padding: "4px 11px",
-                      background: `${featured.color}12`,
-                      border: `1px solid ${featured.color}35`,
-                      color: featured.color,
-                    }}
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
-              <div className="flex flex-wrap gap-3.5">
-                <a
-                  href={featured.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-accent px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] text-bg transition-colors duration-300 hover:bg-accent-light"
-                >
-                  LIVE DEMO &#8599;
-                </a>
-                <a
-                  href={featured.gh}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
-                  style={{
-                    borderColor: `${featured.color}50`,
-                    color: featured.color,
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = `${featured.color}12`;
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "transparent";
-                  }}
-                >
-                  GITHUB &#8599;
-                </a>
-              </div>
-            </div>
+      {/* Featured Projects */}
+      <div className="flex flex-col gap-5 mb-5">
+        {featuredProjects.map((featured, fi) => (
+          <div
+            key={featured.id}
+            className="reveal proj3d"
+            style={{ transitionDelay: `${fi * 0.12}s` }}
+            onMouseMove={handleMove}
+            onMouseLeave={handleLeave}
+          >
             <div
-              className="flex flex-col items-center justify-center gap-3"
+              className="relative overflow-hidden border bg-surface px-10 py-11"
               style={{
-                aspectRatio: "16/9",
-                background: `${featured.color}08`,
-                border: `1px solid ${featured.color}18`,
+                borderColor: `${featured.color}35`,
+                boxShadow: `inset 0 0 80px ${featured.color}06`,
               }}
             >
               <div
-                className="text-[72px] opacity-50"
-                style={{ animation: "float 4s ease-in-out infinite" }}
+                className="absolute top-0 right-0 px-3.5 py-1.5 font-dm-mono text-[8px] tracking-[.25em]"
+                style={{ background: featured.color, color: "#06080D" }}
               >
-                {featured.emoji}
+                FEATURED
               </div>
-              <div
-                className="font-dm-mono text-[9px] tracking-[.22em]"
-                style={{ color: `${featured.color}70` }}
-              >
-                LIVE AT VERCEL &#8599;
+              <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] items-center gap-11">
+                <div>
+                  <div className="mb-4 text-[44px]">{featured.emoji}</div>
+                  <h3 className="mb-3.5 font-playfair text-[34px] font-bold text-text">
+                    {featured.title}
+                  </h3>
+                  <p className="mb-6 text-[14px] leading-[1.8] text-body">
+                    {featured.desc}
+                  </p>
+                  <div className="mb-7 flex flex-wrap gap-2">
+                    {featured.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="font-dm-mono text-[9px] tracking-[.1em]"
+                        style={{
+                          padding: "4px 11px",
+                          background: `${featured.color}12`,
+                          border: `1px solid ${featured.color}35`,
+                          color: featured.color,
+                        }}
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex flex-wrap gap-3.5">
+                    <a
+                      href={featured.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-colors duration-300"
+                      style={{
+                        background: featured.color,
+                        color: "#06080D",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.opacity = "0.85";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.opacity = "1";
+                      }}
+                    >
+                      LIVE DEMO &#8599;
+                    </a>
+                    <a
+                      href={featured.gh}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
+                      style={{
+                        borderColor: `${featured.color}50`,
+                        color: featured.color,
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = `${featured.color}12`;
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = "transparent";
+                      }}
+                    >
+                      GITHUB &#8599;
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="flex flex-col items-center justify-center gap-3"
+                  style={{
+                    aspectRatio: "16/9",
+                    background: `${featured.color}08`,
+                    border: `1px solid ${featured.color}18`,
+                  }}
+                >
+                  <div
+                    className="text-[72px] opacity-50"
+                    style={{ animation: "float 4s ease-in-out infinite" }}
+                  >
+                    {featured.emoji}
+                  </div>
+                  <div
+                    className="font-dm-mono text-[9px] tracking-[.22em]"
+                    style={{ color: `${featured.color}70` }}
+                  >
+                    LIVE AT VERCEL &#8599;
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        ))}
       </div>
 
       {/* Grid */}

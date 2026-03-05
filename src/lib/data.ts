@@ -43,6 +43,32 @@ export const EXP: Experience[] = [
       "Delivered production analytics dashboards adopted by city government and transport stakeholders",
     ],
   },
+  {
+    job: "Research Assistant",
+    company: "DICE Lab \u2014 Telecom SudParis",
+    badge: "NLP \u00B7 Machine Translation",
+    url: "https://dice.wp.telecom-sudparis.eu/",
+    date: "Aug 2023 \u2014 Jul 2024",
+    color: "#9C7BCC",
+    pts: [
+      "Developed a complete English\u2013Myanmar machine translation pipeline built on a 10K gold-labeled WikiHow parallel corpus manually created and curated",
+      "Covered full research lifecycle: dataset construction, model training, evaluation design, and deployment with multilingual MT backbones",
+      "Building a public translation API and Chrome extension for real-time English\u2013Myanmar translation on WikiHow pages",
+    ],
+  },
+  {
+    job: "Research Assistant",
+    company: "AIT BrainLab",
+    badge: "Bangkok \u00B7 Thailand",
+    url: "https://www.ait.ac.th/",
+    date: "Jan 2023 \u2014 Aug 2023",
+    color: "#7BCC9C",
+    pts: [
+      "Collaborated with a team to develop an innovative NLP paraphrasing tool, enhancing user experience",
+      "Cleaned and organized datasets, optimizing training processes and improving model accuracy by 15%",
+      "Gained hands-on experience in backend operations, strengthening technical skills in data management and R&D methodology",
+    ],
+  },
 ];
 
 export const PROJECTS: Project[] = [
@@ -59,25 +85,25 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    featured: false,
-    emoji: "\uD83E\uDDE0",
-    title: "PsychHealth AI",
-    desc: "Mental health NLP app using Retrieval-Augmented Generation \u2014 combining pre-trained LLMs with external knowledge for contextual, personalized support.",
-    tags: ["NLP", "PyTorch", "HuggingFace"],
-    color: "#9C7BCC",
-    demo: "https://psych-ai-rag-mvp.streamlit.app/",
-    gh: "https://github.com/soneeee22000/Psych_ai_with_RAG",
+    featured: true,
+    emoji: "\uD83D\uDEE1\uFE0F",
+    title: "SafeGen.dev",
+    desc: "Serverless middleware platform for enforcing responsible AI compliance on LLM applications. Acts as an intermediary between client apps and Azure OpenAI, validating responses against configurable safety rules \u2014 PII detection, bias screening, hate speech filtering, and RAG-powered custom policy enforcement via uploaded compliance documents.",
+    tags: ["React", "TypeScript", "Azure Functions", "FAISS", "GPT-4o"],
+    color: "#7BCC9C",
+    demo: "https://safe-gen-dev.vercel.app/",
+    gh: "https://github.com/soneeee22000/SafeGen.dev",
   },
   {
     id: 3,
-    featured: false,
-    emoji: "\u26A1",
-    title: "Ecoforecaster",
-    desc: "Interactive energy consumption dashboard for France with AI-powered recommendations to reduce household energy costs and build a sustainable smart home.",
-    tags: ["Next.js", "Python", "JavaScript"],
-    color: "#7BCC9C",
-    demo: "https://ai-energy-theta.vercel.app/",
-    gh: "https://github.com/soneeee22000/AI_Energy_Main_App",
+    featured: true,
+    emoji: "\uD83D\uDD0D",
+    title: "DocuQuery",
+    desc: "AI-powered resume-job match analysis platform. Upload your resume and a job description to get a detailed compatibility score with category breakdowns (skills, experience, education, keywords), missing keyword identification, and prioritized improvement recommendations \u2014 all in under 30 seconds.",
+    tags: ["Next.js", "FastAPI", "TypeScript", "PostgreSQL", "OpenAI"],
+    color: "#9C7BCC",
+    demo: "https://docu-query-dev.vercel.app/dashboard",
+    gh: "https://github.com/soneeee22000/DocuQuery-dev",
   },
   {
     id: 4,
@@ -115,35 +141,131 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
+  // AI / ML
   {
     name: "PyTorch",
     cat: "AI / ML",
     logo: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg",
   },
   {
+    name: "TensorFlow",
+    cat: "AI / ML",
+    logo: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg",
+  },
+  {
+    name: "scikit-learn",
+    cat: "AI / ML",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+  },
+  {
+    name: "Hugging Face",
+    cat: "AI / ML",
+    logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+  },
+  {
+    name: "LangChain",
+    cat: "AI / ML",
+    logo: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4",
+  },
+  {
+    name: "OpenAI",
+    cat: "AI / ML",
+    logo: "https://www.vectorlogo.zone/logos/openai/openai-icon.svg",
+  },
+  {
+    name: "FAISS",
+    cat: "AI / ML",
+    logo: "https://avatars.githubusercontent.com/u/69631?s=200&v=4",
+  },
+  // Languages
+  {
     name: "Python",
     cat: "Language",
     logo: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
   },
+  {
+    name: "TypeScript",
+    cat: "Language",
+    logo: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+  },
+  {
+    name: "JavaScript",
+    cat: "Language",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  },
+  // Frontend
   {
     name: "React",
     cat: "Frontend",
     logo: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
   },
   {
+    name: "Next.js",
+    cat: "Frontend",
+    logo: "https://www.vectorlogo.zone/logos/nextjs/nextjs-icon.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    cat: "Frontend",
+    logo: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+  },
+  // Backend
+  {
+    name: "Node.js",
+    cat: "Backend",
+    logo: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+  },
+  {
+    name: "FastAPI",
+    cat: "Backend",
+    logo: "https://avatars.githubusercontent.com/u/156354296?s=200&v=4",
+  },
+  {
+    name: "Django",
+    cat: "Backend",
+    logo: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg",
+  },
+  // Cloud
+  {
     name: "Azure",
     cat: "Cloud",
     logo: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
   },
   {
-    name: "Docker",
-    cat: "DevOps",
-    logo: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+    name: "AWS",
+    cat: "Cloud",
+    logo: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
   },
+  {
+    name: "GCP",
+    cat: "Cloud",
+    logo: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+  },
+  {
+    name: "Vercel",
+    cat: "Cloud",
+    logo: "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg",
+  },
+  // Database
   {
     name: "PostgreSQL",
     cat: "Database",
     logo: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
+  },
+  {
+    name: "MongoDB",
+    cat: "Database",
+    logo: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+  },
+  {
+    name: "Redis",
+    cat: "Database",
+    logo: "https://www.vectorlogo.zone/logos/redis/redis-icon.svg",
+  },
+  {
+    name: "Supabase",
+    cat: "Database",
+    logo: "https://avatars.githubusercontent.com/u/54469796?s=200&v=4",
   },
   {
     name: "Neo4j",
@@ -151,19 +273,61 @@ export const SKILLS: Skill[] = [
     logo: "https://www.vectorlogo.zone/logos/neo4j/neo4j-icon.svg",
   },
   {
-    name: "GitLab",
+    name: "Pinecone",
+    cat: "Database",
+    logo: "https://avatars.githubusercontent.com/u/54333248?s=200&v=4",
+  },
+  {
+    name: "ChromaDB",
+    cat: "Database",
+    logo: "https://avatars.githubusercontent.com/u/124071024?s=200&v=4",
+  },
+  // DevOps
+  {
+    name: "Docker",
+    cat: "DevOps",
+    logo: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+  },
+  {
+    name: "Kubernetes",
+    cat: "DevOps",
+    logo: "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg",
+  },
+  {
+    name: "GitHub Actions",
+    cat: "DevOps",
+    logo: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+  },
+  {
+    name: "GitLab CI",
     cat: "DevOps",
     logo: "https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg",
   },
   {
-    name: "Node.js",
-    cat: "Backend",
-    logo: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    name: "Terraform",
+    cat: "DevOps",
+    logo: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
+  },
+  // Data
+  {
+    name: "Pandas",
+    cat: "Data",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg",
   },
   {
-    name: "GitHub",
-    cat: "DevOps",
-    logo: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+    name: "NumPy",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg",
+  },
+  {
+    name: "Jupyter",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg",
+  },
+  {
+    name: "Apache Spark",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg",
   },
 ];
 
@@ -175,6 +339,7 @@ export const CAT_COLORS: CategoryColors = {
   DevOps: "#CCB87B",
   Database: "#CC7B7B",
   Backend: "#7BAACC",
+  Data: "#CC9C7B",
 };
 
 export const EDUCATION: Education[] = [
@@ -312,7 +477,7 @@ export const JOURNEY: JourneyItem[] = [
 ];
 
 export const ALSO_FLUENT_IN =
-  "FastAPI \u00B7 Streamlit \u00B7 LangChain \u00B7 Hugging Face \u00B7 OpenAI API \u00B7 Next.js \u00B7 TypeScript \u00B7 Supabase \u00B7 Pandas \u00B7 NumPy \u00B7 Jupyter \u00B7 scikit-learn";
+  "Streamlit \u00B7 LangGraph \u00B7 Ollama \u00B7 vLLM \u00B7 MLflow \u00B7 Weights & Biases \u00B7 DVC \u00B7 Ray \u00B7 Celery \u00B7 RabbitMQ \u00B7 Kafka \u00B7 GraphQL \u00B7 Prisma \u00B7 Drizzle \u00B7 SQLAlchemy \u00B7 Playwright \u00B7 Vitest \u00B7 pytest";
 
 export const NAV_LINKS: [string, string][] = [
   ["ABOUT", "about"],
@@ -329,17 +494,17 @@ export const SOCIAL_LINKS: [string, string][] = [
 ];
 
 export const ABOUT_PARAGRAPHS: string[] = [
-  "Currently a Founding AI Engineer at Siloett.AI (Station F, Paris), where I architect AI-powered solutions for Narrative OS \u2014 the creative industry's intelligence layer.",
+  "Currently a Founding/Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect AI-powered solutions for Narrative OS \u2014 the creative industry's intelligence layer.",
   "My expertise spans deep learning, NLP, computer vision, and agentic AI systems, with a strong focus on CreativeAI and AI for Social Good domains.",
   "I bring an unusual combination: technical depth in Python (PyTorch, FastAPI) + cloud infrastructure (Azure, Docker) + multilingual communication skills across Burmese, English, French, and Thai.",
   "This multicultural background uniquely positions me to build AI systems that work across diverse human contexts and communities.",
 ];
 
 export const ABOUT_QUOTE =
-  "A Data Scientist and AI Researcher with dual Master's degrees spanning Asia and Europe \u2014 building impactful tools at the frontier of CreativeAI.";
+  "A Data Scientist and Full-Stack AI Engineer with dual Master's degrees spanning Asia and Europe \u2014 building impactful tools at the frontier of CreativeAI, RegTech, B2B Solutions and beyond.";
 
 export const STATS: [string, string][] = [
-  ["2+", "Yrs in AI / ML"],
+  ["4+", "Yrs in AI / ML"],
   ["6+", "Projects Shipped"],
   ["2", "Master's Degrees"],
   ["3", "Countries Lived"],
