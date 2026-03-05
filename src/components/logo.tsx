@@ -46,18 +46,18 @@ export function Logo({ size = 24, className = "" }: LogoProps) {
         strokeLinecap="round"
       />
       <line
-        x1={crownCenter - crownSpread}
+        x1={crownCenter - crownSpread * 0.45}
         y1={crownY + size * 0.06}
-        x2={crownCenter - crownSpread * 0.45}
+        x2={crownCenter - crownSpread}
         y2={crownY - size * 0.06}
         stroke="#E8C88A"
         strokeWidth={strokeWidth}
         strokeLinecap="round"
       />
       <line
-        x1={crownCenter + crownSpread}
+        x1={crownCenter + crownSpread * 0.45}
         y1={crownY + size * 0.06}
-        x2={crownCenter + crownSpread * 0.45}
+        x2={crownCenter + crownSpread}
         y2={crownY - size * 0.06}
         stroke="#E8C88A"
         strokeWidth={strokeWidth}
