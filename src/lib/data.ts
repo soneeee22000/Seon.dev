@@ -9,11 +9,21 @@ import type {
 } from "@/types/portfolio";
 
 export const GREETINGS: string[] = [
+  "Hello",
   "\u1019\u1004\u103A\u1039\u1002\u101C\u102C\u1015\u102B",
   "Bonjour",
   "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35",
-  "Hello",
   "Hej",
+  "\u3053\u3093\u306B\u3061\u306F",
+  "\uC548\uB155\uD558\uC138\uC694",
+  "\u4F60\u597D",
+  "Hola",
+  "Ciao",
+  "Hallo",
+  "Ol\u00E1",
+  "Привет",
+  "Merhaba",
+  "Xin ch\u00E0o",
 ];
 
 export const EXP: Experience[] = [
