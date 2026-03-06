@@ -117,6 +117,23 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
+    featured: true,
+    emoji: "\uD83C\uDF3F",
+    title: "GreenLens",
+    desc: "Cloud Carbon Intelligence platform that estimates CO2e emissions from Azure infrastructure and generates AI-powered reduction recommendations. Built for EU CSRD Scope 3 compliance with Clean Architecture, semantic emission factor search, and 88 automated tests.",
+    tags: [
+      "ASP.NET Core",
+      "Angular",
+      "Azure AI Search",
+      "Azure OpenAI",
+      "Docker",
+    ],
+    color: "#7BCC9C",
+    demo: "https://greenlens-api.azurewebsites.net",
+    gh: "https://github.com/soneeee22000/GreenLens.dev",
+  },
+  {
+    id: 5,
     featured: false,
     emoji: "\uD83D\uDD2C",
     title: "Diabetes Detection",
@@ -127,7 +144,7 @@ export const PROJECTS: Project[] = [
     gh: "https://github.com/AtiChetsurakul/DataScienceAndMLProjects",
   },
   {
-    id: 5,
+    id: 6,
     featured: false,
     emoji: "\uD83D\uDC0D",
     title: "Snake ID Myanmar",
@@ -138,7 +155,7 @@ export const PROJECTS: Project[] = [
     gh: "https://github.com/soneeee22000/my_snake_id",
   },
   {
-    id: 6,
+    id: 7,
     featured: false,
     emoji: "\uD83D\uDCCB",
     title: "ZenHub PM System",
