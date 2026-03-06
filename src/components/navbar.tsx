@@ -51,6 +51,7 @@ export function Navbar() {
 
       <a
         href="/files/resume.pdf"
+        download
         className="group border border-accent/50 px-4 py-2 font-dm-mono text-[9px] tracking-[.2em] text-accent transition-all duration-300 hover:bg-accent hover:text-bg"
       >
         R&Eacute;SUM&Eacute; &#8599;
