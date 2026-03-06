@@ -28,16 +28,17 @@ export const GREETINGS: string[] = [
 
 export const EXP: Experience[] = [
   {
-    job: "Founding AI Engineer",
+    job: "Founding AI Engineer & Architect",
     company: "Siloett.AI",
-    badge: "Station F \u00B7 Paris",
+    badge: "AI Safety & Compliance \u00B7 Station F \u00B7 Paris",
     url: "https://siloett.ai/lander",
-    date: "Dec 2025 \u2014 Present",
+    date: "Jan 2025 \u2014 Present",
     color: "#C9A96E",
     pts: [
-      "Architecting AI-powered CreativeAI solutions for Narrative OS \u2014 RAG pipelines, agentic systems, and LLM orchestration",
-      "Building production-grade end-to-end AI systems from research to deployment in fast-paced startup environment",
-      "Operating at Station F, the world's largest startup campus \u2014 collaborating directly with the founder",
+      "Architected and built an end-to-end Generative AI platform from zero \u2014 LLM orchestration, RAG pipelines, and a production React/TypeScript frontend with Python (FastAPI) and Azure Functions serverless backend",
+      "Designed and implemented responsible-AI validation layers including content-safety filters, bias-detection checks, and compliance guardrails ensuring all AI-generated outputs meet regulatory and ethical standards",
+      "Built AI safety and IP compliance systems including audit logging, provenance tracking, and output attribution pipelines \u2014 ensuring traceable and accountable AI output lifecycles",
+      "Developed prompt-engineering and LLM evaluation frameworks using Azure OpenAI GPT-4o and LangChain, with systematic fine-tuning to optimise domain accuracy across compliance use cases",
     ],
   },
   {

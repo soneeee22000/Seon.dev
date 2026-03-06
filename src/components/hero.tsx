@@ -195,8 +195,8 @@ export function Hero() {
           className="mb-13 font-dm-mono text-[clamp(10px,1.4vw,12px)] tracking-[.18em] text-accent"
           style={{ animation: "fadeUp 1s ease .6s both" }}
         >
-          CreativeAI &nbsp;&middot;&nbsp; NLP &nbsp;&middot;&nbsp; Full-Stack AI
-          Systems
+          Generative AI &nbsp;&middot;&nbsp; Cloud Services &nbsp;&middot;&nbsp;
+          Full-Stack AI Systems
         </div>
 
         <div
