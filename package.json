@@ -23,5 +23,14 @@
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "portfolio",
+    "vercel",
+    "personal-website"
+  ]
 }
