@@ -4,6 +4,11 @@ A production-grade personal portfolio built with **Next.js 16**, **React 19**, *
 
 **Live site:** [Coming soon on Vercel]
 
+
+<p align="center">
+  <img src="docs/screenshot-hero.png" alt="Portfolio Screenshot" width="100%" />
+</p>
+
 ---
 
 ## About
