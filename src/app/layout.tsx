@@ -26,6 +26,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pyaesonekyaw.dev"),
   title: "Pyae Sone Kyaw | Founding AI Engineer",
   description:
     "Portfolio of Pyae Sone Kyaw (Seon) — Founding AI Engineer at Siloett.AI, Station F Paris. Specializing in CreativeAI, NLP, and Full-Stack AI Systems.",
@@ -45,12 +46,21 @@ export const metadata: Metadata = {
       "Founding AI Engineer at Siloett.AI, Station F Paris. Building at the intersection of AI and Human Experience.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Pyae Sone Kyaw — Founding AI Engineer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pyae Sone Kyaw | Founding AI Engineer",
     description:
       "Founding AI Engineer at Siloett.AI, Station F Paris. Building at the intersection of AI and Human Experience.",
+    images: ["/og.png"],
   },
   robots: {
     index: true,

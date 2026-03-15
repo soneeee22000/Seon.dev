@@ -45,33 +45,35 @@ export function Contact() {
         </div>
 
         <div className="reveal flex flex-col items-center gap-5">
-          <button
-            onClick={handleCopy}
-            className="flex cursor-pointer items-center gap-3.5 border bg-transparent px-9 py-4 font-dm-mono text-[13px] tracking-[.08em] transition-all duration-300"
-            style={{
-              color: copied ? "#7BCC9C" : "#E6ECF5",
-              borderColor: copied ? "#7BCC9C" : "rgba(230,236,245,.15)",
-            }}
-            onMouseEnter={(e) => {
-              if (!copied) {
-                e.currentTarget.style.borderColor = "var(--color-accent)";
-                e.currentTarget.style.color = "var(--color-accent)";
-              }
-            }}
-            onMouseLeave={(e) => {
-              if (!copied) {
-                e.currentTarget.style.borderColor = "rgba(230,236,245,.15)";
-                e.currentTarget.style.color = "#E6ECF5";
-              }
-            }}
-          >
-            {copied ? "\u2713 COPIED" : EMAIL}
-            {!copied && (
-              <span className="font-dm-mono text-[8px] tracking-[.22em] text-muted">
-                CLICK TO COPY
-              </span>
-            )}
-          </button>
+          <div aria-live="polite">
+            <button
+              onClick={handleCopy}
+              className="flex cursor-pointer items-center gap-3.5 border bg-transparent px-9 py-4 font-dm-mono text-[13px] tracking-[.08em] transition-all duration-300"
+              style={{
+                color: copied ? "#7BCC9C" : "#E6ECF5",
+                borderColor: copied ? "#7BCC9C" : "rgba(230,236,245,.15)",
+              }}
+              onMouseEnter={(e) => {
+                if (!copied) {
+                  e.currentTarget.style.borderColor = "var(--color-accent)";
+                  e.currentTarget.style.color = "var(--color-accent)";
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!copied) {
+                  e.currentTarget.style.borderColor = "rgba(230,236,245,.15)";
+                  e.currentTarget.style.color = "#E6ECF5";
+                }
+              }}
+            >
+              {copied ? "\u2713 COPIED" : EMAIL}
+              {!copied && (
+                <span className="font-dm-mono text-[8px] tracking-[.22em] text-muted">
+                  CLICK TO COPY
+                </span>
+              )}
+            </button>
+          </div>
 
           <div className="flex gap-6">
             {SOCIAL_LINKS.map(([label, url]) => (

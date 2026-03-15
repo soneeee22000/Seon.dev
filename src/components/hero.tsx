@@ -4,29 +4,117 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { GREETINGS, SOCIAL_LINKS } from "@/lib/data";
 import { scrollToSection } from "@/lib/hooks";
 
-interface Particle {
-  x: number;
-  y: number;
-  vx: number;
-  vy: number;
-  r: number;
-  op: number;
+/** Node positions as fractions of canvas dimensions */
+const DESKTOP_NODES = [
+  // Layer 0 (Input) — 4 nodes, left edge
+  { x: 0.06, y: 0.15, r: 2.5 },
+  { x: 0.04, y: 0.4, r: 3 },
+  { x: 0.1, y: 0.65, r: 2.5 },
+  { x: 0.06, y: 0.88, r: 2 },
+  // Layer 1 (Hidden) — 6 nodes, center
+  { x: 0.42, y: 0.08, r: 3 },
+  { x: 0.48, y: 0.28, r: 2.5 },
+  { x: 0.4, y: 0.46, r: 3.5 },
+  { x: 0.52, y: 0.62, r: 2.5 },
+  { x: 0.45, y: 0.78, r: 3 },
+  { x: 0.5, y: 0.94, r: 2 },
+  // Layer 2 (Output) — 5 nodes, right edge
+  { x: 0.88, y: 0.14, r: 2.5 },
+  { x: 0.92, y: 0.36, r: 3 },
+  { x: 0.86, y: 0.55, r: 2.5 },
+  { x: 0.94, y: 0.74, r: 3 },
+  { x: 0.9, y: 0.92, r: 2 },
+];
+
+const DESKTOP_EDGES: [number, number][] = [
+  // Input -> Hidden
+  [0, 4],
+  [0, 5],
+  [0, 6],
+  [1, 5],
+  [1, 6],
+  [1, 7],
+  [2, 6],
+  [2, 7],
+  [2, 8],
+  [3, 7],
+  [3, 8],
+  [3, 9],
+  // Hidden -> Output
+  [4, 10],
+  [4, 11],
+  [5, 10],
+  [5, 11],
+  [6, 11],
+  [6, 12],
+  [7, 12],
+  [7, 13],
+  [8, 13],
+  [8, 14],
+  [9, 13],
+  [9, 14],
+];
+
+const MOBILE_NODES = [
+  { x: 0.08, y: 0.18, r: 2 },
+  { x: 0.05, y: 0.44, r: 2.5 },
+  { x: 0.1, y: 0.68, r: 2 },
+  { x: 0.06, y: 0.88, r: 1.5 },
+  { x: 0.9, y: 0.22, r: 2.5 },
+  { x: 0.94, y: 0.48, r: 2 },
+  { x: 0.88, y: 0.7, r: 2 },
+  { x: 0.92, y: 0.9, r: 1.5 },
+];
+
+const MOBILE_EDGES: [number, number][] = [
+  [0, 4],
+  [0, 5],
+  [1, 5],
+  [1, 6],
+  [2, 5],
+  [2, 6],
+  [3, 6],
+  [3, 7],
+];
+
+const PULSE_COUNT = 8;
+const ACCENT = "201,169,110";
+
+interface Pulse {
+  edge: number;
+  t: number;
+  speed: number;
+}
+
+/** Evaluate cubic bezier at parameter t */
+function bezier(
+  ax: number,
+  ay: number,
+  c1x: number,
+  c1y: number,
+  c2x: number,
+  c2y: number,
+  bx: number,
+  by: number,
+  t: number,
+): [number, number] {
+  const m = 1 - t;
+  const m2 = m * m;
+  const m3 = m2 * m;
+  const t2 = t * t;
+  const t3 = t2 * t;
+  return [
+    m3 * ax + 3 * m2 * t * c1x + 3 * m * t2 * c2x + t3 * bx,
+    m3 * ay + 3 * m2 * t * c1y + 3 * m * t2 * c2y + t3 * by,
+  ];
 }
 
 export function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [greetIdx, setGreetIdx] = useState(0);
-  const [visible, setVisible] = useState(true);
+  const [greeting, setGreeting] = useState(GREETINGS[0]);
 
   useEffect(() => {
-    const iv = setInterval(() => {
-      setVisible(false);
-      setTimeout(() => {
-        setGreetIdx((i) => (i + 1) % GREETINGS.length);
-        setVisible(true);
-      }, 350);
-    }, 2800);
-    return () => clearInterval(iv);
+    setGreeting(GREETINGS[Math.floor(Math.random() * GREETINGS.length)]);
   }, []);
 
   useEffect(() => {
@@ -36,8 +124,8 @@ export function Hero() {
     if (!ctx) return;
 
     let animId: number;
-    let mx = 0;
-    let my = 0;
+    let mx = -1000;
+    let my = -1000;
 
     const resize = () => {
       canvas.width = canvas.offsetWidth;
@@ -46,13 +134,14 @@ export function Hero() {
     resize();
     window.addEventListener("resize", resize);
 
-    const pts: Particle[] = Array.from({ length: 75 }, () => ({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      vx: (Math.random() - 0.5) * 0.35,
-      vy: (Math.random() - 0.5) * 0.35,
-      r: Math.random() * 1.4 + 0.4,
-      op: Math.random() * 0.45 + 0.08,
+    const mobile = canvas.width < 768;
+    const nodes = mobile ? MOBILE_NODES : DESKTOP_NODES;
+    const edges = mobile ? MOBILE_EDGES : DESKTOP_EDGES;
+
+    const pulses: Pulse[] = Array.from({ length: PULSE_COUNT }, () => ({
+      edge: Math.floor(Math.random() * edges.length),
+      t: Math.random(),
+      speed: 0.002 + Math.random() * 0.003,
     }));
 
     const onMove = (e: MouseEvent) => {
@@ -62,59 +151,104 @@ export function Hero() {
     };
     window.addEventListener("mousemove", onMove);
 
-    const draw = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (const p of pts) {
-        const dx = mx - p.x;
-        const dy = my - p.y;
-        const d = Math.sqrt(dx * dx + dy * dy);
-        if (d < 130) {
-          p.vx -= (dx / d) * 0.07;
-          p.vy -= (dy / d) * 0.07;
-        }
-        p.vx *= 0.985;
-        p.vy *= 0.985;
-        p.x += p.vx;
-        p.y += p.vy;
-        if (p.x < 0) {
-          p.x = 0;
-          p.vx *= -1;
-        }
-        if (p.x > canvas.width) {
-          p.x = canvas.width;
-          p.vx *= -1;
-        }
-        if (p.y < 0) {
-          p.y = 0;
-          p.vy *= -1;
-        }
-        if (p.y > canvas.height) {
-          p.y = canvas.height;
-          p.vy *= -1;
-        }
+    const draw = (time: number) => {
+      const w = canvas.width;
+      const h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+      const sec = time * 0.001;
+
+      // Node positions with sinusoidal drift
+      const pos = nodes.map((n, i) => {
+        const ph = i * 0.7;
+        return {
+          x: n.x * w + Math.sin(sec * 0.3 + ph) * 8,
+          y: n.y * h + Math.cos(sec * 0.25 + ph * 1.3) * 6,
+          r: n.r,
+        };
+      });
+
+      // Edges — bezier curves at low opacity
+      for (const [from, to] of edges) {
+        const a = pos[from];
+        const b = pos[to];
+        const c1x = a.x + (b.x - a.x) * 0.4;
+        const c2x = a.x + (b.x - a.x) * 0.6;
         ctx.beginPath();
-        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(201,169,110,${p.op})`;
+        ctx.moveTo(a.x, a.y);
+        ctx.bezierCurveTo(c1x, a.y, c2x, b.y, b.x, b.y);
+        ctx.strokeStyle = `rgba(${ACCENT},0.08)`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      // Data pulses traversing edges
+      for (const pulse of pulses) {
+        const [from, to] = edges[pulse.edge];
+        const a = pos[from];
+        const b = pos[to];
+        const c1x = a.x + (b.x - a.x) * 0.4;
+        const c2x = a.x + (b.x - a.x) * 0.6;
+        const [px, py] = bezier(
+          a.x,
+          a.y,
+          c1x,
+          a.y,
+          c2x,
+          b.y,
+          b.x,
+          b.y,
+          pulse.t,
+        );
+
+        const grad = ctx.createRadialGradient(px, py, 0, px, py, 5);
+        grad.addColorStop(0, `rgba(${ACCENT},0.4)`);
+        grad.addColorStop(1, `rgba(${ACCENT},0)`);
+        ctx.beginPath();
+        ctx.arc(px, py, 5, 0, Math.PI * 2);
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(px, py, 1.2, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(232,200,138,0.9)";
+        ctx.fill();
+
+        pulse.t += pulse.speed;
+        if (pulse.t > 1) {
+          pulse.t = 0;
+          pulse.edge = Math.floor(Math.random() * edges.length);
+          pulse.speed = 0.002 + Math.random() * 0.003;
+        }
+      }
+
+      // Nodes with glow halos + breathing opacity
+      for (let i = 0; i < pos.length; i++) {
+        const n = pos[i];
+        const breathe = 0.3 + Math.sin(sec * 0.8 + i * 0.5) * 0.15;
+        const dx = mx - n.x;
+        const dy = my - n.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        const proximity = Math.max(0, 1 - dist / 200) * 0.4;
+        const op = breathe + proximity;
+
+        const halo = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, n.r * 3);
+        halo.addColorStop(0, `rgba(${ACCENT},${(op * 0.25).toFixed(2)})`);
+        halo.addColorStop(1, `rgba(${ACCENT},0)`);
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, n.r * 3, 0, Math.PI * 2);
+        ctx.fillStyle = halo;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${ACCENT},${op.toFixed(2)})`;
         ctx.fill();
       }
-      for (let i = 0; i < pts.length; i++) {
-        for (let j = i + 1; j < pts.length; j++) {
-          const dx = pts[i].x - pts[j].x;
-          const dy = pts[i].y - pts[j].y;
-          const d = Math.sqrt(dx * dx + dy * dy);
-          if (d < 105) {
-            ctx.beginPath();
-            ctx.moveTo(pts[i].x, pts[i].y);
-            ctx.lineTo(pts[j].x, pts[j].y);
-            ctx.strokeStyle = `rgba(201,169,110,${(1 - d / 105) * 0.11})`;
-            ctx.lineWidth = 0.5;
-            ctx.stroke();
-          }
-        }
-      }
+
       animId = requestAnimationFrame(draw);
     };
-    draw();
+
+    animId = requestAnimationFrame(draw);
 
     return () => {
       cancelAnimationFrame(animId);
@@ -130,15 +264,29 @@ export function Hero() {
       id="hero"
       className="relative flex min-h-screen items-center justify-center overflow-hidden"
     >
-      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" />
-      {/* Radial ambient */}
+      <canvas
+        ref={canvasRef}
+        className="absolute inset-0 h-full w-full"
+        role="img"
+        aria-label="Neural network visualization"
+      />
+
+      {/* Dual-tone ambient glow — warm gold left, cool blue right */}
       <div
-        className="absolute inset-0"
+        className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 80% 70% at 50% 50%, rgba(201,169,110,.04) 0%, transparent 65%)",
+            "radial-gradient(ellipse 50% 60% at 30% 50%, rgba(201,169,110,.05) 0%, transparent 70%)",
         }}
       />
+      <div
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse 50% 60% at 70% 50%, rgba(123,156,204,.04) 0%, transparent 70%)",
+        }}
+      />
+
       {/* Scan line */}
       <div
         className="pointer-events-none absolute left-0 right-0 h-px"
@@ -150,15 +298,12 @@ export function Hero() {
       />
 
       <div className="relative z-2 max-w-[1000px] px-6 text-center">
-        {/* Greeting */}
+        {/* Single random greeting */}
         <div
-          className="mb-7 h-[22px] font-dm-mono text-[13px] tracking-[.35em] text-accent transition-all duration-350"
-          style={{
-            opacity: visible ? 1 : 0,
-            transform: visible ? "translateY(0)" : "translateY(-8px)",
-          }}
+          className="mb-7 h-[22px] font-dm-mono text-[13px] tracking-[.35em] text-accent"
+          style={{ animation: "fadeIn 1s ease .1s both" }}
         >
-          {GREETINGS[greetIdx]}
+          {greeting}
         </div>
 
         {/* Name with glitch */}

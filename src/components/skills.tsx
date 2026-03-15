@@ -58,6 +58,8 @@ export function Skills() {
               height="440"
               viewBox="0 0 440 440"
               className="overflow-visible"
+              role="img"
+              aria-label="Skills orbital diagram"
             >
               {/* Orbit rings */}
               {RINGS.map((ring) => (
@@ -190,6 +192,7 @@ export function Skills() {
                           alt={s.name}
                           width={13}
                           height={13}
+                          loading="lazy"
                           className="object-contain"
                           onError={(e) => {
                             e.currentTarget.style.display = "none";

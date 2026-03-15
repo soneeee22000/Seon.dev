@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 /**
  * Observes elements with `.reveal`, `.rl`, `.rr` classes and adds `.in`
@@ -31,6 +31,36 @@ export function useScrollReveal(): void {
       clearTimeout(timer);
     };
   }, []);
+}
+
+/**
+ * Tracks which section is currently visible in the viewport.
+ * Returns the ID of the active section for nav highlighting.
+ */
+export function useActiveSection(sectionIds: string[]): string {
+  const [active, setActive] = useState("");
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActive(entry.target.id);
+          }
+        }
+      },
+      { threshold: 0.3, rootMargin: "-80px 0px -40% 0px" },
+    );
+
+    for (const id of sectionIds) {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    }
+
+    return () => observer.disconnect();
+  }, [sectionIds]);
+
+  return active;
 }
 
 /**

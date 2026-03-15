@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { SKILLS, STATS, ABOUT_PARAGRAPHS, ABOUT_QUOTE } from "@/lib/data";
 
 export function About() {
@@ -26,11 +27,12 @@ export function About() {
               animation: "borderPulse 4s ease infinite",
             }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src="/images/seon.jpg"
               alt="Pyae Sone Kyaw"
-              className="block h-full w-full object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 360px"
               onError={(e) => {
                 const target = e.currentTarget;
                 target.style.display = "none";
@@ -112,6 +114,7 @@ export function About() {
                       alt={s.name}
                       width={16}
                       height={16}
+                      loading="lazy"
                       className="object-contain"
                       onError={(e) => {
                         e.currentTarget.style.display = "none";
