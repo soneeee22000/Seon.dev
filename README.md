@@ -4,7 +4,6 @@ A production-grade personal portfolio built with **Next.js 16**, **React 19**, *
 
 **Live site:** [Coming soon on Vercel]
 
-
 <p align="center">
   <img src="docs/screenshot-hero.png" alt="Portfolio Screenshot" width="100%" />
 </p>
@@ -33,18 +32,23 @@ This portfolio showcases my work as a **Founding AI Engineer at Siloett.AI** (St
 | Styling    | Tailwind CSS 4 with custom tokens   |
 | Fonts      | Playfair Display, DM Mono, DM Sans  |
 | Animations | CSS keyframes, IntersectionObserver |
+| Images     | next/image (WebP/AVIF auto-serve)   |
 | Deployment | Vercel                              |
 
 ---
 
 ## Features
 
-- **Particle canvas** — animated background in the hero section
+- **Neural flow graph** — DAG canvas visualization with animated data pulses flowing through bezier-curve edges, replacing generic particle effects
 - **Glitch text effect** — CSS-driven name animation
 - **3D tilt cards** — mouse-tracked perspective on project cards
 - **SVG orbital** — animated skill visualization with counter-rotating icons
+- **Mobile responsive navbar** — hamburger menu with slide-in drawer, body scroll lock, and close-on-navigate
+- **Active section indicator** — IntersectionObserver-powered nav highlighting with animated underline
 - **Scroll reveal** — viewport-triggered section animations via IntersectionObserver
-- **Clipboard integration** — one-click email copy with visual feedback
+- **Clipboard integration** — one-click email copy with visual feedback and `aria-live` screen reader announcements
+- **Image optimization** — `next/image` with automatic WebP/AVIF serving and lazy loading
+- **Accessibility** — focus-visible outlines, semantic `<button>` elements, ARIA labels, keyboard-navigable
 - **Fully responsive** — optimized for mobile, tablet, and desktop
 - **Static generation** — zero runtime server, fast global delivery
 
@@ -59,8 +63,8 @@ src/
 │   ├── page.tsx              # Home page composing all sections
 │   └── globals.css           # Tailwind config + custom animations
 ├── components/
-│   ├── navbar.tsx            # Scroll-aware frosted glass nav
-│   ├── hero.tsx              # Canvas particles + glitch text
+│   ├── navbar.tsx            # Responsive nav with mobile drawer + active section indicator
+│   ├── hero.tsx              # Neural flow graph canvas + glitch text
 │   ├── about.tsx             # Bio, stats, tech marquee
 │   ├── experience.tsx        # Timeline with color-coded roles
 │   ├── projects.tsx          # Featured + additional project cards
@@ -71,7 +75,7 @@ src/
 │   └── footer.tsx            # Footer
 ├── lib/
 │   ├── data.ts               # All portfolio content (single source of truth)
-│   └── hooks.ts              # Custom hooks (useScrollReveal)
+│   └── hooks.ts              # Custom hooks (useScrollReveal, useActiveSection)
 └── types/
     └── portfolio.ts          # TypeScript interfaces
 ```
