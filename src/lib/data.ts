@@ -1,6 +1,7 @@
 import type {
   Experience,
   Project,
+  Hackathon,
   Skill,
   Education,
   Certification,
@@ -165,6 +166,37 @@ export const PROJECTS: Project[] = [
     color: "#7B9CCC",
     demo: "#",
     gh: "https://github.com/users/soneeee22000/projects/1",
+  },
+];
+
+export const HACKATHONS: Hackathon[] = [
+  {
+    id: 1,
+    emoji: "\uD83C\uDF3E",
+    title: "CropFolio",
+    desc: "Data-driven agricultural decision-support system applying Modern Portfolio Theory to help Myanmar's smallholder farmers optimize crop diversification and reduce climate risk. Uses Markowitz optimization on 12 years of FAOSTAT yield data and Monte Carlo simulation across 1,000 climate scenarios with Gemini AI-powered analysis.",
+    tags: ["FastAPI", "React", "TypeScript", "D3.js", "SciPy", "Gemini AI"],
+    color: "#7BCC9C",
+    gh: "https://github.com/soneeee22000/CropFolio",
+    demo: "https://crop-folio.vercel.app/",
+    organizer: "Impact Hub Yangon \u00D7 UNDP Myanmar",
+    event: "AI for Climate Resilient Agriculture Hackathon 2026",
+    date: "Mar 2026",
+    status: "in_progress",
+  },
+  {
+    id: 2,
+    emoji: "\uD83C\uDF21\uFE0F",
+    title: "HeatDebt",
+    desc: "Urban thermal intelligence platform for Montgomery, Alabama. Features 9 interactive map layers, AI-powered neighborhood risk scoring via Google Gemini, 14-page grant-ready due diligence reports, and a database of 7 real federal grant programs (EPA, HUD, FEMA, LIHEAP).",
+    tags: ["Next.js", "Google Gemini", "Mapbox", "Census API", "NASA"],
+    color: "#CC7B7B",
+    gh: "https://github.com/soneeee22000/Heatdebt-dev",
+    demo: "https://heat-debt-dev.vercel.app/",
+    organizer: "GenAI Academy",
+    event: "GenAI Academy Hackathon 2026",
+    date: "Feb 2026",
+    status: "completed",
   },
 ];
 
@@ -511,6 +543,7 @@ export const NAV_LINKS: [string, string][] = [
   ["ABOUT", "about"],
   ["EXPERIENCE", "experience"],
   ["PROJECTS", "projects"],
+  ["HACKATHONS", "hackathons"],
   ["SKILLS", "skills"],
   ["EDUCATION", "education"],
   ["CONTACT", "contact"],

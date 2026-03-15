@@ -56,4 +56,20 @@ export interface JourneyItem {
   arrow?: boolean;
 }
 
+export interface Hackathon {
+  id: number;
+  emoji: string;
+  title: string;
+  desc: string;
+  tags: string[];
+  color: string;
+  gh: string;
+  demo?: string;
+  organizer: string;
+  event: string;
+  date: string;
+  status: "won" | "completed" | "in_progress";
+  prize?: string;
+}
+
 export type CategoryColors = Record<string, string>;

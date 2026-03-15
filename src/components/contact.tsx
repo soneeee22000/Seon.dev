@@ -31,7 +31,7 @@ export function Contact() {
       <div className="relative mx-auto max-w-[700px]">
         <div className="reveal">
           <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-            07 &mdash; CONTACT
+            08 &mdash; CONTACT
           </div>
           <h2 className="mb-5 font-playfair text-[clamp(40px,8vw,86px)] font-black leading-none">
             Let&rsquo;s Build

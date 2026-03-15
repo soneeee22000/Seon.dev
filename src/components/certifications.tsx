@@ -8,7 +8,7 @@ export function Certifications() {
       <div className="mx-auto max-w-[1200px]">
         <div className="reveal mb-16">
           <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-            06 &mdash; CERTIFICATIONS
+            07 &mdash; CERTIFICATIONS
           </div>
           <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
             Proof of <em className="text-accent">Commitment</em>

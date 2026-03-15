@@ -7,7 +7,7 @@ export function Education() {
     <section id="education" className="mx-auto max-w-[1200px] px-10 py-[120px]">
       <div className="reveal mb-16">
         <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-          05 &mdash; EDUCATION
+          06 &mdash; EDUCATION
         </div>
         <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
           Asia <span className="text-muted">&rarr;</span> Europe.
