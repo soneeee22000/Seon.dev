@@ -111,11 +111,9 @@ function bezier(
 
 export function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [greeting, setGreeting] = useState(GREETINGS[0]);
-
-  useEffect(() => {
-    setGreeting(GREETINGS[Math.floor(Math.random() * GREETINGS.length)]);
-  }, []);
+  const [greeting] = useState(
+    () => GREETINGS[Math.floor(Math.random() * GREETINGS.length)],
+  );
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -302,6 +300,7 @@ export function Hero() {
         <div
           className="mb-7 h-[22px] font-dm-mono text-[13px] tracking-[.35em] text-accent"
           style={{ animation: "fadeIn 1s ease .1s both" }}
+          suppressHydrationWarning
         >
           {greeting}
         </div>
