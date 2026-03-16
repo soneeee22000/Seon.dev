@@ -171,6 +171,27 @@ export const PROJECTS: Project[] = [
 
 export const HACKATHONS: Hackathon[] = [
   {
+    id: 3,
+    emoji: "\uD83D\uDCD6",
+    title: "StoryBridge",
+    desc: "AI-powered bilingual storytelling companion that preserves heritage languages among immigrant families. Multi-agent system generates culturally-authentic interactive stories with watercolor illustrations, bilingual narration, and child-driven choices that genuinely shape the narrative — using three Gemini modalities (text, image, TTS) coordinated through Google ADK.",
+    tags: [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Google ADK",
+      "Gemini 2.5 Flash",
+      "Cloud Run",
+    ],
+    color: "#CCB87B",
+    gh: "https://github.com/soneeee22000/storybridge",
+    demo: "https://storybridge-469521173814.us-central1.run.app/",
+    organizer: "Google Cloud",
+    event: "Gemini Live Agent Challenge 2026",
+    date: "Mar 2026",
+    status: "in_progress",
+  },
+  {
     id: 1,
     emoji: "\uD83C\uDF3E",
     title: "CropFolio",
@@ -197,27 +218,6 @@ export const HACKATHONS: Hackathon[] = [
     event: "GenAI Academy Hackathon 2026",
     date: "Feb 2026",
     status: "completed",
-  },
-  {
-    id: 3,
-    emoji: "\uD83D\uDCD6",
-    title: "StoryBridge",
-    desc: "AI-powered bilingual storytelling companion that preserves heritage languages among immigrant families. Multi-agent system generates culturally-authentic interactive stories with watercolor illustrations, bilingual narration, and child-driven choices that genuinely shape the narrative — using three Gemini modalities (text, image, TTS) coordinated through Google ADK.",
-    tags: [
-      "React",
-      "TypeScript",
-      "FastAPI",
-      "Google ADK",
-      "Gemini 2.5 Flash",
-      "Cloud Run",
-    ],
-    color: "#CCB87B",
-    gh: "https://github.com/soneeee22000/storybridge",
-    demo: "https://storybridge-469521173814.us-central1.run.app/",
-    organizer: "Devpost",
-    event: "Gemini Live Agent Challenge 2026",
-    date: "Mar 2026",
-    status: "in_progress",
   },
 ];
 
