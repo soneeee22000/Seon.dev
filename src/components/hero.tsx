@@ -111,9 +111,18 @@ function bezier(
 
 export function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [greeting] = useState(
-    () => GREETINGS[Math.floor(Math.random() * GREETINGS.length)],
-  );
+  const [greeting, setGreeting] = useState(GREETINGS[0]);
+
+  useEffect(() => {
+    const startIndex = Math.floor(Math.random() * GREETINGS.length);
+    setGreeting(GREETINGS[startIndex]);
+    let index = startIndex;
+    const interval = setInterval(() => {
+      index = (index + 1) % GREETINGS.length;
+      setGreeting(GREETINGS[index]);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
