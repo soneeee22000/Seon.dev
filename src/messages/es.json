@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Pyae Sone Kyaw | Ingeniero de AI Fundador",
+    "description": "Portafolio de Pyae Sone Kyaw (Seon) — Ingeniero de AI Fundador en Siloett.AI, Station F París. Especializado en CreativeAI, NLP y Sistemas de AI Full-Stack.",
+    "ogDescription": "Ingeniero de AI Fundador en Siloett.AI, Station F París. Construyendo en la intersección de la AI y la Experiencia Humana."
+  },
+  "nav": {
+    "about": "ACERCA",
+    "experience": "EXPERIENCIA",
+    "projects": "PROYECTOS",
+    "hackathons": "HACKATHONS",
+    "skills": "HABILIDADES",
+    "education": "EDUCACIÓN",
+    "contact": "CONTACTO",
+    "resume": "CURRÍCULUM"
+  },
+  "hero": {
+    "subtitle": "INGENIERO DE AI FUNDADOR · STATION F · PARÍS",
+    "specialties": "AI Generativa  ·  Servicios en la Nube  ·  Sistemas de AI Full-Stack",
+    "viewWork": "VER TRABAJO",
+    "getInTouch": "CONTACTAR",
+    "scroll": "DESPLAZAR"
+  },
+  "about": {
+    "label": "01 — ACERCA",
+    "heading": "Construyendo en la intersección de",
+    "headingEm": "AI y Experiencia Humana",
+    "quote": "Científico de Datos e Ingeniero de AI Full-Stack con doble Máster entre Asia y Europa — creando herramientas de impacto en la frontera de CreativeAI, RegTech, Soluciones B2B y más.",
+    "p1": "Actualmente Ingeniero de AI Fundador/Full-Stack en Siloett.AI (Station F, París), donde diseño soluciones impulsadas por AI para Narrative OS — la capa de inteligencia de la industria creativa.",
+    "p2": "Mi experiencia abarca deep learning, NLP, visión por computadora y sistemas de AI agénticos, con un fuerte enfoque en CreativeAI y AI para el Bien Social.",
+    "p3": "Aporto una combinación inusual: profundidad técnica en Python (PyTorch, FastAPI) + infraestructura en la nube (Azure, Docker) + habilidades de comunicación multilingüe en birmano, inglés, francés y tailandés.",
+    "p4": "Esta formación multicultural me posiciona de manera única para construir sistemas de AI que funcionan en diversos contextos humanos y comunidades.",
+    "techStack": "STACK TECNOLÓGICO",
+    "yrsLabel": "Años en AI / ML",
+    "projectsLabel": "Proyectos Entregados",
+    "degreesLabel": "Másteres",
+    "countriesLabel": "Países Vividos"
+  },
+  "experience": {
+    "label": "02 — EXPERIENCIA",
+    "heading": "Donde he",
+    "headingEm": "Construido y Aprendido",
+    "0_job": "Ingeniero y Arquitecto de AI Fundador",
+    "0_badge": "AI Safety & Compliance · Station F · París",
+    "0_date": "Ene 2025 — Presente",
+    "0_pt0": "Diseñé y construí una plataforma de AI Generativa de extremo a extremo desde cero — orquestación de LLM, pipelines de RAG, y un frontend de producción en React/TypeScript con backend serverless en Python (FastAPI) y Azure Functions",
+    "0_pt1": "Diseñé e implementé capas de validación de AI responsable incluyendo filtros de seguridad de contenido, detección de sesgos y barreras de cumplimiento que aseguran que todas las salidas generadas por AI cumplan estándares regulatorios y éticos",
+    "0_pt2": "Construí sistemas de seguridad de AI y cumplimiento de propiedad intelectual incluyendo registro de auditoría, seguimiento de procedencia y pipelines de atribución de salidas — asegurando ciclos de vida de salida de AI trazables y responsables",
+    "0_pt3": "Desarrollé frameworks de prompt engineering y evaluación de LLM usando Azure OpenAI GPT-4o y LangChain, con ajuste fino sistemático para optimizar la precisión del dominio en casos de uso de cumplimiento",
+    "1_job": "Científico de Datos / Ingeniero Cloud",
+    "1_badge": "Incubadora de École Polytechnique",
+    "1_date": "Jul 2024 — Jun 2025",
+    "1_pt0": "Diseñé un pipeline de procesamiento de datos por lotes basado en la nube usando Microsoft Azure Batch y Docker para analítica de movilidad urbana",
+    "1_pt1": "Automaticé flujos de trabajo de Visión por Computadora y sensores Bluetooth permitiendo perspectivas escalables en tiempo real para ciudades inteligentes",
+    "1_pt2": "Entregué dashboards de analítica de producción adoptados por gobiernos municipales y actores del transporte",
+    "2_job": "Asistente de Investigación",
+    "2_badge": "NLP · Traducción Automática",
+    "2_date": "Ago 2023 — Jul 2024",
+    "2_pt0": "Desarrollé un pipeline completo de traducción automática inglés-birmano basado en un corpus paralelo de WikiHow de 10K etiquetado manualmente",
+    "2_pt1": "Cubrí el ciclo completo de investigación: construcción de dataset, entrenamiento de modelos, diseño de evaluación y despliegue con backbones de traducción automática multilingüe",
+    "2_pt2": "Construyendo una API pública de traducción y una extensión de Chrome para traducción inglés-birmano en tiempo real en páginas de WikiHow",
+    "3_job": "Asistente de Investigación",
+    "3_badge": "Bangkok · Tailandia",
+    "3_date": "Ene 2023 — Ago 2023",
+    "3_pt0": "Colaboré con un equipo para desarrollar una herramienta innovadora de paráfrasis con NLP, mejorando la experiencia del usuario",
+    "3_pt1": "Limpié y organicé datasets, optimizando procesos de entrenamiento y mejorando la precisión del modelo en un 15%",
+    "3_pt2": "Adquirí experiencia práctica en operaciones de backend, fortaleciendo habilidades técnicas en gestión de datos y metodología de I+D"
+  },
+  "projects": {
+    "label": "03 — PROYECTOS",
+    "heading": "Lo que he",
+    "headingEm": "Construido",
+    "featured": "DESTACADO",
+    "liveDemo": "DEMO EN VIVO",
+    "github": "GITHUB",
+    "demo": "DEMO",
+    "gh": "GH",
+    "liveAtVercel": "EN VIVO EN VERCEL",
+    "0_desc": "Plataforma de Evidencia del Mundo Real para investigación de vacunas. Aplicación full-stack para ingestar, analizar y visualizar datos de seguridad y eficacia de vacunas de fuentes del mundo real a escala.",
+    "1_desc": "Plataforma middleware serverless para aplicar cumplimiento de AI responsable en aplicaciones LLM. Actúa como intermediario entre aplicaciones cliente y Azure OpenAI, validando respuestas contra reglas de seguridad configurables — detección de PII, filtrado de sesgos, filtrado de discurso de odio, y aplicación de políticas personalizadas potenciadas por RAG mediante documentos de cumplimiento cargados.",
+    "2_desc": "Plataforma de análisis de compatibilidad currículum-empleo impulsada por AI. Sube tu currículum y una descripción de empleo para obtener una puntuación detallada de compatibilidad con desglose por categorías (habilidades, experiencia, educación, palabras clave), identificación de palabras clave faltantes y recomendaciones de mejora priorizadas — todo en menos de 30 segundos.",
+    "3_desc": "Plataforma Cloud Carbon Intelligence que estima emisiones de CO2e de infraestructura Azure y genera recomendaciones de reducción impulsadas por AI. Construida para cumplimiento EU CSRD Scope 3 con Clean Architecture, búsqueda semántica de factores de emisión y 88 pruebas automatizadas.",
+    "4_desc": "Clasificación ML de pacientes diabéticos a partir de datos de señal de espectroscopía Raman usando métodos ensemble de scikit-learn. Investigación colaborativa del AIT.",
+    "5_desc": "Aplicación de identificación de serpientes venenosas para Myanmar usando clasificación de imágenes con CNN, ayudando a comunidades rurales a identificar especies peligrosas rápidamente.",
+    "6_desc": "Sistema ágil de gestión de proyectos integrando GitHub y ZenHub para flujos de trabajo de equipo optimizados, planificación de sprints y colaboración entre desarrolladores."
+  },
+  "hackathons": {
+    "label": "04 — HACKATHONS",
+    "heading": "Competir y",
+    "headingEm": "Entregar",
+    "inProgress": "EN PROGRESO",
+    "completed": "COMPLETADO",
+    "winner": "GANADOR",
+    "currentlyCompeting": "COMPITIENDO ACTUALMENTE",
+    "hackathonProject": "PROYECTO DE HACKATHON",
+    "0_desc": "Compañero bilingüe de narración impulsado por AI que preserva lenguas patrimoniales entre familias inmigrantes. Sistema multi-agente que genera historias interactivas culturalmente auténticas con ilustraciones de acuarela, narración bilingüe y decisiones del niño que realmente moldean la narrativa — usando tres modalidades de Gemini (texto, imagen, TTS) coordinadas a través de Google ADK.",
+    "1_desc": "Sistema de apoyo a decisiones agrícolas basado en datos que aplica la Teoría Moderna de Portafolios para ayudar a los pequeños agricultores de Myanmar a optimizar la diversificación de cultivos y reducir el riesgo climático. Usa optimización de Markowitz sobre 12 años de datos de rendimiento de FAOSTAT y simulación de Monte Carlo en 1.000 escenarios climáticos con análisis impulsado por Gemini AI.",
+    "2_desc": "Plataforma de inteligencia térmica urbana para Montgomery, Alabama. Incluye 9 capas de mapa interactivas, puntuación de riesgo por vecindario impulsada por AI vía Google Gemini, informes de diligencia debida de 14 páginas listos para subvenciones, y una base de datos de 7 programas reales de subvenciones federales (EPA, HUD, FEMA, LIHEAP)."
+  },
+  "skills": {
+    "label": "05 — HABILIDADES",
+    "heading": "Herramientas del",
+    "headingEm": "Oficio",
+    "alsoFluentIn": "TAMBIÉN DOMINA"
+  },
+  "education": {
+    "label": "06 — EDUCACIÓN",
+    "heading1": "Asia",
+    "heading2": "Europa.",
+    "headingEm": "El Viaje Forma al Ingeniero",
+    "gpaLabel": "GPA",
+    "0_degree": "MSc Data Science & Network Intelligence",
+    "0_loc": "París, Francia",
+    "0_note": "Ranking QS #46 Mundial",
+    "1_degree": "MSc Data Science & Artificial Intelligence",
+    "1_loc": "Bangkok, Tailandia",
+    "1_note": "Programa de Doble Titulación",
+    "2_degree": "BA Estudios de Ciencias Sociales",
+    "2_loc": "Yangón, Myanmar",
+    "2_note": "Graduado Primero de su Promoción",
+    "3_degree": "BA Literatura Inglesa y Lingüística",
+    "3_loc": "Yangón, Myanmar",
+    "3_note": "Universidad más Antigua de Myanmar",
+    "3_asterisk": "*Interrumpido debido a COVID-19 y Golpe Militar"
+  },
+  "journey": {
+    "0_label": "Orígenes",
+    "2_label": "Asian Institute of Technology",
+    "3_label": "Doble Titulación",
+    "4_label": "Telecom SudParis",
+    "6_label": "Siloett.AI"
+  },
+  "certifications": {
+    "label": "07 — CERTIFICACIONES",
+    "heading": "Prueba de",
+    "headingEm": "Compromiso",
+    "verified": "VERIFICADO"
+  },
+  "contact": {
+    "label": "08 — CONTACTO",
+    "heading": "Construyamos",
+    "headingEm": "Algo.",
+    "description": "Abierto a roles de ingeniería de AI, oportunidades en equipos fundadores y colaboraciones en CreativeAI, NLP y AI para el Bien Social.",
+    "clickToCopy": "CLIC PARA COPIAR",
+    "copied": "COPIADO",
+    "basedIn": "BASADO EN PARÍS · ABIERTO A REMOTO"
+  },
+  "footer": {
+    "credit": "PYAE SONE KYAW · INGENIERO DE AI FUNDADOR · PARÍS 2026",
+    "builtWith": "HECHO CON NEXT.JS"
+  }
+}

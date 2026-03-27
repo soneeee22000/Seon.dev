@@ -1,6 +1,11 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Logo } from "./logo";
 
 export function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <footer className="flex flex-wrap items-center justify-between gap-3.5 border-t border-border px-10 py-7">
       <div className="flex items-center gap-2">
@@ -10,10 +15,10 @@ export function Footer() {
         </span>
       </div>
       <div className="font-dm-mono text-[8px] tracking-[.2em] text-muted">
-        PYAE SONE KYAW &middot; FOUNDING AI ENGINEER &middot; PARIS 2026
+        {t("credit")}
       </div>
       <div className="font-dm-mono text-[8px] text-muted">
-        BUILT WITH NEXT.JS &hearts;
+        {t("builtWith")} &hearts;
       </div>
     </footer>
   );

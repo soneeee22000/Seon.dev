@@ -1,24 +1,21 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import { GREETINGS, SOCIAL_LINKS } from "@/lib/data";
 import { scrollToSection } from "@/lib/hooks";
 
-/** Node positions as fractions of canvas dimensions */
 const DESKTOP_NODES = [
-  // Layer 0 (Input) — 4 nodes, left edge
   { x: 0.06, y: 0.15, r: 2.5 },
   { x: 0.04, y: 0.4, r: 3 },
   { x: 0.1, y: 0.65, r: 2.5 },
   { x: 0.06, y: 0.88, r: 2 },
-  // Layer 1 (Hidden) — 6 nodes, center
   { x: 0.42, y: 0.08, r: 3 },
   { x: 0.48, y: 0.28, r: 2.5 },
   { x: 0.4, y: 0.46, r: 3.5 },
   { x: 0.52, y: 0.62, r: 2.5 },
   { x: 0.45, y: 0.78, r: 3 },
   { x: 0.5, y: 0.94, r: 2 },
-  // Layer 2 (Output) — 5 nodes, right edge
   { x: 0.88, y: 0.14, r: 2.5 },
   { x: 0.92, y: 0.36, r: 3 },
   { x: 0.86, y: 0.55, r: 2.5 },
@@ -27,7 +24,6 @@ const DESKTOP_NODES = [
 ];
 
 const DESKTOP_EDGES: [number, number][] = [
-  // Input -> Hidden
   [0, 4],
   [0, 5],
   [0, 6],
@@ -40,7 +36,6 @@ const DESKTOP_EDGES: [number, number][] = [
   [3, 7],
   [3, 8],
   [3, 9],
-  // Hidden -> Output
   [4, 10],
   [4, 11],
   [5, 10],
@@ -86,7 +81,6 @@ interface Pulse {
   speed: number;
 }
 
-/** Evaluate cubic bezier at parameter t */
 function bezier(
   ax: number,
   ay: number,
@@ -110,6 +104,7 @@ function bezier(
 }
 
 export function Hero() {
+  const t = useTranslations("hero");
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const greetingIndex = useRef(0);
   const [greeting, setGreeting] = useState(GREETINGS[0]);
@@ -163,7 +158,6 @@ export function Hero() {
       ctx.clearRect(0, 0, w, h);
       const sec = time * 0.001;
 
-      // Node positions with sinusoidal drift
       const pos = nodes.map((n, i) => {
         const ph = i * 0.7;
         return {
@@ -173,7 +167,6 @@ export function Hero() {
         };
       });
 
-      // Edges — bezier curves at low opacity
       for (const [from, to] of edges) {
         const a = pos[from];
         const b = pos[to];
@@ -187,7 +180,6 @@ export function Hero() {
         ctx.stroke();
       }
 
-      // Data pulses traversing edges
       for (const pulse of pulses) {
         const [from, to] = edges[pulse.edge];
         const a = pos[from];
@@ -227,7 +219,6 @@ export function Hero() {
         }
       }
 
-      // Nodes with glow halos + breathing opacity
       for (let i = 0; i < pos.length; i++) {
         const n = pos[i];
         const breathe = 0.3 + Math.sin(sec * 0.8 + i * 0.5) * 0.15;
@@ -277,7 +268,6 @@ export function Hero() {
         aria-label="Neural network visualization"
       />
 
-      {/* Dual-tone ambient glow — warm gold left, cool blue right */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
@@ -293,7 +283,6 @@ export function Hero() {
         }}
       />
 
-      {/* Scan line */}
       <div
         className="pointer-events-none absolute left-0 right-0 h-px"
         style={{
@@ -304,7 +293,6 @@ export function Hero() {
       />
 
       <div className="relative z-2 max-w-[1000px] px-6 text-center">
-        {/* Single random greeting */}
         <div
           className="mb-7 h-[22px] font-dm-mono text-[13px] tracking-[.35em] text-accent"
           style={{ animation: "fadeIn 1s ease .1s both" }}
@@ -313,7 +301,6 @@ export function Hero() {
           {greeting}
         </div>
 
-        {/* Name with glitch */}
         <div className="relative mb-5">
           <h1
             className="font-playfair text-[clamp(44px,9vw,96px)] font-black leading-none tracking-[-0.02em] text-text"
@@ -341,14 +328,13 @@ export function Hero() {
           className="mb-2 font-dm-mono text-[clamp(10px,1.6vw,14px)] tracking-[.22em] text-muted"
           style={{ animation: "fadeUp 1s ease .45s both" }}
         >
-          FOUNDING AI ENGINEER &middot; STATION F &middot; PARIS
+          {t("subtitle")}
         </div>
         <div
           className="mb-13 font-dm-mono text-[clamp(10px,1.4vw,12px)] tracking-[.18em] text-accent"
           style={{ animation: "fadeUp 1s ease .6s both" }}
         >
-          Generative AI &nbsp;&middot;&nbsp; Cloud Services &nbsp;&middot;&nbsp;
-          Full-Stack AI Systems
+          {t("specialties")}
         </div>
 
         <div
@@ -359,13 +345,13 @@ export function Hero() {
             onClick={() => handleCta("projects")}
             className="cursor-pointer border border-accent bg-accent px-[30px] py-[13px] font-dm-mono text-[10px] tracking-[.2em] text-bg transition-all duration-300 hover:bg-accent-light"
           >
-            VIEW WORK &#8595;
+            {t("viewWork")} &#8595;
           </button>
           <button
             onClick={() => handleCta("contact")}
             className="cursor-pointer border border-text/[.22] bg-transparent px-[30px] py-[13px] font-dm-mono text-[10px] tracking-[.2em] text-text transition-all duration-300 hover:border-accent hover:bg-accent/[.08] hover:text-accent"
           >
-            GET IN TOUCH &#8594;
+            {t("getInTouch")} &#8594;
           </button>
         </div>
 
@@ -387,13 +373,12 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div
         className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2.5"
         style={{ animation: "fadeIn 1.5s ease 1.5s both" }}
       >
         <span className="font-dm-mono text-[8px] tracking-[.3em] text-muted">
-          SCROLL
+          {t("scroll")}
         </span>
         <div className="flex h-[34px] w-5 items-start justify-center rounded-[10px] border border-accent/30 pt-[5px]">
           <div

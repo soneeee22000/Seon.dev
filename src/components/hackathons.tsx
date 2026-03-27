@@ -1,24 +1,24 @@
 "use client";
 
 import { useCallback, type MouseEvent } from "react";
-import { HACKATHONS } from "@/lib/data";
-import type { Hackathon } from "@/types/portfolio";
+import { useTranslations } from "next-intl";
+import { HACKATHONS_META } from "@/lib/data";
 
-/** Status badge config by hackathon status. */
-const STATUS_CONFIG: Record<
-  Hackathon["status"],
-  { label: string; dotClass: string }
-> = {
-  in_progress: { label: "IN PROGRESS", dotClass: "animate-pulse bg-green" },
-  completed: { label: "COMPLETED", dotClass: "bg-blue" },
-  won: { label: "WINNER", dotClass: "bg-accent" },
+const STATUS_DOT: Record<string, string> = {
+  in_progress: "animate-pulse bg-green",
+  completed: "bg-blue",
+  won: "bg-accent",
 };
 
-/**
- * Hackathons section — showcases hackathon participation with
- * status badges, organizer credibility, and 3D tilt cards.
- */
+const STATUS_KEY: Record<string, string> = {
+  in_progress: "inProgress",
+  completed: "completed",
+  won: "winner",
+};
+
 export function Hackathons() {
+  const t = useTranslations("hackathons");
+
   const handleMove = useCallback((e: MouseEvent<HTMLDivElement>) => {
     const c = e.currentTarget;
     const r = c.getBoundingClientRect();
@@ -41,16 +41,17 @@ export function Hackathons() {
     >
       <div className="reveal mb-16">
         <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-          04 &mdash; HACKATHONS
+          {t("label")}
         </div>
         <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
-          Compete &amp; <em className="text-accent">Ship</em>
+          {t("heading")} <em className="text-accent">{t("headingEm")}</em>
         </h2>
       </div>
 
       <div className="flex flex-col gap-5">
-        {HACKATHONS.map((h, i) => {
-          const { label, dotClass } = STATUS_CONFIG[h.status];
+        {HACKATHONS_META.map((h, i) => {
+          const dotClass = STATUS_DOT[h.status];
+          const statusKey = STATUS_KEY[h.status];
 
           return (
             <div
@@ -67,7 +68,6 @@ export function Hackathons() {
                   boxShadow: `inset 0 0 80px ${h.color}06`,
                 }}
               >
-                {/* Status badge */}
                 <div
                   className="absolute top-0 left-0 flex items-center gap-2 px-3.5 py-1.5 font-dm-mono text-[8px] tracking-[.25em]"
                   style={{ background: `${h.color}18` }}
@@ -75,10 +75,9 @@ export function Hackathons() {
                   <span
                     className={`inline-block h-1.5 w-1.5 rounded-full ${dotClass}`}
                   />
-                  <span style={{ color: h.color }}>{label}</span>
+                  <span style={{ color: h.color }}>{t(statusKey)}</span>
                 </div>
 
-                {/* Organizer badge */}
                 <div
                   className="absolute top-0 right-0 px-3.5 py-1.5 font-dm-mono text-[8px] tracking-[.25em]"
                   style={{ background: h.color, color: "#06080D" }}
@@ -95,21 +94,13 @@ export function Hackathons() {
                     <p className="mb-1 font-dm-mono text-[10px] tracking-[.12em] text-muted">
                       {h.event} &middot; {h.date}
                     </p>
-                    {h.prize && (
-                      <p
-                        className="mb-4 font-dm-mono text-[11px] font-bold tracking-[.15em]"
-                        style={{ color: h.color }}
-                      >
-                        {h.prize}
-                      </p>
-                    )}
                     <p className="mb-6 text-[14px] leading-[1.8] text-body">
-                      {h.desc}
+                      {t(`${i}_desc`)}
                     </p>
                     <div className="mb-7 flex flex-wrap gap-2">
-                      {h.tags.map((t) => (
+                      {h.tags.map((tag) => (
                         <span
-                          key={t}
+                          key={tag}
                           className="font-dm-mono text-[9px] tracking-[.1em]"
                           style={{
                             padding: "4px 11px",
@@ -118,7 +109,7 @@ export function Hackathons() {
                             color: h.color,
                           }}
                         >
-                          {t}
+                          {tag}
                         </span>
                       ))}
                     </div>
@@ -137,7 +128,7 @@ export function Hackathons() {
                             e.currentTarget.style.opacity = "1";
                           }}
                         >
-                          LIVE DEMO &#8599;
+                          {t("liveDemo") || "LIVE DEMO"} &#8599;
                         </a>
                       )}
                       <a
@@ -161,7 +152,6 @@ export function Hackathons() {
                     </div>
                   </div>
 
-                  {/* Visual panel */}
                   <div
                     className="flex flex-col items-center justify-center gap-3"
                     style={{
@@ -181,8 +171,8 @@ export function Hackathons() {
                       style={{ color: `${h.color}70` }}
                     >
                       {h.status === "in_progress"
-                        ? "CURRENTLY COMPETING"
-                        : "HACKATHON PROJECT"}{" "}
+                        ? t("currentlyCompeting")
+                        : t("hackathonProject")}{" "}
                       &#8599;
                     </div>
                   </div>

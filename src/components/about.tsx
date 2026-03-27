@@ -1,24 +1,33 @@
 "use client";
 
 import Image from "next/image";
-import { SKILLS, STATS, ABOUT_PARAGRAPHS, ABOUT_QUOTE } from "@/lib/data";
+import { useTranslations } from "next-intl";
+import { SKILLS, STATS_NUMS } from "@/lib/data";
+
+const STAT_KEYS = [
+  "yrsLabel",
+  "projectsLabel",
+  "degreesLabel",
+  "countriesLabel",
+] as const;
 
 export function About() {
+  const t = useTranslations("about");
+
   return (
     <section id="about" className="mx-auto max-w-[1200px] px-10 py-[120px]">
       <div className="reveal mb-16">
         <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-          01 &mdash; ABOUT
+          {t("label")}
         </div>
         <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
-          Building at the intersection of
+          {t("heading")}
           <br />
-          <em className="text-accent">AI and Human Experience</em>
+          <em className="text-accent">{t("headingEm")}</em>
         </h2>
       </div>
 
       <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] items-start gap-16">
-        {/* Left — Photo + Stats */}
         <div className="rl">
           <div
             className="relative max-w-[360px] overflow-hidden border border-border bg-surface"
@@ -51,46 +60,44 @@ export function About() {
                 PSK
               </span>
             </div>
-            {/* Corner marks */}
             <div className="absolute top-3 left-3 h-5 w-5 border-t-2 border-l-2 border-accent" />
             <div className="absolute right-3 bottom-3 h-5 w-5 border-r-2 border-b-2 border-accent" />
           </div>
 
           <div className="mt-5 grid max-w-[360px] grid-cols-2 gap-3">
-            {STATS.map(([num, label]) => (
+            {STATS_NUMS.map((num, i) => (
               <div
-                key={label}
+                key={i}
                 className="border border-border bg-surface p-4 transition-[border-color] duration-300 hover:border-accent/40"
               >
                 <div className="font-playfair text-[30px] font-bold text-accent">
                   {num}
                 </div>
                 <div className="mt-1 font-dm-mono text-[9px] tracking-[.1em] text-muted">
-                  {label}
+                  {t(STAT_KEYS[i])}
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Right — Bio + Marquee */}
         <div className="rr pt-2">
           <p className="mb-8 border-l-2 border-accent pl-5 font-playfair text-[20px] leading-[1.65] italic text-body">
-            &ldquo;{ABOUT_QUOTE}&rdquo;
+            &ldquo;{t("quote")}&rdquo;
           </p>
 
-          {ABOUT_PARAGRAPHS.map((p, i) => (
+          {(["p1", "p2", "p3", "p4"] as const).map((key) => (
             <p
-              key={i}
+              key={key}
               className="mb-[18px] text-[14.5px] leading-[1.85] text-body"
             >
-              {p}
+              {t(key)}
             </p>
           ))}
 
           <div className="mt-9">
             <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.28em] text-muted">
-              TECH STACK
+              {t("techStack")}
             </div>
             <div
               className="overflow-hidden"

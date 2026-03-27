@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Pyae Sone Kyaw | 创始AI工程师",
+    "description": "Pyae Sone Kyaw (Seon) 的作品集 — Siloett.AI 创始AI工程师，巴黎 Station F。专注于 CreativeAI、NLP 和全栈AI系统。",
+    "ogDescription": "Siloett.AI 创始AI工程师，巴黎 Station F。在AI与人类体验的交汇处构建未来。"
+  },
+  "nav": {
+    "about": "关于",
+    "experience": "经历",
+    "projects": "项目",
+    "hackathons": "黑客马拉松",
+    "skills": "技能",
+    "education": "教育",
+    "contact": "联系",
+    "resume": "简历"
+  },
+  "hero": {
+    "subtitle": "创始AI工程师 · STATION F · 巴黎",
+    "specialties": "生成式AI · 云服务 · 全栈AI系统",
+    "viewWork": "查看作品",
+    "getInTouch": "联系我",
+    "scroll": "滚动"
+  },
+  "about": {
+    "label": "01 — 关于",
+    "heading": "在以下领域的交汇处构建",
+    "headingEm": "AI与人类体验",
+    "quote": "数据科学家与全栈AI工程师，拥有横跨亚洲和欧洲的双硕士学位 — 在 CreativeAI、RegTech、B2B 解决方案等前沿领域构建有影响力的工具。",
+    "p1": "目前担任 Siloett.AI（巴黎 Station F）创始/全栈AI工程师，负责架构 Narrative OS 的AI驱动解决方案 — 创意产业的智能层。",
+    "p2": "我的专长涵盖深度学习、NLP、计算机视觉和 Agentic AI 系统，重点关注 CreativeAI 和 AI for Social Good 领域。",
+    "p3": "我拥有独特的技能组合：Python（PyTorch、FastAPI）技术深度 + 云基础设施（Azure、Docker）+ 缅甸语、英语、法语和泰语的多语言沟通能力。",
+    "p4": "这种多元文化背景使我能够构建跨越不同人类语境和社区的AI系统。",
+    "techStack": "技术栈",
+    "yrsLabel": "年AI/ML经验",
+    "projectsLabel": "已交付项目",
+    "degreesLabel": "硕士学位",
+    "countriesLabel": "生活过的国家"
+  },
+  "experience": {
+    "label": "02 — 经历",
+    "heading": "我在哪里",
+    "headingEm": "构建与学习",
+    "0_job": "创始AI工程师与架构师",
+    "0_badge": "AI安全与合规 · Station F · 巴黎",
+    "0_date": "2025年1月 — 至今",
+    "0_pt0": "从零开始架构并构建了端到端生成式AI平台 — LLM编排、RAG管道，以及使用 Python（FastAPI）和 Azure Functions 无服务器后端的生产级 React/TypeScript 前端",
+    "0_pt1": "设计并实施了负责任AI验证层，包括内容安全过滤器、偏见检测检查和合规护栏，确保所有AI生成的输出符合监管和伦理标准",
+    "0_pt2": "构建了AI安全和知识产权合规系统，包括审计日志、来源追踪和输出归因管道 — 确保可追溯和可问责的AI输出生命周期",
+    "0_pt3": "使用 Azure OpenAI GPT-4o 和 LangChain 开发了提示工程和 LLM 评估框架，通过系统微调优化合规用例的领域准确性",
+    "1_job": "数据科学家 / 云工程师",
+    "1_badge": "École Polytechnique 孵化器",
+    "1_date": "2024年7月 — 2025年6月",
+    "1_pt0": "使用 Microsoft Azure Batch 和 Docker 设计了基于云的批量数据处理管道，用于城市交通分析",
+    "1_pt1": "自动化了计算机视觉和蓝牙传感器工作流，实现可扩展的实时智慧城市洞察",
+    "1_pt2": "交付了被市政府和交通利益相关方采用的生产级分析仪表板",
+    "2_job": "研究助理",
+    "2_badge": "NLP · 机器翻译",
+    "2_date": "2023年8月 — 2024年7月",
+    "2_pt0": "开发了完整的英缅机器翻译管道，基于手动创建和整理的 10K 黄金标注 WikiHow 平行语料库",
+    "2_pt1": "覆盖完整研究生命周期：数据集构建、模型训练、评估设计，以及使用多语言MT骨干网络的部署",
+    "2_pt2": "构建公共翻译API和 Chrome 扩展，用于 WikiHow 页面的实时英缅翻译",
+    "3_job": "研究助理",
+    "3_badge": "曼谷 · 泰国",
+    "3_date": "2023年1月 — 2023年8月",
+    "3_pt0": "与团队合作开发了创新的 NLP 释义工具，提升用户体验",
+    "3_pt1": "清洗和整理数据集，优化训练流程并将模型准确率提高了15%",
+    "3_pt2": "获得了后端运维的实践经验，强化了数据管理和研发方法论方面的技术能力"
+  },
+  "projects": {
+    "label": "03 — 项目",
+    "heading": "我构建的",
+    "headingEm": "作品",
+    "featured": "精选",
+    "liveDemo": "在线演示",
+    "github": "GITHUB",
+    "demo": "演示",
+    "gh": "GH",
+    "liveAtVercel": "在 VERCEL 上线",
+    "0_desc": "疫苗研究的真实世界证据平台。全栈应用程序，用于大规模摄取、分析和可视化来自真实世界来源的疫苗安全性和有效性数据。",
+    "1_desc": "用于在 LLM 应用程序上强制执行负责任AI合规的无服务器中间件平台。作为客户端应用和 Azure OpenAI 之间的中介，根据可配置的安全规则验证响应 — PII检测、偏见筛查、仇恨言论过滤，以及通过上传合规文档实现的基于RAG的自定义策略执行。",
+    "2_desc": "AI驱动的简历-职位匹配分析平台。上传您的简历和职位描述，即可获得详细的兼容性评分，包含类别细分（技能、经验、教育、关键词）、缺失关键词识别和优先改进建议 — 全部在30秒内完成。",
+    "3_desc": "云碳智能平台，用于估算 Azure 基础设施的 CO2e 排放并生成AI驱动的减排建议。为欧盟 CSRD Scope 3 合规而构建，采用 Clean Architecture、语义排放因子搜索和88个自动化测试。",
+    "4_desc": "使用集成 scikit-learn 方法对拉曼光谱信号数据进行糖尿病患者 ML 分类。AIT 合作研究。",
+    "5_desc": "使用 CNN 图像分类的缅甸毒蛇识别应用，帮助农村社区快速识别危险物种。",
+    "6_desc": "集成 GitHub 和 ZenHub 的敏捷项目管理系统，用于简化团队工作流、冲刺规划和开发者协作。"
+  },
+  "hackathons": {
+    "label": "04 — 黑客马拉松",
+    "heading": "竞赛与",
+    "headingEm": "交付",
+    "inProgress": "进行中",
+    "completed": "已完成",
+    "winner": "获胜者",
+    "currentlyCompeting": "正在参赛",
+    "hackathonProject": "黑客马拉松项目",
+    "0_desc": "AI驱动的双语讲故事伙伴，帮助移民家庭保留传统语言。多智能体系统生成具有文化真实性的互动故事，包含水彩插图、双语叙述和真正影响叙事的儿童驱动选择 — 使用三种 Gemini 模态（文本、图像、TTS）通过 Google ADK 协调。",
+    "1_desc": "数据驱动的农业决策支持系统，应用现代投资组合理论帮助缅甸小农优化作物多样化并降低气候风险。使用 Markowitz 优化对12年 FAOSTAT 产量数据和1,000个气候情景进行 Monte Carlo 模拟，配合 Gemini AI 驱动的分析。",
+    "2_desc": "面向阿拉巴马州蒙哥马利市的城市热智能平台。具备9个交互式地图图层、通过 Google Gemini 进行的AI驱动社区风险评分、14页可用于拨款申请的尽职调查报告，以及包含7个真实联邦拨款项目（EPA、HUD、FEMA、LIHEAP）的数据库。"
+  },
+  "skills": {
+    "label": "05 — 技能",
+    "heading": "专业",
+    "headingEm": "工具箱",
+    "alsoFluentIn": "同样精通"
+  },
+  "education": {
+    "label": "06 — 教育",
+    "heading1": "亚洲",
+    "heading2": "欧洲。",
+    "headingEm": "旅程塑造工程师",
+    "gpaLabel": "GPA",
+    "0_degree": "数据科学与网络智能理学硕士",
+    "0_loc": "法国巴黎",
+    "0_note": "QS世界排名第46",
+    "1_degree": "数据科学与人工智能理学硕士",
+    "1_loc": "泰国曼谷",
+    "1_note": "双学位项目",
+    "2_degree": "社会科学研究文学学士",
+    "2_loc": "缅甸仰光",
+    "2_note": "班级第一名毕业",
+    "3_degree": "英语文学与语言学文学学士",
+    "3_loc": "缅甸仰光",
+    "3_note": "缅甸最古老的大学",
+    "3_asterisk": "*因 COVID-19 和军事政变而中断"
+  },
+  "journey": {
+    "0_label": "起源",
+    "2_label": "Asian Institute of Technology",
+    "3_label": "双学位",
+    "4_label": "Telecom SudParis",
+    "6_label": "Siloett.AI"
+  },
+  "certifications": {
+    "label": "07 — 认证",
+    "heading": "承诺的",
+    "headingEm": "证明",
+    "verified": "已验证"
+  },
+  "contact": {
+    "label": "08 — 联系",
+    "heading": "让我们一起",
+    "headingEm": "构建。",
+    "description": "对AI工程职位、创始团队机会以及 CreativeAI、NLP 和 AI for Social Good 领域的合作持开放态度。",
+    "clickToCopy": "点击复制",
+    "copied": "已复制",
+    "basedIn": "坐标巴黎 · 接受远程"
+  },
+  "footer": {
+    "credit": "PYAE SONE KYAW · 创始AI工程师 · 巴黎 2026",
+    "builtWith": "使用 NEXT.JS 构建"
+  }
+}

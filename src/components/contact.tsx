@@ -1,11 +1,13 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import { SOCIAL_LINKS } from "@/lib/data";
 
 const EMAIL = "pyaesonekyaw101010@gmail.com";
 
 export function Contact() {
+  const t = useTranslations("contact");
   const [copied, setCopied] = useState(false);
 
   const handleCopy = useCallback(() => {
@@ -19,7 +21,6 @@ export function Contact() {
       id="contact"
       className="relative overflow-hidden px-10 py-[140px] text-center"
     >
-      {/* Ambient glow */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
@@ -31,16 +32,15 @@ export function Contact() {
       <div className="relative mx-auto max-w-[700px]">
         <div className="reveal">
           <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-            08 &mdash; CONTACT
+            {t("label")}
           </div>
           <h2 className="mb-5 font-playfair text-[clamp(40px,8vw,86px)] font-black leading-none">
-            Let&rsquo;s Build
+            {t("heading")}
             <br />
-            <em className="text-accent">Something.</em>
+            <em className="text-accent">{t("headingEm")}</em>
           </h2>
           <p className="mx-auto mb-13 max-w-[480px] text-[15px] leading-[1.85] text-body-dim">
-            Open to AI engineering roles, founding team opportunities, and
-            collaborations in CreativeAI, NLP, and AI for Social Good.
+            {t("description")}
           </p>
         </div>
 
@@ -66,10 +66,10 @@ export function Contact() {
                 }
               }}
             >
-              {copied ? "\u2713 COPIED" : EMAIL}
+              {copied ? `\u2713 ${t("copied")}` : EMAIL}
               {!copied && (
                 <span className="font-dm-mono text-[8px] tracking-[.22em] text-muted">
-                  CLICK TO COPY
+                  {t("clickToCopy")}
                 </span>
               )}
             </button>
@@ -97,7 +97,7 @@ export function Contact() {
             }}
           />
           <p className="font-dm-mono text-[9px] tracking-[.2em] text-muted">
-            BASED IN PARIS &middot; OPEN TO REMOTE
+            {t("basedIn")}
           </p>
         </div>
       </div>

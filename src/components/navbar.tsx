@@ -1,16 +1,28 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { NAV_LINKS } from "@/lib/data";
+import { useState, useEffect, useCallback } from "react";
+import { useTranslations } from "next-intl";
+import { NAV_IDS } from "@/lib/data";
 import { scrollToSection, useActiveSection } from "@/lib/hooks";
 import { Logo } from "./logo";
+import { LanguageToggle } from "./language-toggle";
+
+const NAV_KEYS = [
+  "about",
+  "experience",
+  "projects",
+  "hackathons",
+  "skills",
+  "education",
+  "contact",
+] as const;
 
 export function Navbar() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const sectionIds = useMemo(() => NAV_LINKS.map(([, id]) => id), []);
-  const activeSection = useActiveSection(sectionIds);
+  const activeSection = useActiveSection(NAV_IDS);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60);
@@ -18,7 +30,6 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Body scroll lock when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
     return () => {
@@ -57,18 +68,18 @@ export function Navbar() {
 
         {/* Desktop nav links */}
         <div className="hidden flex-wrap gap-7 md:flex">
-          {NAV_LINKS.map(([label, id]) => (
+          {NAV_KEYS.map((key, i) => (
             <button
-              key={id}
-              onClick={() => handleNav(id)}
+              key={key}
+              onClick={() => handleNav(NAV_IDS[i])}
               className={`relative cursor-pointer select-none border-none bg-transparent p-0 font-dm-mono text-[10px] tracking-[.18em] transition-colors duration-300 ${
-                activeSection === id
+                activeSection === NAV_IDS[i]
                   ? "text-accent"
                   : "text-muted hover:text-accent"
               }`}
             >
-              {label}
-              {activeSection === id && (
+              {t(key)}
+              {activeSection === NAV_IDS[i] && (
                 <span
                   className="absolute -bottom-1.5 left-0 right-0 h-px bg-accent"
                   style={{ animation: "fadeIn 0.3s ease both" }}
@@ -78,39 +89,45 @@ export function Navbar() {
           ))}
         </div>
 
-        {/* Desktop resume button */}
-        <a
-          href="/files/resume.pdf"
-          download
-          className="group hidden border border-accent/50 px-4 py-2 font-dm-mono text-[9px] tracking-[.2em] text-accent transition-all duration-300 hover:bg-accent hover:text-bg md:inline-block"
-        >
-          R&Eacute;SUM&Eacute; &#8599;
-        </a>
+        {/* Desktop right side: language toggle + resume */}
+        <div className="hidden items-center gap-4 md:flex">
+          <LanguageToggle />
+          <a
+            href="/files/resume.pdf"
+            download
+            className="group border border-accent/50 px-4 py-2 font-dm-mono text-[9px] tracking-[.2em] text-accent transition-all duration-300 hover:bg-accent hover:text-bg"
+          >
+            {t("resume")} &#8599;
+          </a>
+        </div>
 
         {/* Hamburger button — mobile only */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-expanded={menuOpen}
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          className="flex cursor-pointer flex-col items-center justify-center gap-[6px] border-none bg-transparent p-0 md:hidden"
-          style={{ width: 32, height: 32 }}
-        >
-          <span
-            className={`block h-px w-5 bg-text transition-all duration-300 ${
-              menuOpen ? "translate-y-[7px] rotate-45" : ""
-            }`}
-          />
-          <span
-            className={`block h-px w-5 bg-text transition-all duration-300 ${
-              menuOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`block h-px w-5 bg-text transition-all duration-300 ${
-              menuOpen ? "-translate-y-[7px] -rotate-45" : ""
-            }`}
-          />
-        </button>
+        <div className="flex items-center gap-3 md:hidden">
+          <LanguageToggle />
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-expanded={menuOpen}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            className="flex cursor-pointer flex-col items-center justify-center gap-[6px] border-none bg-transparent p-0"
+            style={{ width: 32, height: 32 }}
+          >
+            <span
+              className={`block h-px w-5 bg-text transition-all duration-300 ${
+                menuOpen ? "translate-y-[7px] rotate-45" : ""
+              }`}
+            />
+            <span
+              className={`block h-px w-5 bg-text transition-all duration-300 ${
+                menuOpen ? "opacity-0" : ""
+              }`}
+            />
+            <span
+              className={`block h-px w-5 bg-text transition-all duration-300 ${
+                menuOpen ? "-translate-y-[7px] -rotate-45" : ""
+              }`}
+            />
+          </button>
+        </div>
       </nav>
 
       {/* Mobile overlay */}
@@ -131,17 +148,17 @@ export function Navbar() {
         }`}
       >
         <div className="flex flex-col gap-6 px-8 pt-20">
-          {NAV_LINKS.map(([label, id]) => (
+          {NAV_KEYS.map((key, i) => (
             <button
-              key={id}
-              onClick={() => handleNav(id)}
+              key={key}
+              onClick={() => handleNav(NAV_IDS[i])}
               className={`cursor-pointer border-none bg-transparent p-0 text-left font-dm-mono text-[12px] tracking-[.18em] transition-colors duration-300 ${
-                activeSection === id
+                activeSection === NAV_IDS[i]
                   ? "text-accent"
                   : "text-muted hover:text-accent"
               }`}
             >
-              {label}
+              {t(key)}
             </button>
           ))}
           <a
@@ -149,7 +166,7 @@ export function Navbar() {
             download
             className="mt-4 border border-accent/50 px-4 py-3 text-center font-dm-mono text-[10px] tracking-[.2em] text-accent transition-all duration-300 hover:bg-accent hover:text-bg"
           >
-            R&Eacute;SUM&Eacute; &#8599;
+            {t("resume")} &#8599;
           </a>
         </div>
       </div>

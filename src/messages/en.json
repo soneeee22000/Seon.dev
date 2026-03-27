@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Pyae Sone Kyaw | Founding AI Engineer",
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Founding AI Engineer at Siloett.AI, Station F Paris. Specializing in CreativeAI, NLP, and Full-Stack AI Systems.",
+    "ogDescription": "Founding AI Engineer at Siloett.AI, Station F Paris. Building at the intersection of AI and Human Experience."
+  },
+  "nav": {
+    "about": "ABOUT",
+    "experience": "EXPERIENCE",
+    "projects": "PROJECTS",
+    "hackathons": "HACKATHONS",
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "contact": "CONTACT",
+    "resume": "RÉSUMÉ"
+  },
+  "hero": {
+    "subtitle": "FOUNDING AI ENGINEER · STATION F · PARIS",
+    "specialties": "Generative AI  ·  Cloud Services  ·  Full-Stack AI Systems",
+    "viewWork": "VIEW WORK",
+    "getInTouch": "GET IN TOUCH",
+    "scroll": "SCROLL"
+  },
+  "about": {
+    "label": "01 — ABOUT",
+    "heading": "Building at the intersection of",
+    "headingEm": "AI and Human Experience",
+    "quote": "A Data Scientist and Full-Stack AI Engineer with dual Master's degrees spanning Asia and Europe — building impactful tools at the frontier of CreativeAI, RegTech, B2B Solutions and beyond.",
+    "p1": "Currently a Founding/Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect AI-powered solutions for Narrative OS — the creative industry's intelligence layer.",
+    "p2": "My expertise spans deep learning, NLP, computer vision, and agentic AI systems, with a strong focus on CreativeAI and AI for Social Good domains.",
+    "p3": "I bring an unusual combination: technical depth in Python (PyTorch, FastAPI) + cloud infrastructure (Azure, Docker) + multilingual communication skills across Burmese, English, French, and Thai.",
+    "p4": "This multicultural background uniquely positions me to build AI systems that work across diverse human contexts and communities.",
+    "techStack": "TECH STACK",
+    "yrsLabel": "Yrs in AI / ML",
+    "projectsLabel": "Projects Shipped",
+    "degreesLabel": "Master's Degrees",
+    "countriesLabel": "Countries Lived"
+  },
+  "experience": {
+    "label": "02 — EXPERIENCE",
+    "heading": "Where I've",
+    "headingEm": "Built & Learned",
+    "0_job": "Founding AI Engineer & Architect",
+    "0_badge": "AI Safety & Compliance · Station F · Paris",
+    "0_date": "Jan 2025 — Present",
+    "0_pt0": "Architected and built an end-to-end Generative AI platform from zero — LLM orchestration, RAG pipelines, and a production React/TypeScript frontend with Python (FastAPI) and Azure Functions serverless backend",
+    "0_pt1": "Designed and implemented responsible-AI validation layers including content-safety filters, bias-detection checks, and compliance guardrails ensuring all AI-generated outputs meet regulatory and ethical standards",
+    "0_pt2": "Built AI safety and IP compliance systems including audit logging, provenance tracking, and output attribution pipelines — ensuring traceable and accountable AI output lifecycles",
+    "0_pt3": "Developed prompt-engineering and LLM evaluation frameworks using Azure OpenAI GPT-4o and LangChain, with systematic fine-tuning to optimise domain accuracy across compliance use cases",
+    "1_job": "Data Scientist / Cloud Engineer",
+    "1_badge": "École Polytechnique Incubator",
+    "1_date": "Jul 2024 — Jun 2025",
+    "1_pt0": "Designed a cloud-based batch data processing pipeline using Microsoft Azure Batch and Docker for urban mobility analytics",
+    "1_pt1": "Automated Computer Vision and Bluetooth sensor workflows enabling scalable, real-time smart city insights",
+    "1_pt2": "Delivered production analytics dashboards adopted by city government and transport stakeholders",
+    "2_job": "Research Assistant",
+    "2_badge": "NLP · Machine Translation",
+    "2_date": "Aug 2023 — Jul 2024",
+    "2_pt0": "Developed a complete English–Myanmar machine translation pipeline built on a 10K gold-labeled WikiHow parallel corpus manually created and curated",
+    "2_pt1": "Covered full research lifecycle: dataset construction, model training, evaluation design, and deployment with multilingual MT backbones",
+    "2_pt2": "Building a public translation API and Chrome extension for real-time English–Myanmar translation on WikiHow pages",
+    "3_job": "Research Assistant",
+    "3_badge": "Bangkok · Thailand",
+    "3_date": "Jan 2023 — Aug 2023",
+    "3_pt0": "Collaborated with a team to develop an innovative NLP paraphrasing tool, enhancing user experience",
+    "3_pt1": "Cleaned and organized datasets, optimizing training processes and improving model accuracy by 15%",
+    "3_pt2": "Gained hands-on experience in backend operations, strengthening technical skills in data management and R&D methodology"
+  },
+  "projects": {
+    "label": "03 — PROJECTS",
+    "heading": "Things I've",
+    "headingEm": "Built",
+    "featured": "FEATURED",
+    "liveDemo": "LIVE DEMO",
+    "github": "GITHUB",
+    "demo": "DEMO",
+    "gh": "GH",
+    "liveAtVercel": "LIVE AT VERCEL",
+    "0_desc": "Real-World Evidence platform for vaccine research. Full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale.",
+    "1_desc": "Serverless middleware platform for enforcing responsible AI compliance on LLM applications. Acts as an intermediary between client apps and Azure OpenAI, validating responses against configurable safety rules — PII detection, bias screening, hate speech filtering, and RAG-powered custom policy enforcement via uploaded compliance documents.",
+    "2_desc": "AI-powered resume-job match analysis platform. Upload your resume and a job description to get a detailed compatibility score with category breakdowns (skills, experience, education, keywords), missing keyword identification, and prioritized improvement recommendations — all in under 30 seconds.",
+    "3_desc": "Cloud Carbon Intelligence platform that estimates CO2e emissions from Azure infrastructure and generates AI-powered reduction recommendations. Built for EU CSRD Scope 3 compliance with Clean Architecture, semantic emission factor search, and 88 automated tests.",
+    "4_desc": "ML classification of diabetic patients from Raman spectroscopy signal data using ensemble scikit-learn methods. AIT collaborative research.",
+    "5_desc": "Venomous snake identification app for Myanmar using CNN image classification, helping rural communities identify dangerous species quickly.",
+    "6_desc": "Agile project management system integrating GitHub and ZenHub for streamlined team workflow, sprint planning, and developer collaboration."
+  },
+  "hackathons": {
+    "label": "04 — HACKATHONS",
+    "heading": "Compete &",
+    "headingEm": "Ship",
+    "inProgress": "IN PROGRESS",
+    "completed": "COMPLETED",
+    "winner": "WINNER",
+    "currentlyCompeting": "CURRENTLY COMPETING",
+    "hackathonProject": "HACKATHON PROJECT",
+    "0_desc": "AI-powered bilingual storytelling companion that preserves heritage languages among immigrant families. Multi-agent system generates culturally-authentic interactive stories with watercolor illustrations, bilingual narration, and child-driven choices that genuinely shape the narrative — using three Gemini modalities (text, image, TTS) coordinated through Google ADK.",
+    "1_desc": "Data-driven agricultural decision-support system applying Modern Portfolio Theory to help Myanmar's smallholder farmers optimize crop diversification and reduce climate risk. Uses Markowitz optimization on 12 years of FAOSTAT yield data and Monte Carlo simulation across 1,000 climate scenarios with Gemini AI-powered analysis.",
+    "2_desc": "Urban thermal intelligence platform for Montgomery, Alabama. Features 9 interactive map layers, AI-powered neighborhood risk scoring via Google Gemini, 14-page grant-ready due diligence reports, and a database of 7 real federal grant programs (EPA, HUD, FEMA, LIHEAP)."
+  },
+  "skills": {
+    "label": "05 — SKILLS",
+    "heading": "Tools of the",
+    "headingEm": "Trade",
+    "alsoFluentIn": "ALSO FLUENT IN"
+  },
+  "education": {
+    "label": "06 — EDUCATION",
+    "heading1": "Asia",
+    "heading2": "Europe.",
+    "headingEm": "The Journey Shapes the Engineer",
+    "gpaLabel": "GPA",
+    "0_degree": "MSc Data Science & Network Intelligence",
+    "0_loc": "Paris, France",
+    "0_note": "QS Rank #46 Worldwide",
+    "1_degree": "MSc Data Science & Artificial Intelligence",
+    "1_loc": "Bangkok, Thailand",
+    "1_note": "Dual Degree Program",
+    "2_degree": "BA Social Science Studies",
+    "2_loc": "Yangon, Myanmar",
+    "2_note": "Graduated Top of Class",
+    "3_degree": "BA English Literature & Linguistics",
+    "3_loc": "Yangon, Myanmar",
+    "3_note": "Myanmar's Oldest University",
+    "3_asterisk": "*Interrupted due to COVID-19 & Military Coup"
+  },
+  "journey": {
+    "0_label": "Origins",
+    "2_label": "Asian Institute of Technology",
+    "3_label": "Dual Degree",
+    "4_label": "Telecom SudParis",
+    "6_label": "Siloett.AI"
+  },
+  "certifications": {
+    "label": "07 — CERTIFICATIONS",
+    "heading": "Proof of",
+    "headingEm": "Commitment",
+    "verified": "VERIFIED"
+  },
+  "contact": {
+    "label": "08 — CONTACT",
+    "heading": "Let's Build",
+    "headingEm": "Something.",
+    "description": "Open to AI engineering roles, founding team opportunities, and collaborations in CreativeAI, NLP, and AI for Social Good.",
+    "clickToCopy": "CLICK TO COPY",
+    "copied": "COPIED",
+    "basedIn": "BASED IN PARIS · OPEN TO REMOTE"
+  },
+  "footer": {
+    "credit": "PYAE SONE KYAW · FOUNDING AI ENGINEER · PARIS 2026",
+    "builtWith": "BUILT WITH NEXT.JS"
+  }
+}

@@ -1,22 +1,25 @@
 "use client";
 
-import { CERTS } from "@/lib/data";
+import { useTranslations } from "next-intl";
+import { CERTS_META } from "@/lib/data";
 
 export function Certifications() {
+  const t = useTranslations("certifications");
+
   return (
     <section id="certifications" className="bg-bg2 px-10 py-[120px]">
       <div className="mx-auto max-w-[1200px]">
         <div className="reveal mb-16">
           <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-            07 &mdash; CERTIFICATIONS
+            {t("label")}
           </div>
           <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
-            Proof of <em className="text-accent">Commitment</em>
+            {t("heading")} <em className="text-accent">{t("headingEm")}</em>
           </h2>
         </div>
 
         <div className="grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-4">
-          {CERTS.map((c, i) => (
+          {CERTS_META.map((c, i) => (
             <div
               key={i}
               className="reveal cert-shimmer"
@@ -46,7 +49,7 @@ export function Certifications() {
                         border: `1px solid ${c.color}40`,
                       }}
                     >
-                      VERIFIED &#8599;
+                      {t("verified")} &#8599;
                     </div>
                   </div>
                   <h3 className="mb-2 font-playfair text-[17px] font-bold leading-[1.3] text-text">

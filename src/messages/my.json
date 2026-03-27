@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Pyae Sone Kyaw | တည်ထောင်သူ AI အင်ဂျင်နီယာ",
+    "description": "Pyae Sone Kyaw (Seon) ၏ Portfolio — Siloett.AI တွင် တည်ထောင်သူ AI အင်ဂျင်နီယာ၊ Station F Paris။ CreativeAI၊ NLP နှင့် Full-Stack AI စနစ်များတွင် အထူးကျွမ်းကျင်သူ။",
+    "ogDescription": "Siloett.AI တွင် တည်ထောင်သူ AI အင်ဂျင်နီယာ၊ Station F Paris။ AI နှင့် လူသားအတွေ့အကြုံ ဆုံမှတ်တွင် တည်ဆောက်နေသူ။"
+  },
+  "nav": {
+    "about": "အကြောင်း",
+    "experience": "အတွေ့အကြုံ",
+    "projects": "ပရောဂျက်များ",
+    "hackathons": "HACKATHONS",
+    "skills": "ကျွမ်းကျင်မှုများ",
+    "education": "ပညာရေး",
+    "contact": "ဆက်သွယ်ရန်",
+    "resume": "ကိုယ်ရေးအကျဉ်း"
+  },
+  "hero": {
+    "subtitle": "တည်ထောင်သူ AI အင်ဂျင်နီယာ · STATION F · PARIS",
+    "specialties": "Generative AI  ·  Cloud Services  ·  Full-Stack AI စနစ်များ",
+    "viewWork": "လုပ်ငန်းကြည့်ရန်",
+    "getInTouch": "ဆက်သွယ်ရန်",
+    "scroll": "ဆွဲချရန်"
+  },
+  "about": {
+    "label": "01 — အကြောင်း",
+    "heading": "ဆုံမှတ်တွင် တည်ဆောက်နေသူ",
+    "headingEm": "AI နှင့် လူသားအတွေ့အကြုံ",
+    "quote": "အာရှနှင့် ဥရောပတစ်လျှောက် မဟာဘွဲ့နှစ်ခု ရရှိထားသော Data Scientist နှင့် Full-Stack AI အင်ဂျင်နီယာ — CreativeAI၊ RegTech၊ B2B Solutions နှင့် အခြားနယ်ပယ်များ၏ ရှေ့တန်းတွင် သက်ရောက်မှုရှိသော ကိရိယာများ တည်ဆောက်နေသူ။",
+    "p1": "လက်ရှိတွင် Siloett.AI (Station F, Paris) ၌ တည်ထောင်သူ/Full-Stack AI အင်ဂျင်နီယာအဖြစ် Narrative OS — ဖန်တီးမှုလုပ်ငန်း၏ ဉာဏ်ရည်အလွှာအတွက် AI စွမ်းအားသုံး ဖြေရှင်းချက်များ ဗိသုကာပုံစံ ရေးဆွဲနေသူ။",
+    "p2": "ကျွန်တော်၏ ကျွမ်းကျင်မှုနယ်ပယ်သည် deep learning၊ NLP၊ computer vision နှင့် agentic AI စနစ်များကို ကျယ်ပြန့်စွာ ခြုံငုံပြီး CreativeAI နှင့် AI for Social Good နယ်ပယ်များတွင် အထူးအာရုံစိုက်ပါသည်။",
+    "p3": "ကျွန်တော်တွင် ထူးခြားသော ပေါင်းစပ်မှုတစ်ခု ရှိသည်: Python (PyTorch, FastAPI) တွင် နည်းပညာနက်နဲမှု + cloud infrastructure (Azure, Docker) + မြန်မာ၊ အင်္ဂလိပ်၊ ပြင်သစ် နှင့် ထိုင်းဘာသာများဖြင့် ဘာသာစကားစွမ်းရည်။",
+    "p4": "ဤယဉ်ကျေးမှုစုံ နောက်ခံသည် မတူကွဲပြားသော လူသားအကြောင်းအရာများနှင့် အသိုက်အဝန်းများတွင် အလုပ်လုပ်နိုင်သော AI စနစ်များ တည်ဆောက်ရန် ကျွန်တော့်ကို ထူးခြားစွာ နေရာချထားပေးသည်။",
+    "techStack": "နည်းပညာစုစည်းမှု",
+    "yrsLabel": "AI / ML တွင် နှစ်",
+    "projectsLabel": "ပို့ဆောင်ခဲ့သော ပရောဂျက်များ",
+    "degreesLabel": "မဟာဘွဲ့များ",
+    "countriesLabel": "နေထိုင်ခဲ့သော နိုင်ငံများ"
+  },
+  "experience": {
+    "label": "02 — အတွေ့အကြုံ",
+    "heading": "တည်ဆောက်ခဲ့ပြီး",
+    "headingEm": "သင်ယူခဲ့သည့်နေရာများ",
+    "0_job": "တည်ထောင်သူ AI အင်ဂျင်နီယာ နှင့် ဗိသုကာ",
+    "0_badge": "AI Safety & Compliance · Station F · Paris",
+    "0_date": "ဇန်နဝါရီ ၂၀၂၅ — ယခု",
+    "0_pt0": "အစမှအဆုံး Generative AI ပလက်ဖောင်းတစ်ခုကို ဗိသုကာပုံစံရေးဆွဲပြီး တည်ဆောက်ခဲ့သည် — LLM orchestration၊ RAG pipelines နှင့် Python (FastAPI) နှင့် Azure Functions serverless backend ပါဝင်သော production React/TypeScript frontend",
+    "0_pt1": "Content-safety filters၊ bias-detection checks နှင့် compliance guardrails များပါဝင်သော တာဝန်ယူမှုရှိသော AI validation layers များ ဒီဇိုင်းဆွဲပြီး အကောင်အထည်ဖော်ခဲ့ပြီး AI မှထုတ်လုပ်သော ရလဒ်အားလုံး စည်းမျဉ်းနှင့် ကျင့်ဝတ်စံနှုန်းများ ပြည့်မီကြောင်း သေချာစေခဲ့သည်",
+    "0_pt2": "Audit logging၊ provenance tracking နှင့် output attribution pipelines များပါဝင်သော AI safety နှင့် IP compliance စနစ်များ တည်ဆောက်ခဲ့ပြီး ခြေရာခံနိုင်ပြီး တာဝန်ခံနိုင်သော AI output lifecycle များ သေချာစေခဲ့သည်",
+    "0_pt3": "Azure OpenAI GPT-4o နှင့် LangChain အသုံးပြု၍ prompt-engineering နှင့် LLM evaluation frameworks များ ဖန်တီးခဲ့ပြီး compliance use cases များတွင် domain accuracy ကောင်းမွန်စေရန် စနစ်တကျ fine-tuning ပြုလုပ်ခဲ့သည်",
+    "1_job": "Data Scientist / Cloud Engineer",
+    "1_badge": "École Polytechnique Incubator",
+    "1_date": "ဇူလိုင် ၂၀၂၄ — ဇွန် ၂၀၂၅",
+    "1_pt0": "မြို့ပြသွားလာမှု ခွဲခြမ်းစိတ်ဖြာရေးအတွက် Microsoft Azure Batch နှင့် Docker အသုံးပြု၍ cloud-based batch data processing pipeline ဒီဇိုင်းဆွဲခဲ့သည်",
+    "1_pt1": "Computer Vision နှင့် Bluetooth sensor workflows များကို အလိုအလျောက်လုပ်ဆောင်စေပြီး ချဲ့ထွင်နိုင်သော real-time smart city ထိုးထွင်းသိမြင်မှုများ ရရှိစေခဲ့သည်",
+    "1_pt2": "မြို့တော်အစိုးရနှင့် သယ်ယူပို့ဆောင်ရေး သက်ဆိုင်သူများ လက်ခံအသုံးပြုသော production analytics dashboards များ ပေးအပ်ခဲ့သည်",
+    "2_job": "သုတေသန လက်ထောက်",
+    "2_badge": "NLP · Machine Translation",
+    "2_date": "သြဂုတ် ၂၀၂၃ — ဇူလိုင် ၂၀၂၄",
+    "2_pt0": "ကိုယ်တိုင်ဖန်တီးပြီး ပြုစုထားသော WikiHow parallel corpus ၁၀,၀၀၀ gold-labeled ဒေတာအပေါ် အခြေခံ၍ အင်္ဂလိပ်-မြန်မာ machine translation pipeline တစ်ခုလုံး ဖန်တီးခဲ့သည်",
+    "2_pt1": "သုတေသန lifecycle အပြည့်အစုံ ဆောင်ရွက်ခဲ့သည်: dataset construction၊ model training၊ evaluation design နှင့် multilingual MT backbones ဖြင့် deployment",
+    "2_pt2": "WikiHow စာမျက်နှာများပေါ်တွင် real-time အင်္ဂလိပ်-မြန်မာ ဘာသာပြန်ရေးအတွက် public translation API နှင့် Chrome extension တည်ဆောက်နေသည်",
+    "3_job": "သုတေသန လက်ထောက်",
+    "3_badge": "ဘန်ကောက် · ထိုင်းနိုင်ငံ",
+    "3_date": "ဇန်နဝါရီ ၂၀၂၃ — သြဂုတ် ၂၀၂၃",
+    "3_pt0": "အသုံးပြုသူအတွေ့အကြုံ မြှင့်တင်ပေးသော ဆန်းသစ်သော NLP paraphrasing ကိရိယာတစ်ခု ဖန်တီးရန် အဖွဲ့နှင့်အတူ ပူးပေါင်းဆောင်ရွက်ခဲ့သည်",
+    "3_pt1": "Dataset များကို သန့်ရှင်းရေးနှင့် စနစ်တကျ စီစဉ်ပြီး training processes များ ပိုမိုကောင်းမွန်စေကာ model accuracy ကို ၁၅% တိုးမြှင့်ခဲ့သည်",
+    "3_pt2": "Backend operations များတွင် လက်တွေ့အတွေ့အကြုံ ရရှိခဲ့ပြီး data management နှင့် R&D methodology တွင် နည်းပညာကျွမ်းကျင်မှုများ အားကောင်းစေခဲ့သည်"
+  },
+  "projects": {
+    "label": "03 — ပရောဂျက်များ",
+    "heading": "တည်ဆောက်ခဲ့သော",
+    "headingEm": "အရာများ",
+    "featured": "ထူးချွန်",
+    "liveDemo": "တိုက်ရိုက် သရုပ်ပြ",
+    "github": "GITHUB",
+    "demo": "သရုပ်ပြ",
+    "gh": "GH",
+    "liveAtVercel": "VERCEL တွင် တိုက်ရိုက်",
+    "0_desc": "ကာကွယ်ဆေးသုတေသနအတွက် Real-World Evidence ပလက်ဖောင်း။ လက်တွေ့ကမ္ဘာမှ ရင်းမြစ်များမှ ကာကွယ်ဆေးလုံခြုံရေးနှင့် ထိရောက်မှုဒေတာကို အကြီးအကျယ် ထည့်သွင်း၊ ခွဲခြမ်းစိတ်ဖြာ၊ မြင်သာအောင်ပြသရန် Full-stack application။",
+    "1_desc": "LLM applications များပေါ်တွင် တာဝန်ယူမှုရှိသော AI compliance ကျင့်သုံးရန် Serverless middleware ပလက်ဖောင်း။ Client apps နှင့် Azure OpenAI ကြားတွင် ကြားခံအဖြစ် ဆောင်ရွက်ပြီး ပြင်ဆင်နိုင်သော safety rules များဖြင့် responses များကို စစ်ဆေးသည် — PII detection၊ bias screening၊ hate speech filtering နှင့် uploaded compliance documents များမှတစ်ဆင့် RAG-powered custom policy enforcement။",
+    "2_desc": "AI စွမ်းအားသုံး resume-job match ခွဲခြမ်းစိတ်ဖြာရေး ပလက်ဖောင်း။ သင့် resume နှင့် job description ကို upload လုပ်ပြီး အမျိုးအစားခွဲခြားမှုများ (skills၊ experience၊ education၊ keywords) ပါဝင်သော အသေးစိတ် compatibility score၊ ပျောက်ဆုံးနေသော keyword ဖော်ထုတ်ခြင်း နှင့် ဦးစားပေး တိုးတက်မှု အကြံပြုချက်များ — အားလုံး စက္ကန့် ၃၀ အတွင်း ရယူနိုင်သည်။",
+    "3_desc": "Azure infrastructure မှ CO2e ထုတ်လွှင့်မှုကို ခန့်မှန်းပြီး AI စွမ်းအားသုံး လျှော့ချရေး အကြံပြုချက်များ ထုတ်ပေးသော Cloud Carbon Intelligence ပလက်ဖောင်း။ EU CSRD Scope 3 compliance အတွက် Clean Architecture၊ semantic emission factor search နှင့် automated tests ၈၈ ခု ဖြင့် တည်ဆောက်ထားသည်။",
+    "4_desc": "Ensemble scikit-learn methods အသုံးပြု၍ Raman spectroscopy signal data မှ ဆီးချိုလူနာများ ML classification ပြုလုပ်ခြင်း။ AIT ပူးပေါင်းသုတေသန။",
+    "5_desc": "CNN image classification အသုံးပြု၍ မြန်မာနိုင်ငံအတွက် အဆိပ်ရှိမြွေ ဖော်ထုတ်ရေး app — ကျေးလက်ဒေသ လူမှုအဖွဲ့အစည်းများအား အန္တရာယ်ရှိသော မျိုးစိတ်များကို လျင်မြန်စွာ ဖော်ထုတ်ရာတွင် ကူညီပေးသည်။",
+    "6_desc": "GitHub နှင့် ZenHub ပေါင်းစပ်ထားသော Agile project management စနစ် — အဖွဲ့ workflow ချောမွေ့စေရန်၊ sprint planning နှင့် developer ပူးပေါင်းဆောင်ရွက်မှုအတွက်။"
+  },
+  "hackathons": {
+    "label": "04 — HACKATHONS",
+    "heading": "ယှဉ်ပြိုင်ပြီး",
+    "headingEm": "ပို့ဆောင်",
+    "inProgress": "လုပ်ဆောင်ဆဲ",
+    "completed": "ပြီးစီးပြီ",
+    "winner": "အနိုင်ရသူ",
+    "currentlyCompeting": "ယှဉ်ပြိုင်နေဆဲ",
+    "hackathonProject": "HACKATHON ပရောဂျက်",
+    "0_desc": "ရွှေ့ပြောင်းနေထိုင်သူ မိသားစုများကြားတွင် မွေးရပ်ဘာသာစကားများ ထိန်းသိမ်းပေးသော AI စွမ်းအားသုံး နှစ်ဘာသာ ပုံပြင်ပြောဖော်။ ယဉ်ကျေးမှု စစ်မှန်သော အပြန်အလှန်ဆက်သွယ်နိုင်သော ပုံပြင်များကို watercolor ပုံများ၊ နှစ်ဘာသာ ဖတ်ပြခြင်း နှင့် ကလေးဦးဆောင်သော ရွေးချယ်မှုများဖြင့် Multi-agent စနစ်က ထုတ်လုပ်ပေးသည် — Gemini modalities သုံးခု (text, image, TTS) ကို Google ADK မှတစ်ဆင့် ညှိနှိုင်းလုပ်ဆောင်သည်။",
+    "1_desc": "မြန်မာနိုင်ငံ၏ အသေးစားလယ်သမားများအား သီးနှံ မျိုးစုံစိုက်ပျိုးခြင်းကို ပိုမိုကောင်းမွန်စေပြီး ရာသီဥတု အန္တရာယ်ကို လျှော့ချရန် Modern Portfolio Theory အသုံးပြုသော ဒေတာအခြေခံ စိုက်ပျိုးရေး ဆုံးဖြတ်ချက်ပံ့ပိုးမှု စနစ်။ FAOSTAT yield data ၁၂ နှစ်စာအပေါ် Markowitz optimization နှင့် ရာသီဥတု scenarios ၁,၀၀၀ တွင် Monte Carlo simulation ကို Gemini AI ခွဲခြမ်းစိတ်ဖြာမှုဖြင့် အသုံးပြုသည်။",
+    "2_desc": "Montgomery, Alabama အတွက် မြို့ပြ အပူချိန် ထောက်လှမ်းရေး ပလက်ဖောင်း။ အပြန်အလှန်ဆက်သွယ်နိုင်သော မြေပုံအလွှာ ၉ ခု၊ Google Gemini မှတစ်ဆင့် AI စွမ်းအားသုံး ရပ်ကွက် အန္တရာယ်အဆင့်သတ်မှတ်ခြင်း၊ grant-ready due diligence အစီရင်ခံစာ ၁၄ စာမျက်နှာ နှင့် ဖက်ဒရယ် grant အစီအစဉ် ၇ ခု (EPA, HUD, FEMA, LIHEAP) ၏ database ပါဝင်သည်။"
+  },
+  "skills": {
+    "label": "05 — ကျွမ်းကျင်မှုများ",
+    "heading": "အသက်မွေးဝမ်းကျောင်း၏",
+    "headingEm": "ကိရိယာများ",
+    "alsoFluentIn": "ဤအရာများတွင်လည်း ကျွမ်းကျင်"
+  },
+  "education": {
+    "label": "06 — ပညာရေး",
+    "heading1": "အာရှ",
+    "heading2": "ဥရောပ။",
+    "headingEm": "ခရီးလမ်းက အင်ဂျင်နီယာကို ပုံဖော်သည်",
+    "gpaLabel": "GPA",
+    "0_degree": "MSc Data Science & Network Intelligence",
+    "0_loc": "Paris, ပြင်သစ်",
+    "0_note": "QS အဆင့် ကမ္ဘာ့ #46",
+    "1_degree": "MSc Data Science & Artificial Intelligence",
+    "1_loc": "ဘန်ကောက်, ထိုင်းနိုင်ငံ",
+    "1_note": "ဘွဲ့နှစ်ခုယူ အစီအစဉ်",
+    "2_degree": "BA Social Science Studies",
+    "2_loc": "ရန်ကုန်, မြန်မာ",
+    "2_note": "အတန်းထိပ်ဆုံးဖြင့် ဘွဲ့ရ",
+    "3_degree": "BA English Literature & Linguistics",
+    "3_loc": "ရန်ကုန်, မြန်မာ",
+    "3_note": "မြန်မာနိုင်ငံ၏ အဟောင်းဆုံး တက္ကသိုလ်",
+    "3_asterisk": "*COVID-19 နှင့် စစ်အာဏာသိမ်းမှုကြောင့် ရပ်ဆိုင်းခဲ့ရသည်"
+  },
+  "journey": {
+    "0_label": "အစပိုင်း",
+    "2_label": "Asian Institute of Technology",
+    "3_label": "ဘွဲ့နှစ်ခုယူ",
+    "4_label": "Telecom SudParis",
+    "6_label": "Siloett.AI"
+  },
+  "certifications": {
+    "label": "07 — သက်မှတ်လက်မှတ်များ",
+    "heading": "ကတိကဝတ်၏",
+    "headingEm": "သက်သေ",
+    "verified": "အတည်ပြုပြီး"
+  },
+  "contact": {
+    "label": "08 — ဆက်သွယ်ရန်",
+    "heading": "အတူတကွ",
+    "headingEm": "တည်ဆောက်ကြစို့။",
+    "description": "AI engineering ရာထူးများ၊ founding team အခွင့်အလမ်းများ နှင့် CreativeAI၊ NLP နှင့် AI for Social Good နယ်ပယ်များတွင် ပူးပေါင်းဆောင်ရွက်မှုများအတွက် ဖွင့်လှစ်ထားသည်။",
+    "clickToCopy": "ကူးယူရန် နှိပ်ပါ",
+    "copied": "ကူးယူပြီး",
+    "basedIn": "PARIS အခြေစိုက် · အဝေးမှ လုပ်ကိုင်နိုင်"
+  },
+  "footer": {
+    "credit": "PYAE SONE KYAW · တည်ထောင်သူ AI အင်ဂျင်နီယာ · PARIS ၂၀၂၆",
+    "builtWith": "NEXT.JS ဖြင့် တည်ဆောက်ထားသည်"
+  }
+}

@@ -1,22 +1,26 @@
 "use client";
 
-import { EDUCATION, JOURNEY } from "@/lib/data";
+import { useTranslations } from "next-intl";
+import { EDUCATION_META, JOURNEY_META } from "@/lib/data";
 
 export function Education() {
+  const t = useTranslations("education");
+  const tj = useTranslations("journey");
+
   return (
     <section id="education" className="mx-auto max-w-[1200px] px-10 py-[120px]">
       <div className="reveal mb-16">
         <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-          06 &mdash; EDUCATION
+          {t("label")}
         </div>
         <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
-          Asia <span className="text-muted">&rarr;</span> Europe.
+          {t("heading1")} <span className="text-muted">&rarr;</span>{" "}
+          {t("heading2")}
           <br />
-          <em className="text-accent">The Journey Shapes the Engineer</em>
+          <em className="text-accent">{t("headingEm")}</em>
         </h2>
       </div>
 
-      {/* Journey banner */}
       <div className="reveal relative mb-12 overflow-hidden border border-border bg-surface px-10 py-9">
         <div
           className="absolute inset-0"
@@ -26,7 +30,7 @@ export function Education() {
           }}
         />
         <div className="relative flex flex-wrap items-center justify-around gap-6">
-          {JOURNEY.map((item, i) =>
+          {JOURNEY_META.map((item, i) =>
             item.arrow ? (
               <div
                 key={i}
@@ -48,7 +52,7 @@ export function Education() {
                   {item.city}
                 </div>
                 <div className="max-w-[120px] font-dm-mono text-[9px] text-muted">
-                  {item.label}
+                  {tj(`${i}_label`)}
                 </div>
               </div>
             ),
@@ -56,9 +60,8 @@ export function Education() {
         </div>
       </div>
 
-      {/* Cards */}
       <div className="grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-4">
-        {EDUCATION.map((ed, i) => (
+        {EDUCATION_META.map((ed, i) => (
           <div
             key={i}
             className="reveal"
@@ -75,7 +78,6 @@ export function Education() {
                 e.currentTarget.style.boxShadow = "none";
               }}
             >
-              {/* Top accent bar */}
               <div
                 className="absolute top-0 right-0 left-0 h-0.5"
                 style={{ background: ed.color }}
@@ -88,7 +90,7 @@ export function Education() {
                 {ed.date}
               </div>
               <h3 className="mb-1.5 font-playfair text-[15px] font-bold leading-[1.35] text-text">
-                {ed.degree}
+                {t(`${i}_degree`)}
               </h3>
               <div
                 className="mb-[3px] font-dm-mono text-[11px]"
@@ -97,13 +99,13 @@ export function Education() {
                 {ed.school}
               </div>
               <div className="mb-[18px] font-dm-mono text-[10px] text-muted">
-                {ed.loc}
+                {t(`${i}_loc`)}
               </div>
 
               <div className="flex items-end justify-between">
                 <div>
                   <div className="mb-[2px] font-dm-mono text-[8px] tracking-[.15em] text-muted">
-                    GPA
+                    {t("gpaLabel")}
                   </div>
                   <div
                     className="font-playfair text-[22px] font-bold"
@@ -113,13 +115,13 @@ export function Education() {
                   </div>
                 </div>
                 <div className="max-w-[110px] text-right font-dm-mono text-[9px] leading-[1.4] text-muted">
-                  {ed.note}
+                  {t(`${i}_note`)}
                 </div>
               </div>
 
-              {ed.asterisk && (
+              {i === 3 && (
                 <div className="mt-3 border-t border-border pt-2.5 font-dm-mono text-[9px] leading-[1.5] text-muted">
-                  {ed.asterisk}
+                  {t("3_asterisk")}
                 </div>
               )}
             </div>

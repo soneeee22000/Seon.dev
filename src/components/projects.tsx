@@ -1,9 +1,12 @@
 "use client";
 
 import { useCallback, type MouseEvent } from "react";
-import { PROJECTS } from "@/lib/data";
+import { useTranslations } from "next-intl";
+import { PROJECTS_META } from "@/lib/data";
 
 export function Projects() {
+  const t = useTranslations("projects");
+
   const handleMove = useCallback((e: MouseEvent<HTMLDivElement>) => {
     const c = e.currentTarget;
     const r = c.getBoundingClientRect();
@@ -19,201 +22,205 @@ export function Projects() {
     e.currentTarget.style.boxShadow = "none";
   }, []);
 
-  const featuredProjects = PROJECTS.filter((p) => p.featured);
-  const rest = PROJECTS.filter((p) => !p.featured);
+  const featuredProjects = PROJECTS_META.filter((p) => p.featured);
+  const rest = PROJECTS_META.filter((p) => !p.featured);
 
   return (
     <section id="projects" className="mx-auto max-w-[1200px] px-10 py-[120px]">
       <div className="reveal mb-16">
         <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-          03 &mdash; PROJECTS
+          {t("label")}
         </div>
         <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
-          Things I&rsquo;ve <em className="text-accent">Built</em>
+          {t("heading")} <em className="text-accent">{t("headingEm")}</em>
         </h2>
       </div>
 
-      {/* Featured Projects */}
       <div className="flex flex-col gap-5 mb-5">
-        {featuredProjects.map((featured, fi) => (
-          <div
-            key={featured.id}
-            className="reveal proj3d"
-            style={{ transitionDelay: `${fi * 0.12}s` }}
-            onMouseMove={handleMove}
-            onMouseLeave={handleLeave}
-          >
+        {featuredProjects.map((featured, fi) => {
+          const metaIndex = PROJECTS_META.indexOf(featured);
+          return (
             <div
-              className="relative overflow-hidden border bg-surface px-10 py-11"
-              style={{
-                borderColor: `${featured.color}35`,
-                boxShadow: `inset 0 0 80px ${featured.color}06`,
-              }}
+              key={featured.id}
+              className="reveal proj3d"
+              style={{ transitionDelay: `${fi * 0.12}s` }}
+              onMouseMove={handleMove}
+              onMouseLeave={handleLeave}
             >
               <div
-                className="absolute top-0 right-0 px-3.5 py-1.5 font-dm-mono text-[8px] tracking-[.25em]"
-                style={{ background: featured.color, color: "#06080D" }}
+                className="relative overflow-hidden border bg-surface px-10 py-11"
+                style={{
+                  borderColor: `${featured.color}35`,
+                  boxShadow: `inset 0 0 80px ${featured.color}06`,
+                }}
               >
-                FEATURED
-              </div>
-              <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] items-center gap-11">
-                <div>
-                  <div className="mb-4 text-[44px]">{featured.emoji}</div>
-                  <h3 className="mb-3.5 font-playfair text-[34px] font-bold text-text">
-                    {featured.title}
-                  </h3>
-                  <p className="mb-6 text-[14px] leading-[1.8] text-body">
-                    {featured.desc}
-                  </p>
-                  <div className="mb-7 flex flex-wrap gap-2">
-                    {featured.tags.map((t) => (
-                      <span
-                        key={t}
-                        className="font-dm-mono text-[9px] tracking-[.1em]"
+                <div
+                  className="absolute top-0 right-0 px-3.5 py-1.5 font-dm-mono text-[8px] tracking-[.25em]"
+                  style={{ background: featured.color, color: "#06080D" }}
+                >
+                  {t("featured")}
+                </div>
+                <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] items-center gap-11">
+                  <div>
+                    <div className="mb-4 text-[44px]">{featured.emoji}</div>
+                    <h3 className="mb-3.5 font-playfair text-[34px] font-bold text-text">
+                      {featured.title}
+                    </h3>
+                    <p className="mb-6 text-[14px] leading-[1.8] text-body">
+                      {t(`${metaIndex}_desc`)}
+                    </p>
+                    <div className="mb-7 flex flex-wrap gap-2">
+                      {featured.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="font-dm-mono text-[9px] tracking-[.1em]"
+                          style={{
+                            padding: "4px 11px",
+                            background: `${featured.color}12`,
+                            border: `1px solid ${featured.color}35`,
+                            color: featured.color,
+                          }}
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="flex flex-wrap gap-3.5">
+                      <a
+                        href={featured.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-colors duration-300"
                         style={{
-                          padding: "4px 11px",
-                          background: `${featured.color}12`,
-                          border: `1px solid ${featured.color}35`,
-                          color: featured.color,
+                          background: featured.color,
+                          color: "#06080D",
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.opacity = "0.85";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.opacity = "1";
                         }}
                       >
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="flex flex-wrap gap-3.5">
-                    <a
-                      href={featured.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-colors duration-300"
-                      style={{
-                        background: featured.color,
-                        color: "#06080D",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.opacity = "0.85";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.opacity = "1";
-                      }}
-                    >
-                      LIVE DEMO &#8599;
-                    </a>
-                    <a
-                      href={featured.gh}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
-                      style={{
-                        borderColor: `${featured.color}50`,
-                        color: featured.color,
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.background = `${featured.color}12`;
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.background = "transparent";
-                      }}
-                    >
-                      GITHUB &#8599;
-                    </a>
-                  </div>
-                </div>
-                <div
-                  className="flex flex-col items-center justify-center gap-3"
-                  style={{
-                    aspectRatio: "16/9",
-                    background: `${featured.color}08`,
-                    border: `1px solid ${featured.color}18`,
-                  }}
-                >
-                  <div
-                    className="text-[72px] opacity-50"
-                    style={{ animation: "float 4s ease-in-out infinite" }}
-                  >
-                    {featured.emoji}
+                        {t("liveDemo")} &#8599;
+                      </a>
+                      <a
+                        href={featured.gh}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
+                        style={{
+                          borderColor: `${featured.color}50`,
+                          color: featured.color,
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.background = `${featured.color}12`;
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.background = "transparent";
+                        }}
+                      >
+                        {t("github")} &#8599;
+                      </a>
+                    </div>
                   </div>
                   <div
-                    className="font-dm-mono text-[9px] tracking-[.22em]"
-                    style={{ color: `${featured.color}70` }}
+                    className="flex flex-col items-center justify-center gap-3"
+                    style={{
+                      aspectRatio: "16/9",
+                      background: `${featured.color}08`,
+                      border: `1px solid ${featured.color}18`,
+                    }}
                   >
-                    LIVE AT VERCEL &#8599;
+                    <div
+                      className="text-[72px] opacity-50"
+                      style={{ animation: "float 4s ease-in-out infinite" }}
+                    >
+                      {featured.emoji}
+                    </div>
+                    <div
+                      className="font-dm-mono text-[9px] tracking-[.22em]"
+                      style={{ color: `${featured.color}70` }}
+                    >
+                      {t("liveAtVercel")} &#8599;
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
-      {/* Grid */}
       <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
-        {rest.map((p, i) => (
-          <div
-            key={p.id}
-            className="reveal proj3d"
-            style={{ transitionDelay: `${i * 0.09}s` }}
-            onMouseMove={handleMove}
-            onMouseLeave={handleLeave}
-          >
+        {rest.map((p, i) => {
+          const metaIndex = PROJECTS_META.indexOf(p);
+          return (
             <div
-              className="h-full border border-border bg-surface p-7 transition-[border-color] duration-300"
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = `${p.color}40`;
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = "var(--color-border)";
-              }}
+              key={p.id}
+              className="reveal proj3d"
+              style={{ transitionDelay: `${i * 0.09}s` }}
+              onMouseMove={handleMove}
+              onMouseLeave={handleLeave}
             >
-              <div className="mb-4 flex items-start justify-between">
-                <span className="text-[30px]">{p.emoji}</span>
-                <div className="flex gap-2.5">
-                  {p.demo !== "#" && (
+              <div
+                className="h-full border border-border bg-surface p-7 transition-[border-color] duration-300"
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.borderColor = `${p.color}40`;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.borderColor = "var(--color-border)";
+                }}
+              >
+                <div className="mb-4 flex items-start justify-between">
+                  <span className="text-[30px]">{p.emoji}</span>
+                  <div className="flex gap-2.5">
+                    {p.demo !== "#" && (
+                      <a
+                        href={p.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-dm-mono text-[9px] tracking-[.1em] text-muted transition-colors duration-300 hover:text-accent"
+                      >
+                        {t("demo")} &#8599;
+                      </a>
+                    )}
                     <a
-                      href={p.demo}
+                      href={p.gh}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="font-dm-mono text-[9px] tracking-[.1em] text-muted transition-colors duration-300 hover:text-accent"
                     >
-                      DEMO &#8599;
+                      {t("gh")} &#8599;
                     </a>
-                  )}
-                  <a
-                    href={p.gh}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-dm-mono text-[9px] tracking-[.1em] text-muted transition-colors duration-300 hover:text-accent"
-                  >
-                    GH &#8599;
-                  </a>
+                  </div>
+                </div>
+                <h3 className="mb-2 font-playfair text-[19px] font-bold text-text">
+                  {p.title}
+                </h3>
+                <p className="mb-4 text-[13px] leading-[1.75] text-body-dim">
+                  {t(`${metaIndex}_desc`)}
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {p.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="font-dm-mono text-[9px]"
+                      style={{
+                        padding: "3px 8px",
+                        background: `${p.color}10`,
+                        border: `1px solid ${p.color}28`,
+                        color: p.color,
+                      }}
+                    >
+                      {tag}
+                    </span>
+                  ))}
                 </div>
               </div>
-              <h3 className="mb-2 font-playfair text-[19px] font-bold text-text">
-                {p.title}
-              </h3>
-              <p className="mb-4 text-[13px] leading-[1.75] text-body-dim">
-                {p.desc}
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                {p.tags.map((t) => (
-                  <span
-                    key={t}
-                    className="font-dm-mono text-[9px]"
-                    style={{
-                      padding: "3px 8px",
-                      background: `${p.color}10`,
-                      border: `1px solid ${p.color}28`,
-                      color: p.color,
-                    }}
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

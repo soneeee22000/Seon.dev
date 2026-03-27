@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { SKILLS, CAT_COLORS, ALSO_FLUENT_IN } from "@/lib/data";
 
 interface OrbitalRing {
@@ -8,7 +9,6 @@ interface OrbitalRing {
   dur: number;
 }
 
-// Pick representative skills for the orbital: one per category
 const ORBITAL_SKILLS = SKILLS.filter((s) =>
   [
     "PyTorch",
@@ -33,6 +33,8 @@ const RINGS: OrbitalRing[] = [
 const RING_COLORS = ["#C9A96E", "#7B9CCC", "#9C7BCC"];
 
 export function Skills() {
+  const t = useTranslations("skills");
+
   const byCat = SKILLS.reduce<Record<string, typeof SKILLS>>((acc, s) => {
     (acc[s.cat] = acc[s.cat] || []).push(s);
     return acc;
@@ -43,15 +45,14 @@ export function Skills() {
       <div className="mx-auto max-w-[1200px]">
         <div className="reveal mb-16">
           <div className="mb-3.5 font-dm-mono text-[9px] tracking-[.35em] text-accent">
-            05 &mdash; SKILLS
+            {t("label")}
           </div>
           <h2 className="font-playfair text-[clamp(32px,6vw,62px)] font-bold leading-[1.1]">
-            Tools of the <em className="text-accent">Trade</em>
+            {t("heading")} <em className="text-accent">{t("headingEm")}</em>
           </h2>
         </div>
 
         <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] items-center gap-20">
-          {/* SVG Orbital */}
           <div className="rl flex items-center justify-center">
             <svg
               width="440"
@@ -61,7 +62,6 @@ export function Skills() {
               role="img"
               aria-label="Skills orbital diagram"
             >
-              {/* Orbit rings */}
               {RINGS.map((ring) => (
                 <circle
                   key={ring.r}
@@ -74,7 +74,6 @@ export function Skills() {
                   strokeDasharray="4 8"
                 />
               ))}
-              {/* Center core */}
               <circle cx="220" cy="220" r="38" fill="url(#coreGrad)" />
               <defs>
                 <radialGradient id="coreGrad" cx="50%" cy="30%" r="70%">
@@ -155,7 +154,6 @@ export function Skills() {
             </svg>
           </div>
 
-          {/* Skill list */}
           <div className="rr flex flex-col gap-5">
             {Object.entries(byCat).map(([cat, items]) => {
               const cc = CAT_COLORS[cat] || "var(--color-accent)";
@@ -210,7 +208,7 @@ export function Skills() {
 
             <div className="mt-2 border border-border bg-surface px-5 py-[18px]">
               <div className="mb-2 font-dm-mono text-[8px] tracking-[.25em] text-accent">
-                ALSO FLUENT IN
+                {t("alsoFluentIn")}
               </div>
               <p className="text-[12px] leading-[1.8] text-body-dim">
                 {ALSO_FLUENT_IN}
