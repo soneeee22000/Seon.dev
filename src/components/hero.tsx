@@ -331,10 +331,16 @@ export function Hero() {
           {t("subtitle")}
         </div>
         <div
-          className="mb-13 font-dm-mono text-[clamp(10px,1.4vw,12px)] tracking-[.18em] text-accent"
+          className="mb-2 font-dm-mono text-[clamp(10px,1.4vw,12px)] tracking-[.18em] text-accent"
           style={{ animation: "fadeUp 1s ease .6s both" }}
         >
           {t("specialties")}
+        </div>
+        <div
+          className="mb-13 font-dm-mono text-[clamp(9px,1.1vw,10.5px)] tracking-[.22em] text-muted/80"
+          style={{ animation: "fadeUp 1s ease .7s both" }}
+        >
+          {t("openTo")}
         </div>
 
         <div

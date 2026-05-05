@@ -86,24 +86,26 @@ export function Projects() {
                       ))}
                     </div>
                     <div className="flex flex-wrap gap-3.5">
-                      <a
-                        href={featured.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-colors duration-300"
-                        style={{
-                          background: featured.color,
-                          color: "#06080D",
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.opacity = "0.85";
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.opacity = "1";
-                        }}
-                      >
-                        {t("liveDemo")} &#8599;
-                      </a>
+                      {featured.demo !== "#" && (
+                        <a
+                          href={featured.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-colors duration-300"
+                          style={{
+                            background: featured.color,
+                            color: "#06080D",
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.opacity = "0.85";
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.opacity = "1";
+                          }}
+                        >
+                          {t("liveDemo")} &#8599;
+                        </a>
+                      )}
                       <a
                         href={featured.gh}
                         target="_blank"
@@ -111,16 +113,30 @@ export function Projects() {
                         className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
                         style={{
                           borderColor: `${featured.color}50`,
-                          color: featured.color,
+                          background:
+                            featured.demo === "#"
+                              ? featured.color
+                              : "transparent",
+                          color:
+                            featured.demo === "#" ? "#06080D" : featured.color,
                         }}
                         onMouseEnter={(e) => {
-                          e.currentTarget.style.background = `${featured.color}12`;
+                          if (featured.demo !== "#") {
+                            e.currentTarget.style.background = `${featured.color}12`;
+                          } else {
+                            e.currentTarget.style.opacity = "0.85";
+                          }
                         }}
                         onMouseLeave={(e) => {
-                          e.currentTarget.style.background = "transparent";
+                          if (featured.demo !== "#") {
+                            e.currentTarget.style.background = "transparent";
+                          } else {
+                            e.currentTarget.style.opacity = "1";
+                          }
                         }}
                       >
-                        {t("github")} &#8599;
+                        {featured.demo === "#" ? t("viewCode") : t("github")}{" "}
+                        &#8599;
                       </a>
                     </div>
                   </div>
@@ -142,7 +158,10 @@ export function Projects() {
                       className="font-dm-mono text-[9px] tracking-[.22em]"
                       style={{ color: `${featured.color}70` }}
                     >
-                      {t("liveAtVercel")} &#8599;
+                      {featured.demo === "#"
+                        ? t("openSourceOnGithub")
+                        : t("liveAtVercel")}{" "}
+                      &#8599;
                     </div>
                   </div>
                 </div>

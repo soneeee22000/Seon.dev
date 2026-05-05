@@ -1,35 +1,35 @@
 {
   "metadata": {
-    "title": "Pyae Sone Kyaw | Gründungs-AI-Ingenieur",
-    "description": "Portfolio von Pyae Sone Kyaw (Seon) — Gründungs-AI-Ingenieur bei Siloett.AI, Station F Paris. Spezialisiert auf CreativeAI, NLP und Full-Stack-AI-Systeme.",
-    "ogDescription": "Gründungs-AI-Ingenieur bei Siloett.AI, Station F Paris. An der Schnittstelle von AI und menschlicher Erfahrung."
+    "title": "Pyae Sone Kyaw | Backend & Cloud Data Engineer · AI Systems",
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Backend Engineer (Java 21, Spring Boot, Kafka), Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow), and Founding AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK.",
+    "ogDescription": "Backend Engineer (Java 21, Spring Boot, Kafka) · Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow) · Founding AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK."
   },
   "nav": {
     "about": "ÜBER MICH",
     "experience": "ERFAHRUNG",
     "projects": "PROJEKTE",
-    "hackathons": "HACKATHONS",
     "skills": "FÄHIGKEITEN",
     "education": "AUSBILDUNG",
     "contact": "KONTAKT",
     "resume": "LEBENSLAUF"
   },
   "hero": {
-    "subtitle": "GRÜNDUNGS-AI-INGENIEUR · STATION F · PARIS",
-    "specialties": "Generative AI  ·  Cloud Services  ·  Full-Stack-AI-Systeme",
+    "subtitle": "FOUNDING AI ENGINEER · STATION F · PARIS",
+    "specialties": "Backend Engineering  ·  Cloud Data Engineering  ·  AI Systems",
+    "openTo": "OPEN TO BACKEND & CLOUD DATA ENGINEER ROLES · FR / DE / UK",
     "viewWork": "ARBEITEN ANSEHEN",
     "getInTouch": "KONTAKT AUFNEHMEN",
     "scroll": "SCROLLEN"
   },
   "about": {
-    "label": "01 — ÜBER MICH",
-    "heading": "An der Schnittstelle von",
-    "headingEm": "AI und menschlicher Erfahrung",
-    "quote": "Data Scientist und Full-Stack-AI-Ingenieur mit zwei Masterabschlüssen aus Asien und Europa — entwickelt wirkungsvolle Werkzeuge an der Spitze von CreativeAI, RegTech, B2B-Lösungen und darüber hinaus.",
-    "p1": "Derzeit Gründungs-/Full-Stack-AI-Ingenieur bei Siloett.AI (Station F, Paris), wo ich AI-gestützte Lösungen für Narrative OS — die Intelligenzschicht der Kreativbranche — entwerfe.",
-    "p2": "Meine Expertise umfasst Deep Learning, NLP, Computer Vision und agentische AI-Systeme, mit starkem Fokus auf CreativeAI und AI for Social Good.",
-    "p3": "Ich bringe eine ungewöhnliche Kombination mit: technische Tiefe in Python (PyTorch, FastAPI) + Cloud-Infrastruktur (Azure, Docker) + mehrsprachige Kommunikationsfähigkeiten in Burmesisch, Englisch, Französisch und Thai.",
-    "p4": "Dieser multikulturelle Hintergrund positioniert mich einzigartig, um AI-Systeme zu entwickeln, die in verschiedenen menschlichen Kontexten und Gemeinschaften funktionieren.",
+    "label": "01 — ABOUT",
+    "heading": "Backend · Cloud Data ·",
+    "headingEm": "AI Systems",
+    "quote": "Backend Engineer · Cloud Data Engineer · AI Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
+    "p1": "Currently a Founding AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
+    "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p4": "Currently exploring Backend Engineer and Cloud Data Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "TECH STACK",
     "yrsLabel": "Jahre in AI / ML",
     "projectsLabel": "Ausgelieferte Projekte",
@@ -37,12 +37,12 @@
     "countriesLabel": "Länder gelebt"
   },
   "experience": {
-    "label": "02 — ERFAHRUNG",
+    "label": "02 — EXPERIENCE",
     "heading": "Wo ich",
     "headingEm": "gebaut & gelernt habe",
     "0_job": "Gründungs-AI-Ingenieur & Architekt",
     "0_badge": "AI Safety & Compliance · Station F · Paris",
-    "0_date": "Jan 2025 — Heute",
+    "0_date": "Jan 2025 — Present",
     "0_pt0": "Architektur und Aufbau einer End-to-End Generative-AI-Plattform von Grund auf — LLM-Orchestrierung, RAG-Pipelines und ein produktionsreifes React/TypeScript-Frontend mit Python (FastAPI) und Azure Functions Serverless-Backend",
     "0_pt1": "Entwurf und Implementierung verantwortungsvoller AI-Validierungsschichten einschließlich Content-Safety-Filter, Bias-Erkennungsprüfungen und Compliance-Leitplanken, die sicherstellen, dass alle AI-generierten Ausgaben regulatorische und ethische Standards erfüllen",
     "0_pt2": "Aufbau von AI-Sicherheits- und IP-Compliance-Systemen einschließlich Audit-Logging, Herkunftsverfolgung und Output-Attributions-Pipelines — für nachvollziehbare und verantwortliche AI-Output-Lebenszyklen",
@@ -67,44 +67,37 @@
     "3_pt2": "Sammlung praktischer Erfahrung in Backend-Operationen, Stärkung technischer Fähigkeiten in Datenmanagement und F&E-Methodik"
   },
   "projects": {
-    "label": "03 — PROJEKTE",
+    "label": "03 — PROJECTS",
     "heading": "Was ich",
     "headingEm": "gebaut habe",
     "featured": "HERVORGEHOBEN",
     "liveDemo": "LIVE-DEMO",
     "github": "GITHUB",
+    "viewCode": "VIEW CODE",
     "demo": "DEMO",
     "gh": "GH",
-    "liveAtVercel": "LIVE AUF VERCEL",
-    "0_desc": "Real-World-Evidence-Plattform für Impfstoffforschung. Full-Stack-Anwendung zur Erfassung, Analyse und Visualisierung von Impfstoffsicherheits- und Wirksamkeitsdaten aus realen Quellen im großen Maßstab.",
-    "1_desc": "Serverless-Middleware-Plattform zur Durchsetzung verantwortungsvoller AI-Compliance bei LLM-Anwendungen. Fungiert als Vermittler zwischen Client-Apps und Azure OpenAI und validiert Antworten gegen konfigurierbare Sicherheitsregeln — PII-Erkennung, Bias-Screening, Hassrede-Filterung und RAG-gestützte benutzerdefinierte Richtliniendurchsetzung über hochgeladene Compliance-Dokumente.",
-    "2_desc": "AI-gestützte Plattform zur Analyse der Übereinstimmung von Lebenslauf und Stellenbeschreibung. Laden Sie Ihren Lebenslauf und eine Stellenbeschreibung hoch, um einen detaillierten Kompatibilitätswert mit Kategorieaufschlüsselung (Fähigkeiten, Erfahrung, Ausbildung, Schlüsselwörter), fehlende Schlüsselwort-Identifizierung und priorisierte Verbesserungsempfehlungen zu erhalten — alles in unter 30 Sekunden.",
-    "3_desc": "Cloud Carbon Intelligence-Plattform zur Schätzung von CO2e-Emissionen aus Azure-Infrastruktur mit AI-gestützten Reduktionsempfehlungen. Entwickelt für EU-CSRD-Scope-3-Compliance mit Clean Architecture, semantischer Emissionsfaktor-Suche und 88 automatisierten Tests.",
-    "4_desc": "ML-Klassifikation von Diabetespatienten aus Raman-Spektroskopie-Signaldaten mittels Ensemble-scikit-learn-Methoden. Kollaborative Forschung am AIT.",
-    "5_desc": "App zur Identifizierung giftiger Schlangen in Myanmar mittels CNN-Bildklassifikation, die ländlichen Gemeinden hilft, gefährliche Arten schnell zu erkennen.",
-    "6_desc": "Agiles Projektmanagementsystem mit Integration von GitHub und ZenHub für optimierte Teamabläufe, Sprint-Planung und Entwicklerzusammenarbeit."
-  },
-  "hackathons": {
-    "label": "04 — HACKATHONS",
-    "heading": "Antreten &",
-    "headingEm": "Liefern",
-    "inProgress": "IN BEARBEITUNG",
-    "completed": "ABGESCHLOSSEN",
-    "winner": "GEWINNER",
-    "currentlyCompeting": "AKTUELL IM WETTBEWERB",
-    "hackathonProject": "HACKATHON-PROJEKT",
-    "0_desc": "AI-gestützter zweisprachiger Geschichtenerzähl-Begleiter, der Herkunftssprachen in Einwandererfamilien bewahrt. Ein Multi-Agenten-System generiert kulturell authentische interaktive Geschichten mit Aquarellillustrationen, zweisprachiger Erzählung und kindgesteuerten Entscheidungen, die die Handlung tatsächlich formen — unter Verwendung von drei Gemini-Modalitäten (Text, Bild, TTS), koordiniert über Google ADK.",
-    "1_desc": "Datengestütztes landwirtschaftliches Entscheidungsunterstützungssystem, das die Moderne Portfoliotheorie anwendet, um Myanmars Kleinbauern bei der Optimierung der Anbaudiversifizierung und Reduzierung von Klimarisiken zu helfen. Verwendet Markowitz-Optimierung auf 12 Jahren FAOSTAT-Ertragsdaten und Monte-Carlo-Simulation über 1.000 Klimaszenarien mit Gemini-AI-gestützter Analyse.",
-    "2_desc": "Urbane thermische Intelligenzplattform für Montgomery, Alabama. Mit 9 interaktiven Kartenebenen, AI-gestützter Nachbarschaftsrisikobewertung über Google Gemini, 14-seitigem förderfähigem Due-Diligence-Bericht und einer Datenbank von 7 echten Bundesförderprogrammen (EPA, HUD, FEMA, LIHEAP)."
+    "liveAtVercel": "LIVE ON VERCEL",
+    "openSourceOnGithub": "OPEN-SOURCE ON GITHUB",
+    "0_desc": "Real-time European grid lakehouse on AWS — probabilistic load forecasting (DeepAR / quantile loss) and stochastic optimisation for battery flexibility decisions. Medallion architecture on S3 + Iceberg, MSK Kafka streaming, dbt models, Airflow orchestration, MLflow tracking. Cloud Data Engineering portfolio piece.",
+    "1_desc": "Event-driven Call Detail Record ingestion, rating, and reconciliation pipeline simulating an MVNO billing back-end. Idempotent Kafka consumers, Spring Boot 3.5 microservices, MySQL for rated CDRs, MongoDB for raw events, Docker Compose for local infra. Built around real telecom domain models (3GPP TS 32.298).",
+    "2_desc": "End-to-end CSRD/ESRS sustainability data pipeline — Claude/Mistral GenAI extraction from sustainability reports with page-level audit lineage, Snowflake warehouse (validated) + DuckDB local dev, dbt transformations, Airflow orchestration. Built for EU corporate sustainability reporting compliance.",
+    "3_desc": "AI-powered blood test interpretation for personalised supplement guidance — competing at Haleon VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence. Real-data moat through partner lab integrations.",
+    "4_desc": "Real-World Evidence platform for vaccine research — full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale. Built at Siloett.AI for healthcare and life-sciences buyers.",
+    "5_desc": "Diameter Credit-Control Server (Gy / RFC 4006 / App-Id 4) for real-time prepaid mobile billing. Idempotent partial debits, jdiameter 1.7.x stack, designed against TRANSATEL/MVNO production patterns.",
+    "6_desc": "Java SMPP v3.4 gateway bridging inbound SMS (submit_sm) to RabbitMQ for downstream processing. Spring Boot 3.5 + jsmpp 3.0, dockerised, designed for MVNO and telecom messaging platforms.",
+    "7_desc": "Real-time urban mobility analytics on TimescaleDB + PostGIS + Uber H3. Spring Boot ingestion, Kafka stream processing, Server-Sent Events for live dashboards. Smart-city back-end blueprint.",
+    "8_desc": "Reference implementation of the BCBS 239 risk-data-aggregation lakehouse pattern on Databricks + Delta Lake + Unity Catalog + dbt-databricks. MIT-licensed, synthetic data only — banking risk-data engineering portfolio piece.",
+    "9_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
+    "10_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
   "skills": {
-    "label": "05 — FÄHIGKEITEN",
+    "label": "04 — SKILLS",
     "heading": "Werkzeuge des",
     "headingEm": "Handwerks",
     "alsoFluentIn": "AUCH ERFAHREN IN"
   },
   "education": {
-    "label": "06 — AUSBILDUNG",
+    "label": "05 — EDUCATION",
     "heading1": "Asien",
     "heading2": "Europa.",
     "headingEm": "Die Reise formt den Ingenieur",
@@ -131,22 +124,22 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "07 — ZERTIFIZIERUNGEN",
+    "label": "06 — CERTIFICATIONS",
     "heading": "Beweis des",
     "headingEm": "Engagements",
     "verified": "VERIFIZIERT"
   },
   "contact": {
-    "label": "08 — KONTAKT",
+    "label": "07 — CONTACT",
     "heading": "Lass uns etwas",
     "headingEm": "Bauen.",
-    "description": "Offen für AI-Engineering-Positionen, Gründungsteam-Möglichkeiten und Zusammenarbeit in CreativeAI, NLP und AI for Social Good.",
+    "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",
     "clickToCopy": "KLICKEN ZUM KOPIEREN",
     "copied": "KOPIERT",
     "basedIn": "ANSÄSSIG IN PARIS · OFFEN FÜR REMOTE"
   },
   "footer": {
-    "credit": "PYAE SONE KYAW · GRÜNDUNGS-AI-INGENIEUR · PARIS 2026",
+    "credit": "PYAE SONE KYAW · BACKEND & CLOUD DATA ENGINEER · PARIS 2026",
     "builtWith": "ERSTELLT MIT NEXT.JS"
   }
 }

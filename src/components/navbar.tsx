@@ -11,7 +11,6 @@ const NAV_KEYS = [
   "about",
   "experience",
   "projects",
-  "hackathons",
   "skills",
   "education",
   "contact",

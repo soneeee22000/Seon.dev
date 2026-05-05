@@ -51,128 +51,112 @@ export const PROJECTS_META = [
   {
     id: 1,
     featured: true,
-    emoji: "\uD83D\uDC89",
-    title: "VaxEvidence",
-    tags: ["Next.js", "React", "TypeScript", "Supabase"],
-    color: "#C9A96E",
-    demo: "https://vaxevidence-dev.vercel.app/",
-    gh: "https://github.com/soneeee22000/VaxEvidence-Dev",
+    emoji: "\u26A1",
+    title: "GridFlex",
+    tags: ["AWS", "Iceberg", "Kafka", "dbt", "Airflow", "MLflow"],
+    color: "#7BAACC",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/gridflex",
   },
   {
     id: 2,
     featured: true,
+    emoji: "\uD83D\uDCDE",
+    title: "CDR Pipeline",
+    tags: ["Java 21", "Spring Boot 3.5", "Kafka", "MySQL", "MongoDB", "Docker"],
+    color: "#C9A96E",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/cdr-pipeline",
+  },
+  {
+    id: 3,
+    featured: true,
+    emoji: "\uD83C\uDF31",
+    title: "CSRD Lake",
+    tags: ["Snowflake", "DuckDB", "dbt", "Airflow", "Claude", "Mistral"],
+    color: "#7BCC9C",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/csrd-lake",
+  },
+  {
+    id: 4,
+    featured: true,
+    emoji: "\uD83E\uDE7A",
+    title: "VitaLens",
+    tags: ["Next.js", "FastAPI", "PostgreSQL", "OpenAI", "OCR"],
+    color: "#CC7B7B",
+    demo: "https://vitalens.health",
+    gh: "https://github.com/soneeee22000/vitalens",
+  },
+  {
+    id: 5,
+    featured: true,
+    emoji: "\uD83D\uDC89",
+    title: "VaxEvidence",
+    tags: ["Next.js", "React", "TypeScript", "Supabase"],
+    color: "#9C7BCC",
+    demo: "https://vaxevidence-dev.vercel.app/",
+    gh: "https://github.com/soneeee22000/VaxEvidence-Dev",
+  },
+  {
+    id: 6,
+    featured: false,
+    emoji: "\uD83D\uDCB3",
+    title: "Diameter CC",
+    tags: ["Java 21", "Spring Boot 3.5", "Diameter", "jdiameter"],
+    color: "#CCB87B",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/diameter-cc",
+  },
+  {
+    id: 7,
+    featured: false,
+    emoji: "\uD83D\uDCE8",
+    title: "SMPP Gateway",
+    tags: ["Java 21", "Spring Boot 3.5", "SMPP", "RabbitMQ", "Docker"],
+    color: "#7B9CCC",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/smpp-gateway",
+  },
+  {
+    id: 8,
+    featured: false,
+    emoji: "\uD83D\uDEA6",
+    title: "Mobility Pulse",
+    tags: ["Spring Boot", "Kafka", "TimescaleDB", "PostGIS", "H3"],
+    color: "#CC9C7B",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/mobility-pulse",
+  },
+  {
+    id: 9,
+    featured: false,
+    emoji: "\uD83C\uDFE6",
+    title: "BCBS 239 Lakehouse",
+    tags: ["Databricks", "Delta Lake", "Unity Catalog", "dbt"],
+    color: "#C9A96E",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/bcbs239-lakehouse",
+  },
+  {
+    id: 10,
+    featured: false,
     emoji: "\uD83D\uDEE1\uFE0F",
     title: "SafeGen.dev",
-    tags: ["React", "TypeScript", "Azure Functions", "FAISS", "GPT-4o"],
+    tags: ["React", "Azure Functions", "FAISS", "GPT-4o"],
     color: "#7BCC9C",
     demo: "https://safe-gen-dev.vercel.app/",
     gh: "https://github.com/soneeee22000/SafeGen.dev",
   },
   {
-    id: 3,
-    featured: true,
-    emoji: "\uD83D\uDD0D",
-    title: "DocuQuery",
-    tags: ["Next.js", "FastAPI", "TypeScript", "PostgreSQL", "OpenAI"],
-    color: "#9C7BCC",
-    demo: "https://docu-query-dev.vercel.app/dashboard",
-    gh: "https://github.com/soneeee22000/DocuQuery-dev",
-  },
-  {
-    id: 4,
-    featured: true,
+    id: 11,
+    featured: false,
     emoji: "\uD83C\uDF3F",
     title: "GreenLens",
-    tags: [
-      "ASP.NET Core",
-      "Angular",
-      "Azure AI Search",
-      "Azure OpenAI",
-      "Docker",
-    ],
-    color: "#7BCC9C",
+    tags: ["ASP.NET Core", "Angular", "Azure AI Search", "Azure OpenAI"],
+    color: "#7BAACC",
     demo: "https://greenlens-api.azurewebsites.net",
     gh: "https://github.com/soneeee22000/GreenLens.dev",
-  },
-  {
-    id: 5,
-    featured: false,
-    emoji: "\uD83D\uDD2C",
-    title: "Diabetes Detection",
-    tags: ["Python", "scikit-learn", "ML"],
-    color: "#CC7B7B",
-    demo: "#",
-    gh: "https://github.com/AtiChetsurakul/DataScienceAndMLProjects",
-  },
-  {
-    id: 6,
-    featured: false,
-    emoji: "\uD83D\uDC0D",
-    title: "Snake ID Myanmar",
-    tags: ["Python", "Streamlit", "CNN"],
-    color: "#CCB87B",
-    demo: "https://mysnakensafety.streamlit.app/",
-    gh: "https://github.com/soneeee22000/my_snake_id",
-  },
-  {
-    id: 7,
-    featured: false,
-    emoji: "\uD83D\uDCCB",
-    title: "ZenHub PM System",
-    tags: ["GitHub", "Scrum", "Agile"],
-    color: "#7B9CCC",
-    demo: "#",
-    gh: "https://github.com/users/soneeee22000/projects/1",
-  },
-];
-
-/** Hackathon metadata (non-translatable fields only) */
-export const HACKATHONS_META = [
-  {
-    id: 3,
-    emoji: "\uD83D\uDCD6",
-    title: "StoryBridge",
-    tags: [
-      "React",
-      "TypeScript",
-      "FastAPI",
-      "Google ADK",
-      "Gemini 2.5 Flash",
-      "Cloud Run",
-    ],
-    color: "#CCB87B",
-    gh: "https://github.com/soneeee22000/storybridge",
-    demo: "https://storybridge-469521173814.us-central1.run.app/",
-    organizer: "Google Cloud",
-    event: "Gemini Live Agent Challenge 2026",
-    date: "Mar 2026",
-    status: "in_progress" as const,
-  },
-  {
-    id: 1,
-    emoji: "\uD83C\uDF3E",
-    title: "CropFolio",
-    tags: ["FastAPI", "React", "TypeScript", "D3.js", "SciPy", "Gemini AI"],
-    color: "#7BCC9C",
-    gh: "https://github.com/soneeee22000/CropFolio",
-    demo: "https://crop-folio.vercel.app/",
-    organizer: "Impact Hub Yangon \u00D7 UNDP Myanmar",
-    event: "AI for Climate Resilient Agriculture Hackathon 2026",
-    date: "Mar 2026",
-    status: "in_progress" as const,
-  },
-  {
-    id: 2,
-    emoji: "\uD83C\uDF21\uFE0F",
-    title: "HeatDebt",
-    tags: ["Next.js", "Google Gemini", "Mapbox", "Census API", "NASA"],
-    color: "#CC7B7B",
-    gh: "https://github.com/soneeee22000/Heatdebt-dev",
-    demo: "https://heat-debt-dev.vercel.app/",
-    organizer: "GenAI Academy",
-    event: "GenAI Academy Hackathon 2026",
-    date: "Feb 2026",
-    status: "completed" as const,
   },
 ];
 
@@ -218,6 +202,11 @@ export const SKILLS: Skill[] = [
     logo: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
   },
   {
+    name: "Java",
+    cat: "Language",
+    logo: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+  },
+  {
     name: "TypeScript",
     cat: "Language",
     logo: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
@@ -226,6 +215,11 @@ export const SKILLS: Skill[] = [
     name: "JavaScript",
     cat: "Language",
     logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  },
+  {
+    name: "SQL",
+    cat: "Language",
+    logo: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
   },
   {
     name: "React",
@@ -243,9 +237,9 @@ export const SKILLS: Skill[] = [
     logo: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
   {
-    name: "Node.js",
+    name: "Spring Boot",
     cat: "Backend",
-    logo: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    logo: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
   },
   {
     name: "FastAPI",
@@ -253,9 +247,29 @@ export const SKILLS: Skill[] = [
     logo: "https://avatars.githubusercontent.com/u/156354296?s=200&v=4",
   },
   {
+    name: "Node.js",
+    cat: "Backend",
+    logo: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+  },
+  {
     name: "Django",
     cat: "Backend",
     logo: "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg",
+  },
+  {
+    name: "ASP.NET Core",
+    cat: "Backend",
+    logo: "https://www.vectorlogo.zone/logos/microsoft_dotnet/microsoft_dotnet-icon.svg",
+  },
+  {
+    name: "Kafka",
+    cat: "Backend",
+    logo: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg",
+  },
+  {
+    name: "RabbitMQ",
+    cat: "Backend",
+    logo: "https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg",
   },
   {
     name: "Azure",
@@ -338,6 +352,31 @@ export const SKILLS: Skill[] = [
     logo: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
   },
   {
+    name: "Snowflake",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/snowflake/snowflake-icon.svg",
+  },
+  {
+    name: "Databricks",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg",
+  },
+  {
+    name: "dbt",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/getdbt/getdbt-icon.svg",
+  },
+  {
+    name: "Airflow",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/apache_airflow/apache_airflow-icon.svg",
+  },
+  {
+    name: "Apache Spark",
+    cat: "Data",
+    logo: "https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg",
+  },
+  {
     name: "Pandas",
     cat: "Data",
     logo: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg",
@@ -351,11 +390,6 @@ export const SKILLS: Skill[] = [
     name: "Jupyter",
     cat: "Data",
     logo: "https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg",
-  },
-  {
-    name: "Apache Spark",
-    cat: "Data",
-    logo: "https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg",
   },
 ];
 
@@ -371,13 +405,12 @@ export const CAT_COLORS: CategoryColors = {
 };
 
 export const ALSO_FLUENT_IN =
-  "Streamlit \u00B7 LangGraph \u00B7 Ollama \u00B7 vLLM \u00B7 MLflow \u00B7 Weights & Biases \u00B7 DVC \u00B7 Ray \u00B7 Celery \u00B7 RabbitMQ \u00B7 Kafka \u00B7 GraphQL \u00B7 Prisma \u00B7 Drizzle \u00B7 SQLAlchemy \u00B7 Playwright \u00B7 Vitest \u00B7 pytest";
+  "Iceberg \u00B7 Delta Lake \u00B7 Unity Catalog \u00B7 TimescaleDB \u00B7 PostGIS \u00B7 H3 \u00B7 jdiameter \u00B7 jsmpp \u00B7 LangGraph \u00B7 MLflow \u00B7 Weights & Biases \u00B7 DVC \u00B7 Ray \u00B7 Celery \u00B7 GraphQL \u00B7 Prisma \u00B7 SQLAlchemy \u00B7 Playwright \u00B7 Vitest \u00B7 pytest \u00B7 Testcontainers";
 
 export const NAV_IDS = [
   "about",
   "experience",
   "projects",
-  "hackathons",
   "skills",
   "education",
   "contact",
@@ -388,7 +421,7 @@ export const SOCIAL_LINKS: [string, string][] = [
   ["LINKEDIN", "https://www.linkedin.com/in/pyae-sone-kyaw-80386721b/"],
 ];
 
-export const STATS_NUMS = ["4+", "6+", "2", "3"];
+export const STATS_NUMS = ["4+", "11+", "2", "3"];
 
 export const EDUCATION_META = [
   {

@@ -9,20 +9,21 @@ interface OrbitalRing {
   dur: number;
 }
 
-const ORBITAL_SKILLS = SKILLS.filter((s) =>
-  [
-    "PyTorch",
-    "Python",
-    "React",
-    "Node.js",
-    "Azure",
-    "Docker",
-    "PostgreSQL",
-    "LangChain",
-    "Pandas",
-    "Next.js",
-  ].includes(s.name),
-);
+const ORBITAL_NAMES = [
+  "Python",
+  "Java",
+  "TypeScript",
+  "PyTorch",
+  "Spring Boot",
+  "Next.js",
+  "LangChain",
+  "Azure",
+  "AWS",
+  "Snowflake",
+];
+const ORBITAL_SKILLS = ORBITAL_NAMES.map(
+  (n) => SKILLS.find((s) => s.name === n)!,
+).filter(Boolean);
 
 const RINGS: OrbitalRing[] = [
   { skills: ORBITAL_SKILLS.slice(0, 4), r: 108, dur: 22 },
