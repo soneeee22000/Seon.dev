@@ -89,6 +89,16 @@ export const PROJECTS_META = [
     gh: "https://github.com/soneeee22000/vitalens",
   },
   {
+    id: 12,
+    featured: true,
+    emoji: "\uD83D\uDD2C",
+    title: "AgentProbe",
+    tags: ["Python", "FastAPI", "Next.js 16", "PostgreSQL", "ReAct", "SSE"],
+    color: "#C9A96E",
+    demo: "#",
+    gh: "https://github.com/soneeee22000/AgentProbe",
+  },
+  {
     id: 5,
     featured: true,
     emoji: "\uD83D\uDC89",
@@ -157,16 +167,6 @@ export const PROJECTS_META = [
     color: "#7BAACC",
     demo: "https://greenlens-api.azurewebsites.net",
     gh: "https://github.com/soneeee22000/GreenLens.dev",
-  },
-  {
-    id: 12,
-    featured: true,
-    emoji: "\uD83D\uDD2C",
-    title: "AgentProbe",
-    tags: ["Python", "FastAPI", "Next.js 16", "PostgreSQL", "ReAct", "SSE"],
-    color: "#C9A96E",
-    demo: "#",
-    gh: "https://github.com/soneeee22000/AgentProbe",
   },
 ];
 
