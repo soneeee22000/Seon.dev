@@ -88,7 +88,8 @@
     "7_desc": "Real-time urban mobility analytics on TimescaleDB + PostGIS + Uber H3. Spring Boot ingestion, Kafka stream processing, Server-Sent Events for live dashboards. Smart-city back-end blueprint.",
     "8_desc": "Reference implementation of the BCBS 239 risk-data-aggregation lakehouse pattern on Databricks + Delta Lake + Unity Catalog + dbt-databricks. MIT-licensed, synthetic data only — banking risk-data engineering portfolio piece.",
     "9_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
-    "10_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
+    "10_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance.",
+    "11_desc": "From-scratch ReAct Agent Observatory — observe, debug, and benchmark LLM agents with a built-in 8-type failure taxonomy (hallucinated tools, malformed actions, context overflow, goal drift, …) and multi-provider eval harness (Groq, OpenAI, Anthropic, Google, Ollama). Composite scoring (answer + tools + efficiency + reliability), Clean Architecture FastAPI + PostgreSQL backend, Next.js 16 frontend with real-time SSE streaming. 50+ benchmark cases, 81 tests."
   },
   "skills": {
     "label": "04 — SKILLS",
