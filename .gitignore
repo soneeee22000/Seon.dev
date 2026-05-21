@@ -38,6 +38,14 @@ yarn-error.log*
 # vercel
 .vercel
 
+# ai tool artifacts
+.claude/
+.sixth/
+.cursor/
+.codex/
+.aider*
+.github/copilot/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

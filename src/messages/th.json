@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Pyae Sone Kyaw | AI Engineer · Full-Stack · Backend Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Founding AI Engineer at Siloett.AI (Station F, Paris). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
-    "ogDescription": "Founding AI Engineer @ Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Full-Stack AI Engineer at Siloett.AI (Station F, Paris). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
+    "ogDescription": "Full-Stack AI Engineer @ Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
   },
   "nav": {
     "about": "เกี่ยวกับ",
@@ -14,7 +14,7 @@
     "resume": "เรซูเม่"
   },
   "hero": {
-    "subtitle": "FOUNDING AI ENGINEER · STATION F · PARIS",
+    "subtitle": "FULL-STACK AI ENGINEER · STATION F · PARIS",
     "specialties": "AI Engineering  ·  Full-Stack Systems  ·  Backend & Cloud Data",
     "openTo": "OPEN TO AI / FULL-STACK / BACKEND ROLES · FR / DE / UK",
     "viewWork": "ดูผลงาน",
@@ -26,7 +26,7 @@
     "heading": "AI Engineer · Full-Stack ·",
     "headingEm": "Backend Systems",
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
-    "p1": "Currently a Founding AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
+    "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
@@ -40,16 +40,16 @@
     "label": "02 — EXPERIENCE",
     "heading": "ที่ที่ผมได้",
     "headingEm": "สร้างและเรียนรู้",
-    "0_job": "วิศวกร AI ผู้ร่วมก่อตั้งและสถาปนิก",
+    "0_job": "วิศวกร AI Full-Stack",
     "0_badge": "AI Safety & Compliance · Station F · ปารีส",
-    "0_date": "Jan 2025 — Present",
+    "0_date": "Jun 2025 — May 2026",
     "0_pt0": "ออกแบบสถาปัตยกรรมและสร้างแพลตฟอร์ม Generative AI ตั้งแต่เริ่มต้น — LLM orchestration, RAG pipelines และ frontend ระดับ production ด้วย React/TypeScript พร้อม backend แบบ serverless ด้วย Python (FastAPI) และ Azure Functions",
     "0_pt1": "ออกแบบและพัฒนาชั้นการตรวจสอบ Responsible AI รวมถึงฟิลเตอร์ความปลอดภัยของเนื้อหา การตรวจจับอคติ และ guardrails ด้านการปฏิบัติตามกฎระเบียบ เพื่อให้แน่ใจว่าผลลัพธ์ที่สร้างโดย AI ทั้งหมดเป็นไปตามมาตรฐานกฎระเบียบและจริยธรรม",
     "0_pt2": "สร้างระบบ AI safety และการปฏิบัติตามทรัพย์สินทางปัญญา รวมถึง audit logging, provenance tracking และ output attribution pipelines — เพื่อให้มั่นใจว่าวงจรชีวิตของผลลัพธ์ AI สามารถตรวจสอบย้อนกลับได้และมีความรับผิดชอบ",
     "0_pt3": "พัฒนา framework สำหรับ prompt engineering และการประเมิน LLM โดยใช้ Azure OpenAI GPT-4o และ LangChain พร้อมการ fine-tuning อย่างเป็นระบบเพื่อเพิ่มประสิทธิภาพความถูกต้องเฉพาะทางใน use case ด้าน compliance",
-    "1_job": "นักวิทยาศาสตร์ข้อมูล / วิศวกรคลาวด์",
-    "1_badge": "École Polytechnique Incubator",
-    "1_date": "Jul 2024 — Jun 2025",
+    "1_job": "วิทยาการข้อมูล / วิศวกรข้อมูลคลาวด์",
+    "1_badge": "Station F · ปารีส",
+    "1_date": "Jul 2024 — Dec 2025",
     "1_pt0": "ออกแบบ pipeline การประมวลผลข้อมูลแบบ batch บนคลาวด์โดยใช้ Microsoft Azure Batch และ Docker สำหรับการวิเคราะห์การเดินทางในเมือง",
     "1_pt1": "ทำให้ workflow ของ Computer Vision และเซ็นเซอร์ Bluetooth เป็นอัตโนมัติ เพื่อให้ได้ข้อมูลเชิงลึกด้าน smart city แบบ real-time ที่ปรับขนาดได้",
     "1_pt2": "ส่งมอบแดชบอร์ดวิเคราะห์ระดับ production ที่ถูกนำไปใช้โดยรัฐบาลเมืองและผู้มีส่วนได้ส่วนเสียด้านการขนส่ง",
