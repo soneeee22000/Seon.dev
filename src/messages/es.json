@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Pyae Sone Kyaw | Backend & Cloud Data Engineer · AI Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Backend Engineer (Java 21, Spring Boot, Kafka), Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow), and Full-Stack AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK.",
-    "ogDescription": "Backend Engineer (Java 21, Spring Boot, Kafka) · Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow) · Full-Stack AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK."
+    "title": "Pyae Sone Kyaw | AI Engineer · Full-Stack · Backend Systems",
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Full-Stack AI Engineer at Siloett.AI (Station F, Paris). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
+    "ogDescription": "Full-Stack AI Engineer @ Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
   },
   "nav": {
     "about": "ACERCA",
@@ -15,21 +15,21 @@
   },
   "hero": {
     "subtitle": "FULL-STACK AI ENGINEER · STATION F · PARIS",
-    "specialties": "Backend Engineering  ·  Cloud Data Engineering  ·  AI Systems",
-    "openTo": "OPEN TO BACKEND & CLOUD DATA ENGINEER ROLES · FR / DE / UK",
+    "specialties": "AI Engineering  ·  Full-Stack Systems  ·  Backend & Cloud Data",
+    "openTo": "OPEN TO AI / FULL-STACK / BACKEND ROLES · FR / DE / UK",
     "viewWork": "VER TRABAJO",
     "getInTouch": "CONTACTAR",
     "scroll": "DESPLAZAR"
   },
   "about": {
     "label": "01 — ABOUT",
-    "heading": "Backend · Cloud Data ·",
-    "headingEm": "AI Systems",
-    "quote": "Backend Engineer · Cloud Data Engineer · AI Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
+    "heading": "AI Engineer · Full-Stack ·",
+    "headingEm": "Backend Systems",
+    "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
-    "p4": "Currently exploring Backend Engineer and Cloud Data Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
+    "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "STACK TECNOLÓGICO",
     "yrsLabel": "Años en AI / ML",
     "projectsLabel": "Proyectos Entregados",
@@ -82,14 +82,14 @@
     "1_desc": "Event-driven Call Detail Record ingestion, rating, and reconciliation pipeline simulating an MVNO billing back-end. Idempotent Kafka consumers, Spring Boot 3.5 microservices, MySQL for rated CDRs, MongoDB for raw events, Docker Compose for local infra. Built around real telecom domain models (3GPP TS 32.298).",
     "2_desc": "End-to-end CSRD/ESRS sustainability data pipeline — Claude/Mistral GenAI extraction from sustainability reports with page-level audit lineage, Snowflake warehouse (validated) + DuckDB local dev, dbt transformations, Airflow orchestration. Built for EU corporate sustainability reporting compliance.",
     "3_desc": "AI-powered blood test interpretation for personalised supplement guidance — competing at Haleon VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence. Real-data moat through partner lab integrations.",
-    "4_desc": "Real-World Evidence platform for vaccine research — full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale. Built at Siloett.AI for healthcare and life-sciences buyers.",
-    "5_desc": "Diameter Credit-Control Server (Gy / RFC 4006 / App-Id 4) for real-time prepaid mobile billing. Idempotent partial debits, jdiameter 1.7.x stack, designed against TRANSATEL/MVNO production patterns.",
-    "6_desc": "Java SMPP v3.4 gateway bridging inbound SMS (submit_sm) to RabbitMQ for downstream processing. Spring Boot 3.5 + jsmpp 3.0, dockerised, designed for MVNO and telecom messaging platforms.",
-    "7_desc": "Real-time urban mobility analytics on TimescaleDB + PostGIS + Uber H3. Spring Boot ingestion, Kafka stream processing, Server-Sent Events for live dashboards. Smart-city back-end blueprint.",
-    "8_desc": "Reference implementation of the BCBS 239 risk-data-aggregation lakehouse pattern on Databricks + Delta Lake + Unity Catalog + dbt-databricks. MIT-licensed, synthetic data only — banking risk-data engineering portfolio piece.",
-    "9_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
-    "10_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance.",
-    "11_desc": "From-scratch ReAct Agent Observatory — observe, debug, and benchmark LLM agents with a built-in 8-type failure taxonomy (hallucinated tools, malformed actions, context overflow, goal drift, …) and multi-provider eval harness (Groq, OpenAI, Anthropic, Google, Ollama). Composite scoring (answer + tools + efficiency + reliability), Clean Architecture FastAPI + PostgreSQL backend, Next.js 16 frontend with real-time SSE streaming. 50+ benchmark cases, 81 tests."
+    "4_desc": "From-scratch ReAct Agent Observatory — observe, debug, and benchmark LLM agents with a built-in 8-type failure taxonomy (hallucinated tools, malformed actions, context overflow, goal drift, …) and multi-provider eval harness (Groq, OpenAI, Anthropic, Google, Ollama). Composite scoring (answer + tools + efficiency + reliability), Clean Architecture FastAPI + PostgreSQL backend, Next.js 16 frontend with real-time SSE streaming. 50+ benchmark cases, 81 tests.",
+    "5_desc": "Real-World Evidence platform for vaccine research — full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale. Built at Siloett.AI for healthcare and life-sciences buyers.",
+    "6_desc": "Diameter Credit-Control Server (Gy / RFC 4006 / App-Id 4) for real-time prepaid mobile billing. Idempotent partial debits, jdiameter 1.7.x stack, designed against TRANSATEL/MVNO production patterns.",
+    "7_desc": "Java SMPP v3.4 gateway bridging inbound SMS (submit_sm) to RabbitMQ for downstream processing. Spring Boot 3.5 + jsmpp 3.0, dockerised, designed for MVNO and telecom messaging platforms.",
+    "8_desc": "Real-time urban mobility analytics on TimescaleDB + PostGIS + Uber H3. Spring Boot ingestion, Kafka stream processing, Server-Sent Events for live dashboards. Smart-city back-end blueprint.",
+    "9_desc": "Reference implementation of the BCBS 239 risk-data-aggregation lakehouse pattern on Databricks + Delta Lake + Unity Catalog + dbt-databricks. MIT-licensed, synthetic data only — banking risk-data engineering portfolio piece.",
+    "10_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
+    "11_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
   "skills": {
     "label": "04 — SKILLS",
