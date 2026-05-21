@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Pyae Sone Kyaw | Backend & Cloud Data Engineer · AI Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Backend Engineer (Java 21, Spring Boot, Kafka), Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow), and Founding AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK.",
-    "ogDescription": "Backend Engineer (Java 21, Spring Boot, Kafka) · Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow) · Founding AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK."
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Backend Engineer (Java 21, Spring Boot, Kafka), Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow), and Full-Stack AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK.",
+    "ogDescription": "Backend Engineer (Java 21, Spring Boot, Kafka) · Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow) · Full-Stack AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK."
   },
   "nav": {
     "about": "ÜBER MICH",
@@ -14,7 +14,7 @@
     "resume": "LEBENSLAUF"
   },
   "hero": {
-    "subtitle": "FOUNDING AI ENGINEER · STATION F · PARIS",
+    "subtitle": "FULL-STACK AI ENGINEER · STATION F · PARIS",
     "specialties": "Backend Engineering  ·  Cloud Data Engineering  ·  AI Systems",
     "openTo": "OPEN TO BACKEND & CLOUD DATA ENGINEER ROLES · FR / DE / UK",
     "viewWork": "ARBEITEN ANSEHEN",
@@ -26,7 +26,7 @@
     "heading": "Backend · Cloud Data ·",
     "headingEm": "AI Systems",
     "quote": "Backend Engineer · Cloud Data Engineer · AI Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
-    "p1": "Currently a Founding AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
+    "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring Backend Engineer and Cloud Data Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
@@ -40,16 +40,16 @@
     "label": "02 — EXPERIENCE",
     "heading": "Wo ich",
     "headingEm": "gebaut & gelernt habe",
-    "0_job": "Gründungs-AI-Ingenieur & Architekt",
+    "0_job": "Full-Stack AI Engineer",
     "0_badge": "AI Safety & Compliance · Station F · Paris",
-    "0_date": "Jan 2025 — Present",
+    "0_date": "Jun 2025 — May 2026",
     "0_pt0": "Architektur und Aufbau einer End-to-End Generative-AI-Plattform von Grund auf — LLM-Orchestrierung, RAG-Pipelines und ein produktionsreifes React/TypeScript-Frontend mit Python (FastAPI) und Azure Functions Serverless-Backend",
     "0_pt1": "Entwurf und Implementierung verantwortungsvoller AI-Validierungsschichten einschließlich Content-Safety-Filter, Bias-Erkennungsprüfungen und Compliance-Leitplanken, die sicherstellen, dass alle AI-generierten Ausgaben regulatorische und ethische Standards erfüllen",
     "0_pt2": "Aufbau von AI-Sicherheits- und IP-Compliance-Systemen einschließlich Audit-Logging, Herkunftsverfolgung und Output-Attributions-Pipelines — für nachvollziehbare und verantwortliche AI-Output-Lebenszyklen",
     "0_pt3": "Entwicklung von Prompt-Engineering- und LLM-Evaluierungs-Frameworks mit Azure OpenAI GPT-4o und LangChain, mit systematischem Fine-Tuning zur Optimierung der Domänengenauigkeit über Compliance-Anwendungsfälle",
-    "1_job": "Data Scientist / Cloud Engineer",
-    "1_badge": "École Polytechnique Inkubator",
-    "1_date": "Jul 2024 — Jun 2025",
+    "1_job": "Data Science / Cloud Data Engineer",
+    "1_badge": "Station F · Paris",
+    "1_date": "Jul 2024 — Dec 2025",
     "1_pt0": "Entwurf einer cloudbasierten Batch-Datenverarbeitungspipeline mit Microsoft Azure Batch und Docker für urbane Mobilitätsanalytik",
     "1_pt1": "Automatisierung von Computer-Vision- und Bluetooth-Sensor-Workflows für skalierbare Echtzeit-Smart-City-Einblicke",
     "1_pt2": "Bereitstellung von Produktionsanalyse-Dashboards, die von Stadtverwaltungen und Verkehrsverantwortlichen übernommen wurden",

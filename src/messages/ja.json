@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Pyae Sone Kyaw | Backend & Cloud Data Engineer · AI Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Backend Engineer (Java 21, Spring Boot, Kafka), Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow), and Founding AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK.",
-    "ogDescription": "Backend Engineer (Java 21, Spring Boot, Kafka) · Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow) · Founding AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK."
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Backend Engineer (Java 21, Spring Boot, Kafka), Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow), and Full-Stack AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK.",
+    "ogDescription": "Backend Engineer (Java 21, Spring Boot, Kafka) · Cloud Data Engineer (AWS, Snowflake, Databricks, dbt, Airflow) · Full-Stack AI Engineer at Siloett.AI, Station F Paris. Open to roles in FR / DE / UK."
   },
   "nav": {
     "about": "自己紹介",
@@ -14,7 +14,7 @@
     "resume": "履歴書"
   },
   "hero": {
-    "subtitle": "FOUNDING AI ENGINEER · STATION F · PARIS",
+    "subtitle": "FULL-STACK AI ENGINEER · STATION F · PARIS",
     "specialties": "Backend Engineering  ·  Cloud Data Engineering  ·  AI Systems",
     "openTo": "OPEN TO BACKEND & CLOUD DATA ENGINEER ROLES · FR / DE / UK",
     "viewWork": "実績を見る",
@@ -26,7 +26,7 @@
     "heading": "Backend · Cloud Data ·",
     "headingEm": "AI Systems",
     "quote": "Backend Engineer · Cloud Data Engineer · AI Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
-    "p1": "Currently a Founding AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
+    "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring Backend Engineer and Cloud Data Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
@@ -40,16 +40,16 @@
     "label": "02 — EXPERIENCE",
     "heading": "構築と学びの",
     "headingEm": "軌跡",
-    "0_job": "創業AIエンジニア＆アーキテクト",
+    "0_job": "フルスタックAIエンジニア",
     "0_badge": "AI安全性＆コンプライアンス · Station F · パリ",
-    "0_date": "Jan 2025 — Present",
+    "0_date": "Jun 2025 — May 2026",
     "0_pt0": "ゼロからエンドツーエンドの生成AIプラットフォームを設計・構築 — LLMオーケストレーション、RAGパイプライン、React/TypeScriptフロントエンドとPython（FastAPI）およびAzure Functionsサーバーレスバックエンドの本番環境",
     "0_pt1": "コンテンツ安全フィルター、バイアス検出チェック、コンプライアンスガードレールなど、責任あるAIバリデーションレイヤーを設計・実装し、AIが生成するすべての出力が規制・倫理基準を満たすことを保証",
     "0_pt2": "監査ログ、来歴追跡、出力帰属パイプラインなどのAI安全性とIP準拠システムを構築 — 追跡可能で説明責任のあるAI出力ライフサイクルを保証",
     "0_pt3": "Azure OpenAI GPT-4oとLangChainを使用したプロンプトエンジニアリングとLLM評価フレームワークを開発し、コンプライアンスユースケース全体のドメイン精度を最適化するための体系的なファインチューニングを実施",
-    "1_job": "データサイエンティスト / クラウドエンジニア",
-    "1_badge": "École Polytechniqueインキュベーター",
-    "1_date": "Jul 2024 — Jun 2025",
+    "1_job": "データサイエンス / クラウドデータエンジニア",
+    "1_badge": "Station F · パリ",
+    "1_date": "Jul 2024 — Dec 2025",
     "1_pt0": "Microsoft Azure BatchとDockerを使用した都市モビリティ分析のためのクラウドベースのバッチデータ処理パイプラインを設計",
     "1_pt1": "コンピュータビジョンとBluetoothセンサーのワークフローを自動化し、スケーラブルなリアルタイムスマートシティインサイトを実現",
     "1_pt2": "市政府と交通関係者に採用された本番分析ダッシュボードを提供",

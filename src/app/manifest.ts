@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Pyae Sone Kyaw | AI Engineer",
     short_name: "PSK",
-    description: "Portfolio of Pyae Sone Kyaw — Founding AI Engineer",
+    description: "Portfolio of Pyae Sone Kyaw — Full-Stack AI Engineer",
     start_url: "/",
     display: "standalone",
     background_color: "#06080d",
