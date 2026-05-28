@@ -28,7 +28,7 @@
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
-    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "技術スタック",
     "yrsLabel": "AI / ML 経験年数",
@@ -64,7 +64,13 @@
     "3_date": "Jan 2023 — Aug 2023",
     "3_pt0": "企業に応用AIサービスを提供する研究室で、NLP言い換えツールをモデルからバックエンドAPIまで一貫して構築",
     "3_pt1": "データ層を構築 — 学習データセットのクレンジングと構造化 — し、学習ワークフローを最適化してモデル精度を15%向上",
-    "3_pt2": "研究室のAIツールのバックエンド運用を担当し、データ管理とR&Dエンジニアリングの実践力を強化"
+    "3_pt2": "研究室のAIツールのバックエンド運用を担当し、データ管理とR&Dエンジニアリングの実践力を強化",
+    "4_job": "ソフトウェアエンジニア（Web）",
+    "4_badge": "フルスタックWeb · 国連機関",
+    "4_date": "Jan 2021 — Dec 2022",
+    "4_pt0": "国連機関（FAO）向けにフルスタックWebアプリケーションを構築 — 農業・食料安全保障プログラムのデータを職員や現場チームに提供する社内データダッシュボードと公開ポータルを開発",
+    "4_pt1": "現場データ収集ツールとその背後のバックエンドAPIを設計し、現場担当者がプログラムデータを取得・検証し、中央のレポーティングシステムへ同期できるようにした",
+    "4_pt2": "スタック全体で機能をエンドツーエンドに担当 — React/Next.js + TypeScript のフロントエンドと Python・PHP/CMS のバックエンド — データモデルとREST APIからデプロイ済みのUIまで"
   },
   "projects": {
     "label": "03 — PROJECTS",

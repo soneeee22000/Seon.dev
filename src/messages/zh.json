@@ -28,7 +28,7 @@
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
-    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "技术栈",
     "yrsLabel": "年AI/ML经验",
@@ -64,7 +64,13 @@
     "3_date": "Jan 2023 — Aug 2023",
     "3_pt0": "在一家向企业提供应用型AI服务的研究实验室，端到端构建了一款 NLP 释义工具 — 从模型到后端API",
     "3_pt1": "搭建数据层 — 清洗并结构化训练数据集 — 并优化训练流程，将模型准确率提高了15%",
-    "3_pt2": "负责实验室AI工具的后端运维，强化数据管理与研发工程实践"
+    "3_pt2": "负责实验室AI工具的后端运维，强化数据管理与研发工程实践",
+    "4_job": "软件工程师（Web）",
+    "4_badge": "全栈 Web · 联合国机构",
+    "4_date": "Jan 2021 — Dec 2022",
+    "4_pt0": "为联合国机构（FAO）构建全栈 Web 应用 — 开发面向员工与现场团队、交付农业与粮食安全项目数据的内部数据看板与公开门户",
+    "4_pt1": "设计现场数据采集工具及其背后的后端 API，使现场人员能够采集、校验并将项目数据同步至中央报表系统",
+    "4_pt2": "在整个技术栈中端到端负责功能 — React/Next.js + TypeScript 前端与 Python、PHP/CMS 后端 — 从数据模型、REST API 到部署上线的 UI"
   },
   "projects": {
     "label": "03 — PROJECTS",

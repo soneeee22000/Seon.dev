@@ -28,7 +28,7 @@
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
-    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "TECH STACK",
     "yrsLabel": "Jahre in AI / ML",
@@ -64,7 +64,13 @@
     "3_date": "Jan 2023 — Aug 2023",
     "3_pt0": "Ein NLP-Paraphrasierungstool durchgängig in einem Forschungslabor entwickelt, das angewandte KI-Dienste für Unternehmen anbietet — vom Modell bis zur Back-End-API",
     "3_pt1": "Die Datenschicht aufgebaut — Bereinigung und Strukturierung von Trainingsdatensätzen — und Trainings-Workflows optimiert, wodurch die Modellgenauigkeit um 15 % verbessert wurde",
-    "3_pt2": "Verantwortlich für den Back-End-Betrieb der KI-Tools des Labors, mit Stärkung von Datenmanagement und R&D-Engineering-Praxis"
+    "3_pt2": "Verantwortlich für den Back-End-Betrieb der KI-Tools des Labors, mit Stärkung von Datenmanagement und R&D-Engineering-Praxis",
+    "4_job": "Software Engineer (Web)",
+    "4_badge": "Full-Stack Web · UN-Organisation",
+    "4_date": "Jan 2021 — Dec 2022",
+    "4_pt0": "Full-Stack-Webanwendungen für eine UN-Organisation (FAO) entwickelt — interne Daten-Dashboards und öffentliche Portale, die Programmdaten zu Landwirtschaft und Ernährungssicherheit für Mitarbeitende und Außenteams bereitstellen",
+    "4_pt1": "Tools zur Felddatenerfassung und die zugehörigen Back-End-APIs entwickelt, mit denen Außendienstmitarbeitende Programmdaten erfassen, validieren und in zentrale Reporting-Systeme synchronisieren konnten",
+    "4_pt2": "Features end-to-end über den gesamten Stack verantwortet — React/Next.js + TypeScript Front-Ends mit Python- und PHP/CMS-Back-Ends — vom Datenmodell und REST API bis zur deployten UI"
   },
   "projects": {
     "label": "03 — PROJECTS",
