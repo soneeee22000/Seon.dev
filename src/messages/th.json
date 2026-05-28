@@ -28,7 +28,7 @@
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
-    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "เทคโนโลยีที่ใช้",
     "yrsLabel": "ปีในสาย AI / ML",
@@ -64,7 +64,13 @@
     "3_date": "Jan 2023 — Aug 2023",
     "3_pt0": "สร้างเครื่องมือ NLP paraphrasing แบบครบวงจรในห้องปฏิบัติการวิจัยที่ให้บริการ AI ประยุกต์แก่บริษัทต่างๆ — ตั้งแต่การพัฒนาโมเดลจนถึง back-end API",
     "3_pt1": "ออกแบบชั้นข้อมูล — ทำความสะอาดและจัดโครงสร้างชุดข้อมูลฝึก — และปรับปรุง workflow การฝึก เพิ่มความแม่นยำของโมเดลขึ้น 15%",
-    "3_pt2": "ดูแล back-end operations ของเครื่องมือ AI ในห้องแล็บ เสริมสร้างการจัดการข้อมูลและการปฏิบัติด้านวิศวกรรม R&D"
+    "3_pt2": "ดูแล back-end operations ของเครื่องมือ AI ในห้องแล็บ เสริมสร้างการจัดการข้อมูลและการปฏิบัติด้านวิศวกรรม R&D",
+    "4_job": "วิศวกรซอฟต์แวร์ (Web)",
+    "4_badge": "Full-Stack Web · หน่วยงาน UN",
+    "4_date": "Jan 2021 — Dec 2022",
+    "4_pt0": "พัฒนาเว็บแอปพลิเคชันแบบ full-stack ให้กับหน่วยงานของ UN (FAO) — แดชบอร์ดข้อมูลภายในและพอร์ทัลสาธารณะที่ส่งมอบข้อมูลโครงการด้านเกษตรและความมั่นคงทางอาหารให้กับเจ้าหน้าที่และทีมภาคสนาม",
+    "4_pt1": "ออกแบบเครื่องมือเก็บข้อมูลภาคสนามและ back-end APIs ที่อยู่เบื้องหลัง ทำให้เจ้าหน้าที่ภาคสนามสามารถบันทึก ตรวจสอบ และซิงค์ข้อมูลโครงการเข้าสู่ระบบรายงานส่วนกลางได้",
+    "4_pt2": "ดูแลฟีเจอร์แบบ end-to-end ตลอดทั้ง stack — front-ends ด้วย React/Next.js + TypeScript และ back-ends ด้วย Python และ PHP/CMS — ตั้งแต่ data model และ REST API จนถึง UI ที่ deploy แล้ว"
   },
   "projects": {
     "label": "03 — PROJECTS",

@@ -44,6 +44,12 @@ export const EXP_META = [
     color: "#7BCC9C",
     ptCount: 3,
   },
+  {
+    company: "FAO — UN Food & Agriculture Org",
+    url: "https://www.fao.org/myanmar/en/",
+    color: "#CC9C7B",
+    ptCount: 3,
+  },
 ];
 
 /** Project metadata (non-translatable fields only) */
@@ -431,7 +437,7 @@ export const SOCIAL_LINKS: [string, string][] = [
   ["LINKEDIN", "https://www.linkedin.com/in/pyae-sone-kyaw-80386721b/"],
 ];
 
-export const STATS_NUMS = ["4+", "11+", "2", "3"];
+export const STATS_NUMS = ["5+", "11+", "2", "3"];
 
 export const EDUCATION_META = [
   {

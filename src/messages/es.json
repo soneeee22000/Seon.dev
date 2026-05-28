@@ -28,7 +28,7 @@
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
-    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "STACK TECNOLÓGICO",
     "yrsLabel": "Años en AI / ML",
@@ -64,7 +64,13 @@
     "3_date": "Jan 2023 — Aug 2023",
     "3_pt0": "Construí de extremo a extremo una herramienta de paráfrasis NLP en un laboratorio de investigación que ofrece servicios de IA aplicada a empresas — del modelo a la API back-end",
     "3_pt1": "Diseñé la capa de datos — limpieza y estructuración de datasets de entrenamiento — y optimicé los flujos de entrenamiento, mejorando la precisión del modelo en un 15 %",
-    "3_pt2": "Responsable de las operaciones back-end de las herramientas de IA del laboratorio, fortaleciendo la gestión de datos y la práctica de ingeniería de I+D"
+    "3_pt2": "Responsable de las operaciones back-end de las herramientas de IA del laboratorio, fortaleciendo la gestión de datos y la práctica de ingeniería de I+D",
+    "4_job": "Ingeniero de Software (Web)",
+    "4_badge": "Full-Stack Web · Agencia de la ONU",
+    "4_date": "Jan 2021 — Dec 2022",
+    "4_pt0": "Desarrollé aplicaciones web full-stack para una agencia de la ONU (FAO): paneles de datos internos y portales públicos que entregaban datos de programas de agricultura y seguridad alimentaria al personal y a los equipos de campo",
+    "4_pt1": "Diseñé herramientas de recolección de datos de campo y las APIs back-end que las respaldan, permitiendo a los oficiales de campo capturar, validar y sincronizar datos de programas en sistemas centralizados de reporte",
+    "4_pt2": "Responsable de funcionalidades de extremo a extremo en todo el stack — front-ends en React/Next.js + TypeScript con back-ends en Python y PHP/CMS — desde el modelo de datos y la REST API hasta la UI desplegada"
   },
   "projects": {
     "label": "03 — PROJECTS",

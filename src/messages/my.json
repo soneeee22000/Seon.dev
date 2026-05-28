@@ -28,7 +28,7 @@
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
     "p1": "Currently a Full-Stack AI Engineer at Siloett.AI (Station F, Paris), where I architect end-to-end Generative AI systems on Azure with FastAPI, Azure Functions, and React/TypeScript.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
-    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 4+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
+    "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
     "techStack": "နည်းပညာစုစည်းမှု",
     "yrsLabel": "AI / ML တွင် နှစ်",
@@ -64,7 +64,13 @@
     "3_date": "Jan 2023 — Aug 2023",
     "3_pt0": "ကုမ္ပဏီများသို့ applied-AI ဝန်ဆောင်မှုများ ပေးအပ်သော သုတေသနဓာတ်ခွဲခန်းတစ်ခုတွင် NLP paraphrasing tool တစ်ခုကို model မှ back-end API အထိ အစအဆုံး တည်ဆောက်ခဲ့သည်",
     "3_pt1": "Data layer ကို တည်ဆောက်ခဲ့သည် — training datasets များကို သန့်ရှင်းရေးနှင့် ဖွဲ့စည်းခြင်း — ပြီး training workflows များ ပိုမိုကောင်းမွန်စေကာ model accuracy ကို ၁၅% တိုးမြှင့်ခဲ့သည်",
-    "3_pt2": "ဓာတ်ခွဲခန်း၏ AI tools များအတွက် back-end operations ကို တာဝန်ယူခဲ့ပြီး data management နှင့် R&D engineering အလေ့အကျင့်များ အားကောင်းစေခဲ့သည်"
+    "3_pt2": "ဓာတ်ခွဲခန်း၏ AI tools များအတွက် back-end operations ကို တာဝန်ယူခဲ့ပြီး data management နှင့် R&D engineering အလေ့အကျင့်များ အားကောင်းစေခဲ့သည်",
+    "4_job": "ဆော့ဖ်ဝဲ အင်ဂျင်နီယာ (Web)",
+    "4_badge": "Full-Stack Web · UN အေဂျင်စီ",
+    "4_date": "Jan 2021 — Dec 2022",
+    "4_pt0": "ကုလသမဂ္ဂအေဂျင်စီ (FAO) အတွက် full-stack web applications များ တည်ဆောက်ခဲ့သည် — စိုက်ပျိုးရေးနှင့် စားနပ်ရိက္ခာဖူလုံရေး program data များကို ဝန်ထမ်းများနှင့် ကွင်းဆင်းအဖွဲ့များထံ ပေးပို့သည့် internal data dashboards နှင့် အများသုံး portals များ ဖန်တီးခဲ့သည်",
+    "4_pt1": "ကွင်းဆင်း data ကောက်ယူရေး tools များနှင့် ၎င်းတို့၏နောက်ကွယ်ရှိ back-end APIs များ ဒီဇိုင်းဆွဲခဲ့ပြီး၊ ကွင်းဆင်းအရာရှိများသည် program data များကို ကောက်ယူ၊ စိစစ်ပြီး ဗဟို reporting systems များသို့ sync လုပ်နိုင်စေခဲ့သည်",
+    "4_pt2": "stack တစ်ခုလုံးတွင် features များကို end-to-end တာဝန်ယူခဲ့သည် — React/Next.js + TypeScript front-ends နှင့် Python နှင့် PHP/CMS back-ends — data model နှင့် REST API မှ deploy လုပ်ပြီးသား UI အထိ"
   },
   "projects": {
     "label": "03 — PROJECTS",
