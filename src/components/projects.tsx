@@ -106,38 +106,42 @@ export function Projects() {
                           {t("liveDemo")} &#8599;
                         </a>
                       )}
-                      <a
-                        href={featured.gh}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
-                        style={{
-                          borderColor: `${featured.color}50`,
-                          background:
-                            featured.demo === "#"
-                              ? featured.color
-                              : "transparent",
-                          color:
-                            featured.demo === "#" ? "#06080D" : featured.color,
-                        }}
-                        onMouseEnter={(e) => {
-                          if (featured.demo !== "#") {
-                            e.currentTarget.style.background = `${featured.color}12`;
-                          } else {
-                            e.currentTarget.style.opacity = "0.85";
-                          }
-                        }}
-                        onMouseLeave={(e) => {
-                          if (featured.demo !== "#") {
-                            e.currentTarget.style.background = "transparent";
-                          } else {
-                            e.currentTarget.style.opacity = "1";
-                          }
-                        }}
-                      >
-                        {featured.demo === "#" ? t("viewCode") : t("github")}{" "}
-                        &#8599;
-                      </a>
+                      {featured.gh !== "#" && (
+                        <a
+                          href={featured.gh}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="border px-[22px] py-2.5 font-dm-mono text-[9px] tracking-[.18em] transition-all duration-300"
+                          style={{
+                            borderColor: `${featured.color}50`,
+                            background:
+                              featured.demo === "#"
+                                ? featured.color
+                                : "transparent",
+                            color:
+                              featured.demo === "#"
+                                ? "#06080D"
+                                : featured.color,
+                          }}
+                          onMouseEnter={(e) => {
+                            if (featured.demo !== "#") {
+                              e.currentTarget.style.background = `${featured.color}12`;
+                            } else {
+                              e.currentTarget.style.opacity = "0.85";
+                            }
+                          }}
+                          onMouseLeave={(e) => {
+                            if (featured.demo !== "#") {
+                              e.currentTarget.style.background = "transparent";
+                            } else {
+                              e.currentTarget.style.opacity = "1";
+                            }
+                          }}
+                        >
+                          {featured.demo === "#" ? t("viewCode") : t("github")}{" "}
+                          &#8599;
+                        </a>
+                      )}
                     </div>
                   </div>
                   <div
@@ -160,7 +164,9 @@ export function Projects() {
                     >
                       {featured.demo === "#"
                         ? t("openSourceOnGithub")
-                        : t("liveAtVercel")}{" "}
+                        : featured.demo.includes("t.me")
+                          ? t("liveAtTelegram")
+                          : t("liveAtVercel")}{" "}
                       &#8599;
                     </div>
                   </div>
@@ -204,14 +210,16 @@ export function Projects() {
                         {t("demo")} &#8599;
                       </a>
                     )}
-                    <a
-                      href={p.gh}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-dm-mono text-[9px] tracking-[.1em] text-muted transition-colors duration-300 hover:text-accent"
-                    >
-                      {t("gh")} &#8599;
-                    </a>
+                    {p.gh !== "#" && (
+                      <a
+                        href={p.gh}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-dm-mono text-[9px] tracking-[.1em] text-muted transition-colors duration-300 hover:text-accent"
+                      >
+                        {t("gh")} &#8599;
+                      </a>
+                    )}
                   </div>
                 </div>
                 <h3 className="mb-2 font-playfair text-[19px] font-bold text-text">

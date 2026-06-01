@@ -21,6 +21,12 @@ export const GREETINGS: string[] = [
 /** Experience metadata (non-translatable fields only) */
 export const EXP_META = [
   {
+    company: "Ekkhara",
+    url: "https://ekkhara.com",
+    color: "#CC7B7B",
+    ptCount: 3,
+  },
+  {
     company: "Siloett.AI",
     url: "https://siloett.ai/lander",
     color: "#C9A96E",
@@ -54,6 +60,16 @@ export const EXP_META = [
 
 /** Project metadata (non-translatable fields only) */
 export const PROJECTS_META = [
+  {
+    id: 13,
+    featured: true,
+    emoji: "\uD83D\uDDE3\uFE0F",
+    title: "SpeakProof",
+    tags: ["Python", "Telegram Bot", "FastAPI", "LLM", "TOEFL"],
+    color: "#CC7B7B",
+    demo: "https://t.me/SpeakProofTOEFLBot",
+    gh: "#",
+  },
   {
     id: 1,
     featured: true,
@@ -437,7 +453,7 @@ export const SOCIAL_LINKS: [string, string][] = [
   ["LINKEDIN", "https://www.linkedin.com/in/pyae-sone-kyaw-80386721b/"],
 ];
 
-export const STATS_NUMS = ["5+", "11+", "2", "3"];
+export const STATS_NUMS = ["5+", "12+", "2", "3"];
 
 export const EDUCATION_META = [
   {
