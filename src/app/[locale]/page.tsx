@@ -4,8 +4,10 @@ import { useScrollReveal } from "@/lib/hooks";
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
+import { Pillars } from "@/components/pillars";
 import { Experience } from "@/components/experience";
 import { Projects } from "@/components/projects";
+import { Research } from "@/components/research";
 import { Skills } from "@/components/skills";
 import { Education } from "@/components/education";
 import { Certifications } from "@/components/certifications";
@@ -20,8 +22,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Pillars />
       <Experience />
       <Projects />
+      <Research />
       <Skills />
       <Education />
       <Certifications />

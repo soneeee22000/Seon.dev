@@ -11,7 +11,8 @@
     "skills": "HABILIDADES",
     "education": "EDUCACIÓN",
     "contact": "CONTACTO",
-    "resume": "CURRÍCULUM"
+    "resume": "CURRÍCULUM",
+    "research": "INVESTIGACIÓN"
   },
   "hero": {
     "subtitle": "FUNDADOR · INGENIERO FULL-STACK & IA · PARÍS",
@@ -35,6 +36,27 @@
     "projectsLabel": "Proyectos Entregados",
     "degreesLabel": "Másteres",
     "countriesLabel": "Países Vividos"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "Tres Pilares,",
+    "headingEm": "Una Tesis",
+    "intro": "Ekkhara es donde se encuentran mis tres obsesiones: la ingeniería que entrega, la investigación que hace las preguntas difíciles y el emprendimiento que convierte respuestas en productos. Curso un doctorado en Europa para profundizar el pilar de la investigación — y para hacer crecer un nicho hasta convertirlo en empresa.",
+    "engineering_title": "Ingeniería",
+    "engineering_tagline": "Sistemas en producción que sobreviven al mundo real.",
+    "engineering_pt0": "Back-ends de telecomunicaciones — tarificación CDR, gateways SMPP, control de crédito Diameter en Java 21 & Spring Boot 3.5.",
+    "engineering_pt1": "Lakehouses de datos en la nube sobre AWS, Snowflake & Databricks con dbt, Airflow & Kafka.",
+    "engineering_pt2": "IA full-stack en FastAPI & Next.js, entregada de extremo a extremo en salud, RegTech y telecomunicaciones.",
+    "research_title": "Investigación",
+    "research_tagline": "Hacia un doctorado — y un nicho defendible.",
+    "research_pt0": "WikiHow-MY: el primer corpus de TA instruccional inglés→birmano, con la mira en WMT 2026.",
+    "research_pt1": "AgentProbe: análisis de fallos de agentes LLM entre proveedores, para talleres de NeurIPS/ICML.",
+    "research_pt2": "Un novedoso Instruction Faithfulness Score y un resultado honesto sobre «cuándo fallan las métricas».",
+    "entrepreneurship_title": "Emprendimiento",
+    "entrepreneurship_tagline": "Investigación que crece hasta ser productos que la gente usa.",
+    "entrepreneurship_pt0": "Ekkhara — un estudio de ventures de IA autofinanciado en Station F, París.",
+    "entrepreneurship_pt1": "SpeakProof: un coach de TOEFL nativo de Telegram, ya en marcha para estudiantes de Myanmar.",
+    "entrepreneurship_pt2": "VitaLens & VitalAge: ventures de health-AI presentadas en VivaTech 2026."
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "Investigación en",
+    "headingEm": "Marcha",
+    "intro": "Dos artículos en curso — el puente del ingeniero al candidato a doctorado. Ambos son abiertos: código, modelos y demos en GitHub y Hugging Face.",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026 (EMNLP, Budapest) · En curso",
+    "wikihow-my_contribution": "El primer corpus de traducción automática instruccional inglés→birmano — ~10K pares post-editados por humanos, con particiones disjuntas por artículo — más un novedoso Instruction Faithfulness Score (IFS) para texto procedimental.",
+    "wikihow-my_metrics": "Fine-tuning de NLLB-200: +5,6 chrF++ en dominio. Hallazgo principal: las métricas automáticas — incluida la nuestra — no predicen si una persona puede seguir realmente las instrucciones traducidas.",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "Talleres de agentes NeurIPS / ICML · En curso",
+    "agentprobe_contribution": "Un ReAct Agent Observatory que instrumenta los bucles de razonamiento de los LLM con una taxonomía de 8 tipos de fallo y evalúa cinco proveedores en tareas idénticas — midiendo la 'huella de fallo' propia de cada uno.",
+    "agentprobe_metrics": "5 proveedores · 8 tipos de fallo deterministas · 50+ casos de referencia · 81 tests · demo en vivo. El eje entre proveedores es un espacio inexplorado en la literatura sobre fiabilidad de agentes."
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "Herramientas del",
     "headingEm": "Oficio",
     "alsoFluentIn": "TAMBIÉN DOMINA"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "Asia",
     "heading2": "Europa.",
     "headingEm": "El Viaje Forma al Ingeniero",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "Prueba de",
     "headingEm": "Compromiso",
     "verified": "VERIFICADO"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "Construyamos",
     "headingEm": "Algo.",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",

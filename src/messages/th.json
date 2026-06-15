@@ -11,7 +11,8 @@
     "skills": "ทักษะ",
     "education": "การศึกษา",
     "contact": "ติดต่อ",
-    "resume": "เรซูเม่"
+    "resume": "เรซูเม่",
+    "research": "งานวิจัย"
   },
   "hero": {
     "subtitle": "ผู้ก่อตั้ง · วิศวกร FULL-STACK & AI · ปารีส",
@@ -35,6 +36,27 @@
     "projectsLabel": "โปรเจกต์ที่ส่งมอบ",
     "degreesLabel": "ปริญญาโท",
     "countriesLabel": "ประเทศที่เคยอาศัย"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "สามเสาหลัก",
+    "headingEm": "หนึ่งวิทยานิพนธ์",
+    "intro": "Ekkhara คือจุดที่ความหลงใหลสามอย่างของผมมาบรรจบกัน: วิศวกรรมที่ส่งมอบได้จริง การวิจัยที่กล้าตั้งคำถามยาก และการเป็นผู้ประกอบการที่เปลี่ยนคำตอบให้เป็นผลิตภัณฑ์ ผมกำลังศึกษาปริญญาเอกในยุโรปเพื่อเสริมเสาการวิจัยให้ลึกขึ้น — และเพื่อเติบโตจากช่องว่างเฉพาะทางไปสู่การเป็นบริษัท",
+    "engineering_title": "วิศวกรรม",
+    "engineering_tagline": "ระบบโปรดักชันที่ทนต่อโลกแห่งความเป็นจริง",
+    "engineering_pt0": "ระบบหลังบ้านโทรคมนาคม — การคิดค่า CDR, SMPP gateway, Diameter credit-control บน Java 21 & Spring Boot 3.5",
+    "engineering_pt1": "Cloud data lakehouse บน AWS, Snowflake & Databricks ด้วย dbt, Airflow & Kafka",
+    "engineering_pt2": "Full-stack AI บน FastAPI & Next.js ส่งมอบครบวงจรทั้งด้านสุขภาพ RegTech และโทรคมนาคม",
+    "research_title": "การวิจัย",
+    "research_tagline": "มุ่งสู่ปริญญาเอก — และช่องทางเฉพาะที่ปกป้องได้",
+    "research_pt0": "WikiHow-MY: คลังข้อมูล MT เชิงคำสั่งอังกฤษ→พม่าชุดแรก มุ่งสู่ WMT 2026",
+    "research_pt1": "AgentProbe: การวิเคราะห์รอยความล้มเหลวของ LLM agent ข้ามผู้ให้บริการ สำหรับ workshop NeurIPS/ICML",
+    "research_pt2": "Instruction Faithfulness Score แบบใหม่ และผลลัพธ์ที่ซื่อตรงว่า 'เมื่อใดที่เมตริกล้มเหลว'",
+    "entrepreneurship_title": "การเป็นผู้ประกอบการ",
+    "entrepreneurship_tagline": "การวิจัยที่เติบโตเป็นผลิตภัณฑ์ที่ผู้คนใช้จริง",
+    "entrepreneurship_pt0": "Ekkhara — สตูดิโอ AI ventures ที่ลงทุนเอง ณ Station F, ปารีส",
+    "entrepreneurship_pt1": "SpeakProof: โค้ช TOEFL บน Telegram ที่ใช้งานจริงแล้วสำหรับผู้เรียนชาวพม่า",
+    "entrepreneurship_pt2": "VitaLens & VitalAge: ventures ด้าน health-AI ที่จัดแสดงใน VivaTech 2026"
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "งานวิจัยที่",
+    "headingEm": "กำลังดำเนิน",
+    "intro": "สองเปเปอร์ที่กำลังดำเนินอยู่ — สะพานจากวิศวกรสู่ผู้สมัครปริญญาเอก ทั้งสองเปิดเผย: โค้ด โมเดล และเดโมอยู่บน GitHub และ Hugging Face",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026 (EMNLP, บูดาเปสต์) · กำลังดำเนินการ",
+    "wikihow-my_contribution": "คลังข้อมูลการแปลด้วยเครื่องเชิงคำสั่งอังกฤษ→พม่าชุดแรก — ~10K คู่ประโยคที่ผ่านการแก้ไขโดยมนุษย์ พร้อม split แยกตามบทความ — และ Instruction Faithfulness Score (IFS) แบบใหม่สำหรับข้อความเชิงขั้นตอน",
+    "wikihow-my_metrics": "Fine-tune NLLB-200: +5.6 chrF++ ในโดเมน ผลลัพธ์สำคัญ: เมตริกอัตโนมัติ — รวมถึงของเรา — ไม่สามารถทำนายได้ว่ามนุษย์จะทำตามคำสั่งที่แปลแล้วได้จริงหรือไม่",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "NeurIPS / ICML agent workshops · กำลังดำเนินการ",
+    "agentprobe_contribution": "ReAct Agent Observatory ที่ตรวจวัด reasoning loop ของ LLM ด้วย taxonomy ความล้มเหลว 8 ประเภท และเปรียบเทียบผู้ให้บริการห้ารายบนงานเดียวกัน — วัด 'ลายนิ้วมือความล้มเหลว' เฉพาะตัวของแต่ละราย",
+    "agentprobe_metrics": "5 ผู้ให้บริการ · ความล้มเหลวเชิง deterministic 8 ประเภท · เคสเบนช์มาร์ก 50+ · 81 เทสต์ · เดโมสด แกนความล้มเหลวข้ามผู้ให้บริการเป็นพื้นที่ว่างที่ยังไม่มีใครศึกษาในงานวิจัยด้านความน่าเชื่อถือของ agent"
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "เครื่องมือของ",
     "headingEm": "มืออาชีพ",
     "alsoFluentIn": "เชี่ยวชาญเพิ่มเติมใน"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "เอเชีย",
     "heading2": "ยุโรป.",
     "headingEm": "เส้นทางหล่อหลอมวิศวกร",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "หลักฐานแห่ง",
     "headingEm": "ความมุ่งมั่น",
     "verified": "ตรวจสอบแล้ว"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "มาร่วมกัน",
     "headingEm": "สร้างสรรค์.",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",

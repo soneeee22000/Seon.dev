@@ -443,9 +443,75 @@ export const NAV_IDS = [
   "about",
   "experience",
   "projects",
+  "research",
   "skills",
   "education",
   "contact",
+];
+
+/** Triad pillars metadata (non-translatable fields only) */
+export const PILLARS_META = [
+  {
+    id: "engineering",
+    emoji: "⚙️",
+    color: "#7BAACC",
+    href: "https://github.com/soneeee22000",
+    hrefLabel: "GITHUB",
+  },
+  {
+    id: "research",
+    emoji: "🔬",
+    color: "#9C7BCC",
+    href: "https://huggingface.co/PyaeSoneK",
+    hrefLabel: "HUGGING FACE",
+  },
+  {
+    id: "entrepreneurship",
+    emoji: "🚀",
+    color: "#CC7B7B",
+    href: "https://ekkhara.com",
+    hrefLabel: "EKKHARA",
+  },
+];
+
+/** Research papers metadata (non-translatable fields only) */
+export const PAPERS_META = [
+  {
+    id: "wikihow-my",
+    title: "WikiHow-MY",
+    emoji: "🌏",
+    color: "#9C7BCC",
+    tags: [
+      "NLLB-200",
+      "chrF++",
+      "COMET",
+      "MetricX-24",
+      "Burmese",
+      "Low-Resource MT",
+    ],
+    links: {
+      gh: "https://github.com/soneeee22000/wikihow-mt-my",
+      hf: "https://huggingface.co/PyaeSoneK/nllb-600m-wikihow-en-my",
+      collection:
+        "https://huggingface.co/collections/PyaeSoneK/english-to-burmese-mt-wikihow-6a28b3f136f02ab48e0d62c4",
+      demo: "#",
+      paper: "#",
+    },
+  },
+  {
+    id: "agentprobe",
+    title: "AgentProbe",
+    emoji: "🔬",
+    color: "#C9A96E",
+    tags: ["ReAct", "FastAPI", "Next.js 16", "PostgreSQL", "SSE", "LLM Eval"],
+    links: {
+      gh: "https://github.com/soneeee22000/AgentProbe",
+      hf: "#",
+      collection: "#",
+      demo: "https://agent-probe-one.vercel.app",
+      paper: "#",
+    },
+  },
 ];
 
 export const SOCIAL_LINKS: [string, string][] = [

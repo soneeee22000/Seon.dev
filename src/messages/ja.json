@@ -11,7 +11,8 @@
     "skills": "スキル",
     "education": "学歴",
     "contact": "お問い合わせ",
-    "resume": "履歴書"
+    "resume": "履歴書",
+    "research": "研究"
   },
   "hero": {
     "subtitle": "創業者 · フルスタック & AI エンジニア · パリ",
@@ -35,6 +36,27 @@
     "projectsLabel": "リリース済みプロジェクト",
     "degreesLabel": "修士号",
     "countriesLabel": "居住した国"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "三つの柱、",
+    "headingEm": "一つの理念",
+    "intro": "Ekkhara は、私の三つの情熱が交わる場所です。形にするエンジニアリング、難問に挑む研究、そして答えを製品へと変える起業。研究の柱を深めるため——そしてニッチを会社へと育てるため、私はヨーロッパで博士号を目指しています。",
+    "engineering_title": "エンジニアリング",
+    "engineering_tagline": "現実に耐える本番システム。",
+    "engineering_pt0": "通信バックエンド——CDRレーティング、SMPPゲートウェイ、Diameterクレジット制御を Java 21 & Spring Boot 3.5 で。",
+    "engineering_pt1": "AWS・Snowflake・Databricks 上のクラウドデータレイクハウスを dbt・Airflow・Kafka で構築。",
+    "engineering_pt2": "FastAPI・Next.js のフルスタックAIを、医療・RegTech・通信でエンドツーエンドに提供。",
+    "research_title": "研究",
+    "research_tagline": "博士号へ——そして守れるニッチへ。",
+    "research_pt0": "WikiHow-MY：初の英語→ミャンマー語の手順指示MTコーパス。WMT 2026 を目標。",
+    "research_pt1": "AgentProbe：プロバイダー横断のLLMエージェント故障フィンガープリント。NeurIPS/ICMLワークショップ向け。",
+    "research_pt2": "新規の Instruction Faithfulness Score と、「指標が失敗するとき」という誠実な結果。",
+    "entrepreneurship_title": "起業",
+    "entrepreneurship_tagline": "人々が使う製品へと育つ研究。",
+    "entrepreneurship_pt0": "Ekkhara——パリ Station F の自己資金によるAIベンチャースタジオ。",
+    "entrepreneurship_pt1": "SpeakProof：ミャンマーの学習者向けにすでに稼働中の、Telegramネイティブの TOEFL コーチ。",
+    "entrepreneurship_pt2": "VitaLens & VitalAge：VivaTech 2026 で発表したヘルスAIベンチャー。"
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "進行中の",
+    "headingEm": "研究",
+    "intro": "進行中の論文が2本——エンジニアから博士課程候補者への架け橋です。どちらもオープン：コード・モデル・デモは GitHub と Hugging Face で公開しています。",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026（EMNLP, ブダペスト）· 進行中",
+    "wikihow-my_contribution": "初の英語→ミャンマー語の手順指示機械翻訳コーパス——人手で後編集した約1万ペア、記事単位で分割——に加え、手順テキスト向けの新規 Instruction Faithfulness Score (IFS)。",
+    "wikihow-my_metrics": "NLLB-200 のファインチューニング：ドメイン内で +5.6 chrF++。主要な発見：私たちのものを含む自動指標は、人間が翻訳された手順を実際にたどれるかを予測できない。",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "NeurIPS / ICML エージェントワークショップ · 進行中",
+    "agentprobe_contribution": "LLMの推論ループを8種類の故障分類で計測し、同一タスクで5つのプロバイダーをベンチマークする ReAct Agent Observatory——各プロバイダー固有の「故障フィンガープリント」を測定。",
+    "agentprobe_metrics": "5プロバイダー · 決定的な故障8種類 · 50+のベンチマークケース · 81テスト · ライブデモ。プロバイダー横断の故障軸は、エージェント信頼性の研究において未開拓の領域です。"
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "プロの",
     "headingEm": "道具箱",
     "alsoFluentIn": "その他の習熟技術"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "アジアから",
     "heading2": "ヨーロッパへ。",
     "headingEm": "旅がエンジニアを形作る",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "継続的な",
     "headingEm": "学びの証明",
     "verified": "認証済み"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "一緒に何かを",
     "headingEm": "創りましょう。",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",

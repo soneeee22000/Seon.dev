@@ -11,7 +11,8 @@
     "skills": "SKILLS",
     "education": "EDUCATION",
     "contact": "CONTACT",
-    "resume": "RÉSUMÉ"
+    "resume": "RÉSUMÉ",
+    "research": "RESEARCH"
   },
   "hero": {
     "subtitle": "FOUNDER · FULL-STACK & AI ENGINEER · PARIS",
@@ -35,6 +36,27 @@
     "projectsLabel": "Projects Shipped",
     "degreesLabel": "Master's Degrees",
     "countriesLabel": "Countries Lived"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "Three Pillars,",
+    "headingEm": "One Thesis",
+    "intro": "Ekkhara is where my three obsessions meet: engineering that ships, research that asks the hard questions, and entrepreneurship that turns answers into products. I'm pursuing a PhD in Europe to deepen the research pillar — and to grow a niche that becomes a company.",
+    "engineering_title": "Engineering",
+    "engineering_tagline": "Production systems that survive contact with reality.",
+    "engineering_pt0": "Telecom back-ends — CDR rating, SMPP gateways, Diameter credit-control on Java 21 & Spring Boot 3.5.",
+    "engineering_pt1": "Cloud data lakehouses on AWS, Snowflake & Databricks with dbt, Airflow & Kafka.",
+    "engineering_pt2": "Full-stack AI on FastAPI & Next.js, shipped end-to-end across healthcare, RegTech & telecom.",
+    "research_title": "Research",
+    "research_tagline": "Toward a PhD — and a defensible niche.",
+    "research_pt0": "WikiHow-MY: the first instructional English→Myanmar MT corpus, targeting WMT 2026.",
+    "research_pt1": "AgentProbe: cross-provider LLM-agent failure fingerprinting for NeurIPS/ICML workshops.",
+    "research_pt2": "A novel Instruction Faithfulness Score and an honest 'when metrics fail' result.",
+    "entrepreneurship_title": "Entrepreneurship",
+    "entrepreneurship_tagline": "Research that grows into products people use.",
+    "entrepreneurship_pt0": "Ekkhara — a self-funded AI ventures studio at Station F, Paris.",
+    "entrepreneurship_pt1": "SpeakProof: a Telegram-native TOEFL coach already live for Myanmar learners.",
+    "entrepreneurship_pt2": "VitaLens & VitalAge: health-AI ventures shown at VivaTech 2026."
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "Research in",
+    "headingEm": "Flight",
+    "intro": "Two papers in progress — the bridge from engineer to PhD candidate. Both are open: code, models, and demos live on GitHub and Hugging Face.",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026 (EMNLP, Budapest) · Work in Progress",
+    "wikihow-my_contribution": "The first instructional English→Myanmar machine-translation corpus — ~10K human-post-edited pairs with article-disjoint splits — plus a novel Instruction Faithfulness Score (IFS) for procedural text.",
+    "wikihow-my_metrics": "NLLB-200 fine-tune: +5.6 chrF++ in-domain. Headline finding: automatic metrics — including ours — fail to predict whether humans can actually follow the translated instructions.",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "NeurIPS / ICML agent workshops · Work in Progress",
+    "agentprobe_contribution": "A ReAct Agent Observatory that instruments LLM reasoning loops with an 8-type failure taxonomy and benchmarks five providers on identical tasks — measuring each provider's distinct 'failure fingerprint'.",
+    "agentprobe_metrics": "5 providers · 8 deterministic failure types · 50+ benchmark cases · 81 tests · live demo. The cross-provider failure axis is uncontested white space in the agent-reliability literature."
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "Tools of the",
     "headingEm": "Trade",
     "alsoFluentIn": "ALSO FLUENT IN"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "Asia",
     "heading2": "Europe.",
     "headingEm": "The Journey Shapes the Engineer",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "Proof of",
     "headingEm": "Commitment",
     "verified": "VERIFIED"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "Let's Build",
     "headingEm": "Something.",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",

@@ -11,7 +11,8 @@
     "skills": "ကျွမ်းကျင်မှုများ",
     "education": "ပညာရေး",
     "contact": "ဆက်သွယ်ရန်",
-    "resume": "ကိုယ်ရေးအကျဉ်း"
+    "resume": "ကိုယ်ရေးအကျဉ်း",
+    "research": "သုတေသန"
   },
   "hero": {
     "subtitle": "တည်ထောင်သူ · FULL-STACK & AI အင်ဂျင်နီယာ · PARIS",
@@ -35,6 +36,27 @@
     "projectsLabel": "ပို့ဆောင်ခဲ့သော ပရောဂျက်များ",
     "degreesLabel": "မဟာဘွဲ့များ",
     "countriesLabel": "နေထိုင်ခဲ့သော နိုင်ငံများ"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "မဏ္ဍိုင်သုံးခု၊",
+    "headingEm": "သီအိုရီတစ်ခု",
+    "intro": "Ekkhara ဆိုသည်မှာ ကျွန်ုပ်၏ စိတ်အာရုံသုံးခု ဆုံစည်းရာနေရာ — ပစ္စည်းထုတ်ပေးနိုင်သော အင်ဂျင်နီယာ၊ ခက်ခဲသော မေးခွန်းများ မေးသော သုတေသန၊ နှင့် အဖြေများကို ထုတ်ကုန်အဖြစ် ပြောင်းလဲပေးသော စွန့်ဦးတီထွင်မှု။ သုတေသနမဏ္ဍိုင်ကို နက်ရှိုင်းစေရန် — နှင့် နယ်ပယ်တစ်ခုကို ကုမ္ပဏီတစ်ခုအဖြစ် ကြီးထွားလာစေရန် ဥရောပတွင် ပါရဂူဘွဲ့ကို ကျွန်ုပ် ဆက်လက်လုပ်ဆောင်နေပါသည်။",
+    "engineering_title": "အင်ဂျင်နီယာ",
+    "engineering_tagline": "လက်တွေ့ကမ္ဘာနှင့် ရင်ဆိုင်ရပ်တည်နိုင်သော ထုတ်လုပ်မှုစနစ်များ။",
+    "engineering_pt0": "တယ်လီကွန် back-end များ — CDR rating, SMPP gateway, Diameter credit-control ကို Java 21 & Spring Boot 3.5 ဖြင့်။",
+    "engineering_pt1": "AWS, Snowflake & Databricks ပေါ်တွင် dbt, Airflow & Kafka ဖြင့် cloud data lakehouse များ။",
+    "engineering_pt2": "FastAPI & Next.js ပေါ်တွင် full-stack AI — ကျန်းမာရေး၊ RegTech နှင့် တယ်လီကွန်တွင် အစအဆုံး ပို့ဆောင်ထားသည်။",
+    "research_title": "သုတေသန",
+    "research_tagline": "ပါရဂူဘွဲ့ဆီသို့ — နှင့် ခုခံကာကွယ်နိုင်သော နယ်ပယ်တစ်ခုဆီသို့။",
+    "research_pt0": "WikiHow-MY — ပထမဆုံး အင်္ဂလိပ်→မြန်မာ ညွှန်ကြားချက် MT corpus၊ WMT 2026 ကို ဦးတည်သည်။",
+    "research_pt1": "AgentProbe — ဝန်ဆောင်မှုပေးသူအချင်းချင်း LLM agent ချို့ယွင်းမှု fingerprinting၊ NeurIPS/ICML workshop များအတွက်။",
+    "research_pt2": "အသစ်အဆန်း Instruction Faithfulness Score နှင့် 'metric များ ဘယ်အချိန်မှားသလဲ' ဆိုသော ရိုးသားသည့် ရလဒ်တစ်ခု။",
+    "entrepreneurship_title": "စွန့်ဦးတီထွင်မှု",
+    "entrepreneurship_tagline": "လူများ အသုံးပြုသော ထုတ်ကုန်များအဖြစ် ကြီးထွားလာသော သုတေသန။",
+    "entrepreneurship_pt0": "Ekkhara — Station F, Paris ရှိ ကိုယ်ပိုင်ရင်းနှီးမြှုပ်နှံထားသော AI ventures studio။",
+    "entrepreneurship_pt1": "SpeakProof — မြန်မာသင်ယူသူများအတွက် ယခုပင် အသုံးပြုနေပြီးသော Telegram-native TOEFL coach။",
+    "entrepreneurship_pt2": "VitaLens & VitalAge — VivaTech 2026 တွင် ပြသခဲ့သော health-AI ventures များ။"
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "ဆောင်ရွက်ဆဲ",
+    "headingEm": "သုတေသန",
+    "intro": "ဆောင်ရွက်ဆဲ စာတမ်းနှစ်စောင် — အင်ဂျင်နီယာမှ ပါရဂူဘွဲ့လောင်းဆီသို့ တံတား။ နှစ်ခုစလုံး ပွင့်လင်းသည် — code, model နှင့် demo များကို GitHub နှင့် Hugging Face တွင် တွေ့နိုင်သည်။",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026 (EMNLP, Budapest) · ဆောင်ရွက်ဆဲ",
+    "wikihow-my_contribution": "ပထမဆုံး အင်္ဂလိပ်→မြန်မာ ညွှန်ကြားချက် စက်ဘာသာပြန် corpus — လူသားပြန်လည်တည်းဖြတ်ထားသော အတွဲ ~၁၀,၀၀၀ နှင့် article-disjoint split များ — အပြင် procedural စာသားအတွက် အသစ်အဆန်း Instruction Faithfulness Score (IFS)။",
+    "wikihow-my_metrics": "NLLB-200 fine-tune — domain အတွင်း +5.6 chrF++။ အဓိကတွေ့ရှိချက် — ကျွန်ုပ်တို့၏ metric အပါအဝင် အလိုအလျောက် metric များသည် ဘာသာပြန်ထားသော ညွှန်ကြားချက်များကို လူသားများ တကယ်လိုက်နာနိုင်မလားဆိုသည်ကို မခန့်မှန်းနိုင်ပါ။",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "NeurIPS / ICML agent workshop များ · ဆောင်ရွက်ဆဲ",
+    "agentprobe_contribution": "LLM reasoning loop များကို ချို့ယွင်းမှု ၈ မျိုး taxonomy ဖြင့် instrument လုပ်ပြီး ဝန်ဆောင်မှုပေးသူ ၅ ခုကို တူညီသော task များပေါ်တွင် benchmark လုပ်သော ReAct Agent Observatory — တစ်ခုစီ၏ သီးခြား 'ချို့ယွင်းမှု fingerprint' ကို တိုင်းတာသည်။",
+    "agentprobe_metrics": "ဝန်ဆောင်မှုပေးသူ ၅ ခု · deterministic ချို့ယွင်းမှု ၈ မျိုး · benchmark case ၅၀+ · test ၈၁ ခု · live demo။ ဝန်ဆောင်မှုပေးသူအချင်းချင်း ချို့ယွင်းမှု ဝင်ရိုးသည် agent reliability စာပေတွင် မစူးစမ်းရသေးသော နယ်ပယ်ဖြစ်သည်။"
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "အသက်မွေးဝမ်းကျောင်း၏",
     "headingEm": "ကိရိယာများ",
     "alsoFluentIn": "ဤအရာများတွင်လည်း ကျွမ်းကျင်"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "အာရှ",
     "heading2": "ဥရောပ။",
     "headingEm": "ခရီးလမ်းက အင်ဂျင်နီယာကို ပုံဖော်သည်",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "ကတိကဝတ်၏",
     "headingEm": "သက်သေ",
     "verified": "အတည်ပြုပြီး"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "အတူတကွ",
     "headingEm": "တည်ဆောက်ကြစို့။",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",
