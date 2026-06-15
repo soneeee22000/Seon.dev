@@ -11,7 +11,8 @@
     "skills": "기술",
     "education": "학력",
     "contact": "연락처",
-    "resume": "이력서"
+    "resume": "이력서",
+    "research": "연구"
   },
   "hero": {
     "subtitle": "창업자 · 풀스택 & AI 엔지니어 · 파리",
@@ -35,6 +36,27 @@
     "projectsLabel": "출시한 프로젝트",
     "degreesLabel": "석사 학위",
     "countriesLabel": "거주한 국가"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "세 개의 기둥,",
+    "headingEm": "하나의 명제",
+    "intro": "Ekkhara는 제 세 가지 열정이 만나는 곳입니다. 결과를 내는 엔지니어링, 어려운 질문을 던지는 연구, 그리고 답을 제품으로 바꾸는 창업. 연구라는 기둥을 더 깊게 다지기 위해 — 그리고 하나의 니치를 회사로 키우기 위해, 저는 유럽에서 박사 과정을 밟고 있습니다.",
+    "engineering_title": "엔지니어링",
+    "engineering_tagline": "현실과 부딪혀도 살아남는 프로덕션 시스템.",
+    "engineering_pt0": "통신 백엔드 — CDR 과금, SMPP 게이트웨이, Diameter 크레딧 제어를 Java 21 & Spring Boot 3.5로.",
+    "engineering_pt1": "AWS, Snowflake & Databricks 위에 dbt, Airflow & Kafka로 구축한 클라우드 데이터 레이크하우스.",
+    "engineering_pt2": "FastAPI & Next.js 기반 풀스택 AI를 헬스케어, RegTech, 통신에 엔드투엔드로 출시.",
+    "research_title": "연구",
+    "research_tagline": "박사 학위로 — 그리고 방어 가능한 니치로.",
+    "research_pt0": "WikiHow-MY: 최초의 영어→미얀마어 지시문 MT 코퍼스, WMT 2026 목표.",
+    "research_pt1": "AgentProbe: 제공자 간 LLM 에이전트 실패 지문 분석, NeurIPS/ICML 워크숍 대상.",
+    "research_pt2": "새로운 Instruction Faithfulness Score와 '지표가 실패할 때'라는 정직한 결과.",
+    "entrepreneurship_title": "창업",
+    "entrepreneurship_tagline": "사람들이 쓰는 제품으로 자라나는 연구.",
+    "entrepreneurship_pt0": "Ekkhara — 파리 Station F의 자체 자금 AI 벤처 스튜디오.",
+    "entrepreneurship_pt1": "SpeakProof: 미얀마 학습자를 위해 이미 운영 중인 Telegram 네이티브 TOEFL 코치.",
+    "entrepreneurship_pt2": "VitaLens & VitalAge: VivaTech 2026에서 선보인 헬스 AI 벤처."
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "진행 중인",
+    "headingEm": "연구",
+    "intro": "진행 중인 논문 두 편 — 엔지니어에서 박사 지원자로 가는 다리입니다. 둘 다 공개되어 있습니다: 코드, 모델, 데모가 GitHub와 Hugging Face에 있습니다.",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026 (EMNLP, 부다페스트) · 진행 중",
+    "wikihow-my_contribution": "최초의 영어→미얀마어 지시문 기계번역 코퍼스 — 사람이 후편집한 약 1만 쌍과 기사 단위 분할 — 그리고 절차적 텍스트를 위한 새로운 Instruction Faithfulness Score (IFS).",
+    "wikihow-my_metrics": "NLLB-200 파인튜닝: 도메인 내 +5.6 chrF++. 핵심 발견: 우리 것을 포함한 자동 지표는 사람이 번역된 지시를 실제로 따를 수 있는지 예측하지 못합니다.",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "NeurIPS / ICML 에이전트 워크숍 · 진행 중",
+    "agentprobe_contribution": "LLM 추론 루프를 8가지 실패 분류로 계측하고 동일한 과제에서 다섯 제공자를 벤치마크하는 ReAct Agent Observatory — 각 제공자 고유의 '실패 지문'을 측정합니다.",
+    "agentprobe_metrics": "제공자 5곳 · 결정론적 실패 8종 · 벤치마크 케이스 50+ · 테스트 81개 · 라이브 데모. 제공자 간 실패 축은 에이전트 신뢰성 문헌에서 아직 다뤄지지 않은 영역입니다."
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "엔지니어의",
     "headingEm": "도구",
     "alsoFluentIn": "추가 숙련 기술"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "아시아",
     "heading2": "유럽.",
     "headingEm": "여정이 엔지니어를 만듭니다",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "헌신의",
     "headingEm": "증명",
     "verified": "인증됨"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "함께 만들어",
     "headingEm": "봅시다.",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",

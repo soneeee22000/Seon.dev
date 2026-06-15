@@ -11,7 +11,8 @@
     "skills": "技能",
     "education": "教育",
     "contact": "联系",
-    "resume": "简历"
+    "resume": "简历",
+    "research": "研究"
   },
   "hero": {
     "subtitle": "创始人 · 全栈 & AI 工程师 · 巴黎",
@@ -35,6 +36,27 @@
     "projectsLabel": "已交付项目",
     "degreesLabel": "硕士学位",
     "countriesLabel": "生活过的国家"
+  },
+  "pillars": {
+    "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
+    "heading": "三大支柱，",
+    "headingEm": "一个理念",
+    "intro": "Ekkhara 是我三种热情交汇的地方：能够交付的工程、敢问难题的研究，以及把答案变成产品的创业。我正在欧洲攻读博士，以深化研究这一支柱——并把一个细分领域培育成一家公司。",
+    "engineering_title": "工程",
+    "engineering_tagline": "经得起现实考验的生产系统。",
+    "engineering_pt0": "电信后端——基于 Java 21 与 Spring Boot 3.5 的 CDR 计费、SMPP 网关、Diameter 信用控制。",
+    "engineering_pt1": "在 AWS、Snowflake 与 Databricks 上，用 dbt、Airflow 与 Kafka 构建的云数据湖仓。",
+    "engineering_pt2": "基于 FastAPI 与 Next.js 的全栈 AI，在医疗、RegTech 与电信领域端到端交付。",
+    "research_title": "研究",
+    "research_tagline": "迈向博士——以及一个可守护的细分领域。",
+    "research_pt0": "WikiHow-MY：首个英语→缅甸语指令型机器翻译语料库，瞄准 WMT 2026。",
+    "research_pt1": "AgentProbe：跨服务商的 LLM 智能体失败指纹分析，面向 NeurIPS/ICML 研讨会。",
+    "research_pt2": "全新的 Instruction Faithfulness Score，以及一个关于「指标何时失效」的诚实结论。",
+    "entrepreneurship_title": "创业",
+    "entrepreneurship_tagline": "成长为人们真正使用的产品的研究。",
+    "entrepreneurship_pt0": "Ekkhara——位于巴黎 Station F 的自筹资金 AI 创投工作室。",
+    "entrepreneurship_pt1": "SpeakProof：面向缅甸学习者、已上线的 Telegram 原生 TOEFL 教练。",
+    "entrepreneurship_pt2": "VitaLens 与 VitalAge：在 VivaTech 2026 展示的健康 AI 创投项目。"
   },
   "experience": {
     "label": "02 — EXPERIENCE",
@@ -105,14 +127,35 @@
     "11_desc": "Serverless middleware enforcing responsible-AI compliance on LLM applications — PII detection, bias screening, hate-speech filtering, and RAG-powered policy enforcement on top of Azure OpenAI.",
     "12_desc": "Cloud Carbon Intelligence platform estimating CO2e emissions from Azure infrastructure with AI-powered reduction recommendations. Clean Architecture, Azure AI Search semantic factor lookup, 88 automated tests. Built for EU CSRD Scope 3 compliance."
   },
+  "research": {
+    "label": "04 — RESEARCH",
+    "heading": "进行中的",
+    "headingEm": "研究",
+    "intro": "两篇进行中的论文——从工程师通向博士候选人的桥梁。两者皆开放：代码、模型与演示均在 GitHub 与 Hugging Face 上。",
+    "headline": "HEADLINE",
+    "githubBtn": "GITHUB",
+    "hfModel": "HF MODEL",
+    "hfCollection": "HF COLLECTION",
+    "demoBtn": "LIVE DEMO",
+    "paperSoon": "PAPER · SOON",
+    "moreOnGithub": "MORE RESEARCH ON GITHUB",
+    "wikihow-my_status": "WMT 2026 · WIP",
+    "wikihow-my_venue": "WMT 2026（EMNLP，布达佩斯）· 进行中",
+    "wikihow-my_contribution": "首个英语→缅甸语指令型机器翻译语料库——约 1 万对经人工后编辑、按文章划分的句对——并为程序性文本提出全新的 Instruction Faithfulness Score (IFS)。",
+    "wikihow-my_metrics": "NLLB-200 微调：域内 +5.6 chrF++。核心发现：包括我们自己的在内，自动指标都无法预测人类是否真能照着译文的指令操作。",
+    "agentprobe_status": "NeurIPS/ICML WS · WIP",
+    "agentprobe_venue": "NeurIPS / ICML 智能体研讨会 · 进行中",
+    "agentprobe_contribution": "一个 ReAct Agent Observatory，用 8 类失败分类法对 LLM 推理循环进行检测，并在相同任务上对五家服务商做基准测试——测量每家独特的「失败指纹」。",
+    "agentprobe_metrics": "5 家服务商 · 8 种确定性失败类型 · 50+ 基准用例 · 81 项测试 · 在线演示。跨服务商的失败维度在智能体可靠性文献中尚属无人涉足的空白。"
+  },
   "skills": {
-    "label": "04 — SKILLS",
+    "label": "05 — SKILLS",
     "heading": "专业",
     "headingEm": "工具箱",
     "alsoFluentIn": "同样精通"
   },
   "education": {
-    "label": "05 — EDUCATION",
+    "label": "06 — EDUCATION",
     "heading1": "亚洲",
     "heading2": "欧洲。",
     "headingEm": "旅程塑造工程师",
@@ -139,13 +182,13 @@
     "6_label": "Siloett.AI"
   },
   "certifications": {
-    "label": "06 — CERTIFICATIONS",
+    "label": "07 — CERTIFICATIONS",
     "heading": "承诺的",
     "headingEm": "证明",
     "verified": "已验证"
   },
   "contact": {
-    "label": "07 — CONTACT",
+    "label": "08 — CONTACT",
     "heading": "让我们一起",
     "headingEm": "构建。",
     "description": "Currently exploring Backend Engineer, Cloud Data Engineer, and AI Engineer roles across France, Germany, and the UK — plus founding team opportunities. If you're hiring or know of a fit, I'd love to hear from you.",
