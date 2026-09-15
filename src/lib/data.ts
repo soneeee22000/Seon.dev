@@ -21,8 +21,8 @@ export const GREETINGS: string[] = [
 /** Experience metadata (non-translatable fields only) */
 export const EXP_META = [
   {
-    company: "Ekkhara",
-    url: "https://ekkhara.com",
+    company: "Hoora Games",
+    url: "https://hooragames.com",
     color: "#CC7B7B",
     ptCount: 3,
   },
@@ -62,12 +62,12 @@ export const EXP_META = [
 export const PROJECTS_META = [
   {
     id: 13,
-    featured: true,
+    featured: false,
     emoji: "\uD83D\uDDE3\uFE0F",
     title: "SpeakProof",
     tags: ["Python", "Telegram Bot", "FastAPI", "LLM", "TOEFL"],
     color: "#CC7B7B",
-    demo: "https://t.me/SpeakProofTOEFLBot",
+    demo: "#",
     gh: "#",
   },
   {
@@ -107,7 +107,7 @@ export const PROJECTS_META = [
     title: "VitaLens",
     tags: ["Next.js", "FastAPI", "PostgreSQL", "OpenAI", "OCR"],
     color: "#CC7B7B",
-    demo: "https://vitalens.health",
+    demo: "#",
     gh: "https://github.com/soneeee22000/vitalens",
   },
   {
@@ -595,7 +595,7 @@ export const JOURNEY_META = [
   {
     flag: "\uD83C\uDFD9",
     city: "Station F",
-    date: "2025\u2014Now",
+    date: "2024\u20142026",
     color: "#C9A96E",
   },
 ];
