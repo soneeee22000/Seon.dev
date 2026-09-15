@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Pyae Sone Kyaw | AI Engineer · Full-Stack · Backend Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Full-Stack AI Engineer at Siloett.AI (Station F, Paris). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
-    "ogDescription": "Full-Stack AI Engineer @ Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — AI Engineer in Paris. Most recently freelance AI Engineer at Hoora Games (agentic pipelines in Mastra / TypeScript) and Full-Stack AI Engineer at Siloett.AI (Station F). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
+    "ogDescription": "AI Engineer · ex-Hoora Games (agentic AI, Mastra / TypeScript) · ex-Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
   },
   "nav": {
     "about": "အကြောင်း",
@@ -15,7 +15,7 @@
     "research": "သုတေသန"
   },
   "hero": {
-    "subtitle": "တည်ထောင်သူ · FULL-STACK & AI အင်ဂျင်နီယာ · PARIS",
+    "subtitle": "FULL-STACK & AI အင်ဂျင်နီယာ · PARIS",
     "specialties": "AI Engineering  ·  Full-Stack Systems  ·  Backend & Cloud Data",
     "openTo": "OPEN TO AI / FULL-STACK / BACKEND ROLES · FR / DE / UK",
     "viewWork": "လုပ်ငန်းကြည့်ရန်",
@@ -27,7 +27,7 @@
     "heading": "AI Engineer · Full-Stack ·",
     "headingEm": "Backend Systems",
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
-    "p1": "လက်ရှိတွင် မြန်မာအတွက် EdTech တည်ဆောက်နေသော ကိုယ်ပိုင်ရင်းနှီးမြှုပ်နှံ software & AI studio ဖြစ်သည့် Ekkhara ၏ တည်ထောင်သူဖြစ်သည် — မကြာသေးမီက ထုတ်လုပ်ခဲ့သည့် SpeakProof သည် VPN မလိုဘဲ အသုံးပြုနိုင်သော Telegram-native TOEFL လေ့ကျင့်ရေး bot ဖြစ်သည်။ ယခင်က Siloett.AI (Station F, Paris) တွင် Full-Stack AI အင်ဂျင်နီယာအဖြစ် FastAPI နှင့် React/TypeScript သုံး၍ Azure ပေါ်တွင် end-to-end Generative AI စနစ်များ ဒီဇိုင်းဆွဲခဲ့သည်။",
+    "p1": "မကြာသေးမီက Hoora Games အတွက် freelance AI အင်ဂျင်နီယာအဖြစ် Mastra / TypeScript ဖြင့် အစမှအဆုံး agentic game-generation pipeline တစ်ခုကို evaluation နှင့် guardrail layer အပါအဝင် တည်ဆောက်ခဲ့သည်။ ယခင်က Siloett.AI (Station F, Paris) တွင် Full-Stack AI အင်ဂျင်နီယာအဖြစ် FastAPI နှင့် React/TypeScript သုံး၍ Azure ပေါ်တွင် end-to-end Generative AI စနစ်များ ဒီဇိုင်းဆွဲခဲ့သည်။ ဘေးထွက်ပရောဂျက်အဖြစ် သူငယ်ချင်းများနှင့်အတူ VPN မလိုဘဲ အသုံးပြုနိုင်သော Telegram-native TOEFL လေ့ကျင့်ရေး bot ဖြစ်သည့် SpeakProof ကို တည်ဆောက်နေသည်။",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
@@ -41,7 +41,7 @@
     "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
     "heading": "မဏ္ဍိုင်သုံးခု၊",
     "headingEm": "သီအိုရီတစ်ခု",
-    "intro": "Ekkhara ဆိုသည်မှာ ကျွန်ုပ်၏ စိတ်အာရုံသုံးခု ဆုံစည်းရာနေရာ — ပစ္စည်းထုတ်ပေးနိုင်သော အင်ဂျင်နီယာ၊ ခက်ခဲသော မေးခွန်းများ မေးသော သုတေသန၊ နှင့် အဖြေများကို ထုတ်ကုန်အဖြစ် ပြောင်းလဲပေးသော စွန့်ဦးတီထွင်မှု။ သုတေသနမဏ္ဍိုင်ကို နက်ရှိုင်းစေရန် — နှင့် နယ်ပယ်တစ်ခုကို ကုမ္ပဏီတစ်ခုအဖြစ် ကြီးထွားလာစေရန် ဥရောပတွင် ပါရဂူဘွဲ့ကို ကျွန်ုပ် ဆက်လက်လုပ်ဆောင်နေပါသည်။",
+    "intro": "ကျွန်ုပ်၏ အလုပ်သည် စိတ်အာရုံသုံးခု ဆုံစည်းရာနေရာတွင် ရှိသည် — ပစ္စည်းထုတ်ပေးနိုင်သော အင်ဂျင်နီယာ၊ ခက်ခဲသော မေးခွန်းများ မေးသော သုတေသန၊ နှင့် အဖြေများကို ထုတ်ကုန်အဖြစ် ပြောင်းလဲပေးသော စွန့်ဦးတီထွင်မှု။ သုတေသနမဏ္ဍိုင်ကို နက်ရှိုင်းစေရန် — နှင့် နယ်ပယ်တစ်ခုကို ကုမ္ပဏီတစ်ခုအဖြစ် ကြီးထွားလာစေရန် ဥရောပတွင် ပါရဂူဘွဲ့ကို ကျွန်ုပ် ဆက်လက်လုပ်ဆောင်နေပါသည်။",
     "engineering_title": "အင်ဂျင်နီယာ",
     "engineering_tagline": "လက်တွေ့ကမ္ဘာနှင့် ရင်ဆိုင်ရပ်တည်နိုင်သော ထုတ်လုပ်မှုစနစ်များ။",
     "engineering_pt0": "တယ်လီကွန် back-end များ — CDR rating, SMPP gateway, Diameter credit-control ကို Java 21 & Spring Boot 3.5 ဖြင့်။",
@@ -54,20 +54,20 @@
     "research_pt2": "အသစ်အဆန်း Instruction Faithfulness Score နှင့် 'metric များ ဘယ်အချိန်မှားသလဲ' ဆိုသော ရိုးသားသည့် ရလဒ်တစ်ခု။",
     "entrepreneurship_title": "စွန့်ဦးတီထွင်မှု",
     "entrepreneurship_tagline": "လူများ အသုံးပြုသော ထုတ်ကုန်များအဖြစ် ကြီးထွားလာသော သုတေသန။",
-    "entrepreneurship_pt0": "Ekkhara — Station F, Paris ရှိ ကိုယ်ပိုင်ရင်းနှီးမြှုပ်နှံထားသော AI ventures studio။",
+    "entrepreneurship_pt0": "Ekkhara — မြန်မာအတွက် EdTech တည်ဆောက်နေသော သူငယ်ချင်းများနှင့် အလွတ်သဘော ဘေးထွက်ပရောဂျက်။",
     "entrepreneurship_pt1": "SpeakProof — မြန်မာသင်ယူသူများအတွက် ယခုပင် အသုံးပြုနေပြီးသော Telegram-native TOEFL coach။",
-    "entrepreneurship_pt2": "VitaLens & VitalAge — VivaTech 2026 တွင် ပြသခဲ့သော health-AI ventures များ။"
+    "entrepreneurship_pt2": "VitaLens & VitalAge — VivaTech 2026 challenge များအတွက် တည်ဆောက်ခဲ့သော health-AI prototype များ။"
   },
   "experience": {
     "label": "02 — EXPERIENCE",
     "heading": "တည်ဆောက်ခဲ့ပြီး",
     "headingEm": "သင်ယူခဲ့သည့်နေရာများ",
-    "0_job": "တည်ထောင်သူ & Full-Stack / AI အင်ဂျင်နီယာ",
-    "0_badge": "တည်ထောင်သူ · မြန်မာအတွက် EdTech",
-    "0_date": "May 2026 — Present",
-    "0_pt0": "ကိုယ်ပိုင်ရင်းနှီးမြှုပ်နှံထားသော software & AI studio ဖြစ်သည့် Ekkhara ကို တည်ထောင်ခဲ့ပြီး မြန်မာအတွက် EdTech ထုတ်ကုန်များ တည်ဆောက်နေသည် — ထုတ်ကုန်တစ်ခုစီကို စိတ်ကူးမှ အသုံးပြုနိုင်သည်အထိ ဦးဆောင်ကာ architecture၊ backend၊ AI နှင့် front-end ကို အစအဆုံး တာဝန်ယူသည်။",
-    "0_pt1": "Telegram အတွင်း၌ပင် အပြည့်အဝအလုပ်လုပ်သော TOEFL speaking နှင့် အင်္ဂလိပ်လေ့ကျင့်ရေး bot ဖြစ်သည့် SpeakProof ကို တည်ဆောက်ခဲ့သည် — မြန်မာနိုင်ငံ၏ အင်တာနက်ကန့်သတ်ချက်များကြားမှ VPN မလိုဘဲ၊ နေ့စဉ်သုံးနေကျ app မှတစ်ဆင့် TOEFL (computer-based test) အတွက် လေ့ကျင့်နိုင်စေသည်။",
-    "0_pt2": "ထုတ်ကုန်တစ်ခုစီ၏ နောက်ကွယ်ရှိ full stack ကို တည်ဆောက်သည် — Python / FastAPI services၊ LLM ဖြင့်မောင်းနှင်သော feedback နှင့် scoring၊ နှင့် conversational UX — access နှင့် infrastructure ကန့်သတ်ထားသည့်နေရာများရှိ အသုံးပြုသူများထံ ရောက်ရှိစေသော AI tools များ ပေးပို့သည်။",
+    "0_job": "Freelance AI အင်ဂျင်နီယာ",
+    "0_badge": "Agentic AI · Mastra / TypeScript · Remote",
+    "0_date": "May 2026 — Aug 2026",
+    "0_pt0": "Mastra / TypeScript ဖြင့် အစမှအဆုံး agentic game-generation pipeline တစ်ခုကို တည်ဆောက်ခဲ့သည် — agent graph ဒီဇိုင်းနှင့် workflow orchestration",
+    "0_pt1": "agent များမှ game-engine နှင့် asset-generation API များသို့ tool-calling ကို အကောင်အထည်ဖော်ခဲ့သည်",
+    "0_pt2": "pipeline ထုတ်ပေးသည့်အရာကို ထိန်းချုပ်သော evaluation နှင့် guardrail layer ကို တည်ဆောက်ပြီး ချို့ယွင်းမှုတိုင်းကို ဖြစ်စေသည့်အဆင့်အထိ ခြေရာခံခဲ့သည်",
     "1_job": "Full-Stack AI အင်ဂျင်နီယာ",
     "1_badge": "AI Safety & Compliance · Station F · Paris",
     "1_date": "Jun 2025 — May 2026",
@@ -113,11 +113,11 @@
     "liveAtVercel": "LIVE ON VERCEL",
     "liveAtTelegram": "LIVE ON TELEGRAM",
     "openSourceOnGithub": "OPEN-SOURCE ON GITHUB",
-    "0_desc": "Telegram-native TOEFL speaking & English-practice bot for Myanmar learners — drill toward the TOEFL computer-based test inside an app people already use daily, with zero VPN needed despite nationwide internet restrictions. LLM-powered speaking feedback and scoring on a Python / FastAPI backend. An Ekkhara EdTech product.",
+    "0_desc": "Telegram-native TOEFL speaking & English-practice bot for Myanmar learners — drill toward the TOEFL computer-based test inside an app people already use daily, with zero VPN needed despite nationwide internet restrictions. LLM-powered speaking feedback and scoring on a Python / FastAPI backend. Built with friends as part of the Ekkhara side project.",
     "1_desc": "Real-time European grid lakehouse on AWS — probabilistic load forecasting (DeepAR / quantile loss) and stochastic optimisation for battery flexibility decisions. Medallion architecture on S3 + Iceberg, MSK Kafka streaming, dbt models, Airflow orchestration, MLflow tracking. Cloud Data Engineering portfolio piece.",
     "2_desc": "Event-driven Call Detail Record ingestion, rating, and reconciliation pipeline simulating an MVNO billing back-end. Idempotent Kafka consumers, Spring Boot 3.5 microservices, MySQL for rated CDRs, MongoDB for raw events, Docker Compose for local infra. Built around real telecom domain models (3GPP TS 32.298).",
     "3_desc": "End-to-end CSRD/ESRS sustainability data pipeline — Claude/Mistral GenAI extraction from sustainability reports with page-level audit lineage, Snowflake warehouse (validated) + DuckDB local dev, dbt transformations, Airflow orchestration. Built for EU corporate sustainability reporting compliance.",
-    "4_desc": "AI-powered blood test interpretation for personalised supplement guidance — competing at Haleon VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence. Real-data moat through partner lab integrations.",
+    "4_desc": "AI-powered blood test interpretation for personalised supplement guidance — built for the Haleon challenge at VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence.",
     "5_desc": "From-scratch ReAct Agent Observatory — observe, debug, and benchmark LLM agents with a built-in 8-type failure taxonomy (hallucinated tools, malformed actions, context overflow, goal drift, …) and multi-provider eval harness (Groq, OpenAI, Anthropic, Google, Ollama). Composite scoring (answer + tools + efficiency + reliability), Clean Architecture FastAPI + PostgreSQL backend, Next.js 16 frontend with real-time SSE streaming. 50+ benchmark cases, 81 tests.",
     "6_desc": "Real-World Evidence platform for vaccine research — full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale. Built at Siloett.AI for healthcare and life-sciences buyers.",
     "7_desc": "Diameter Credit-Control Server (Gy / RFC 4006 / App-Id 4) for real-time prepaid mobile billing. Idempotent partial debits, jdiameter 1.7.x stack, designed against TRANSATEL/MVNO production patterns.",
@@ -136,7 +136,7 @@
     "githubBtn": "GITHUB",
     "hfModel": "HF MODEL",
     "hfCollection": "HF COLLECTION",
-    "demoBtn": "LIVE DEMO",
+    "demoBtn": "DEMO",
     "paperSoon": "PAPER · SOON",
     "moreOnGithub": "MORE RESEARCH ON GITHUB",
     "wikihow-my_status": "WMT 2026 · WIP",
@@ -146,7 +146,7 @@
     "agentprobe_status": "NeurIPS/ICML WS · WIP",
     "agentprobe_venue": "NeurIPS / ICML agent workshop များ · ဆောင်ရွက်ဆဲ",
     "agentprobe_contribution": "LLM reasoning loop များကို ချို့ယွင်းမှု ၈ မျိုး taxonomy ဖြင့် instrument လုပ်ပြီး ဝန်ဆောင်မှုပေးသူ ၅ ခုကို တူညီသော task များပေါ်တွင် benchmark လုပ်သော ReAct Agent Observatory — တစ်ခုစီ၏ သီးခြား 'ချို့ယွင်းမှု fingerprint' ကို တိုင်းတာသည်။",
-    "agentprobe_metrics": "ဝန်ဆောင်မှုပေးသူ ၅ ခု · deterministic ချို့ယွင်းမှု ၈ မျိုး · benchmark case ၅၀+ · test ၈၁ ခု · live demo။ ဝန်ဆောင်မှုပေးသူအချင်းချင်း ချို့ယွင်းမှု ဝင်ရိုးသည် agent reliability စာပေတွင် မစူးစမ်းရသေးသော နယ်ပယ်ဖြစ်သည်။"
+    "agentprobe_metrics": "ဝန်ဆောင်မှုပေးသူ ၅ ခု · deterministic ချို့ယွင်းမှု ၈ မျိုး · benchmark case ၅၀+ · test ၈၁ ခု · demo (သိမ်းဆည်းထားသော နမူနာ run များ)။ ဝန်ဆောင်မှုပေးသူအချင်းချင်း ချို့ယွင်းမှု ဝင်ရိုးသည် agent reliability စာပေတွင် မစူးစမ်းရသေးသော နယ်ပယ်ဖြစ်သည်။"
   },
   "skills": {
     "label": "05 — SKILLS",

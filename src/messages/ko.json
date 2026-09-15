@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Pyae Sone Kyaw | AI Engineer · Full-Stack · Backend Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Full-Stack AI Engineer at Siloett.AI (Station F, Paris). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
-    "ogDescription": "Full-Stack AI Engineer @ Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — AI Engineer in Paris. Most recently freelance AI Engineer at Hoora Games (agentic pipelines in Mastra / TypeScript) and Full-Stack AI Engineer at Siloett.AI (Station F). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
+    "ogDescription": "AI Engineer · ex-Hoora Games (agentic AI, Mastra / TypeScript) · ex-Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
   },
   "nav": {
     "about": "소개",
@@ -15,7 +15,7 @@
     "research": "연구"
   },
   "hero": {
-    "subtitle": "창업자 · 풀스택 & AI 엔지니어 · 파리",
+    "subtitle": "풀스택 & AI 엔지니어 · 파리",
     "specialties": "AI Engineering  ·  Full-Stack Systems  ·  Backend & Cloud Data",
     "openTo": "OPEN TO AI / FULL-STACK / BACKEND ROLES · FR / DE / UK",
     "viewWork": "작업 보기",
@@ -27,7 +27,7 @@
     "heading": "AI Engineer · Full-Stack ·",
     "headingEm": "Backend Systems",
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
-    "p1": "현재 Ekkhara의 창업자로서 자기자본으로 미얀마를 위한 EdTech를 개발하고 있으며 — 가장 최근 제품은 VPN 없이 작동하는 Telegram 네이티브 TOEFL 연습 봇 SpeakProof입니다. 그전에는 Siloett.AI(파리 Station F)에서 풀스택 AI 엔지니어로 FastAPI와 React/TypeScript로 Azure 기반의 엔드투엔드 생성형 AI 시스템을 설계했습니다.",
+    "p1": "최근에는 Hoora Games의 프리랜서 AI 엔지니어로 Mastra / TypeScript 기반의 엔드투엔드 에이전트형 게임 생성 파이프라인과 평가·가드레일 레이어를 구축했습니다. 그전에는 Siloett.AI(파리 Station F)에서 풀스택 AI 엔지니어로 FastAPI와 React/TypeScript로 Azure 기반의 엔드투엔드 생성형 AI 시스템을 설계했습니다. 사이드 프로젝트로 친구들과 함께 VPN 없이 작동하는 Telegram 네이티브 TOEFL 연습 봇 SpeakProof를 만들고 있습니다.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
@@ -41,7 +41,7 @@
     "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
     "heading": "세 개의 기둥,",
     "headingEm": "하나의 명제",
-    "intro": "Ekkhara는 제 세 가지 열정이 만나는 곳입니다. 결과를 내는 엔지니어링, 어려운 질문을 던지는 연구, 그리고 답을 제품으로 바꾸는 창업. 연구라는 기둥을 더 깊게 다지기 위해 — 그리고 하나의 니치를 회사로 키우기 위해, 저는 유럽에서 박사 과정을 밟고 있습니다.",
+    "intro": "제 일은 세 가지 열정이 만나는 곳에 있습니다. 결과를 내는 엔지니어링, 어려운 질문을 던지는 연구, 그리고 답을 제품으로 바꾸는 창업. 연구라는 기둥을 더 깊게 다지기 위해 — 그리고 하나의 니치를 회사로 키우기 위해, 저는 유럽에서 박사 과정을 밟고 있습니다.",
     "engineering_title": "엔지니어링",
     "engineering_tagline": "현실과 부딪혀도 살아남는 프로덕션 시스템.",
     "engineering_pt0": "통신 백엔드 — CDR 과금, SMPP 게이트웨이, Diameter 크레딧 제어를 Java 21 & Spring Boot 3.5로.",
@@ -54,20 +54,20 @@
     "research_pt2": "새로운 Instruction Faithfulness Score와 '지표가 실패할 때'라는 정직한 결과.",
     "entrepreneurship_title": "창업",
     "entrepreneurship_tagline": "사람들이 쓰는 제품으로 자라나는 연구.",
-    "entrepreneurship_pt0": "Ekkhara — 파리 Station F의 자체 자금 AI 벤처 스튜디오.",
+    "entrepreneurship_pt0": "Ekkhara — 친구들과 함께하는 미얀마를 위한 EdTech 비공식 사이드 프로젝트.",
     "entrepreneurship_pt1": "SpeakProof: 미얀마 학습자를 위해 이미 운영 중인 Telegram 네이티브 TOEFL 코치.",
-    "entrepreneurship_pt2": "VitaLens & VitalAge: VivaTech 2026에서 선보인 헬스 AI 벤처."
+    "entrepreneurship_pt2": "VitaLens & VitalAge: VivaTech 2026 챌린지를 위해 만든 헬스 AI 프로토타입."
   },
   "experience": {
     "label": "02 — EXPERIENCE",
     "heading": "구축하고",
     "headingEm": "배운 곳",
-    "0_job": "창업자 & 풀스택 / AI 엔지니어",
-    "0_badge": "창업자 · 미얀마를 위한 EdTech",
-    "0_date": "May 2026 — Present",
-    "0_pt0": "자기자본으로 운영되는 소프트웨어 & AI 스튜디오 Ekkhara를 창업하여 미얀마를 위한 EdTech 제품을 개발 — 각 제품을 아이디어부터 출시까지 이끌며 아키텍처, 백엔드, AI, 프런트엔드를 전 과정 담당.",
-    "0_pt1": "Telegram 안에서 완전히 동작하는 TOEFL 스피킹 & 영어 연습 봇 SpeakProof를 개발 — 미얀마 학습자가 인터넷 제한 속에서도 VPN 없이, 매일 쓰는 앱에서 TOEFL(컴퓨터 기반 시험)을 준비할 수 있도록.",
-    "0_pt2": "각 제품 뒤의 풀스택을 직접 구축 — Python / FastAPI 서비스, LLM 기반 피드백·채점, 대화형 UX — 접근성과 인프라가 제한된 환경의 사용자에게도 닿는 AI 도구를 출시.",
+    "0_job": "프리랜서 AI 엔지니어",
+    "0_badge": "Agentic AI · Mastra / TypeScript · 원격",
+    "0_date": "May 2026 — Aug 2026",
+    "0_pt0": "Mastra / TypeScript로 엔드투엔드 에이전트형 게임 생성 파이프라인 구축 — 에이전트 그래프 설계 및 워크플로 오케스트레이션",
+    "0_pt1": "에이전트에서 게임 엔진 및 에셋 생성 API로의 도구 호출(tool-calling) 구현",
+    "0_pt2": "파이프라인 출력을 통제하는 평가·가드레일 레이어를 구축하고, 각 실패를 원인이 된 단계까지 추적",
     "1_job": "풀스택 AI 엔지니어",
     "1_badge": "AI Safety & Compliance · Station F · 파리",
     "1_date": "Jun 2025 — May 2026",
@@ -113,11 +113,11 @@
     "liveAtVercel": "LIVE ON VERCEL",
     "liveAtTelegram": "LIVE ON TELEGRAM",
     "openSourceOnGithub": "OPEN-SOURCE ON GITHUB",
-    "0_desc": "Telegram-native TOEFL speaking & English-practice bot for Myanmar learners — drill toward the TOEFL computer-based test inside an app people already use daily, with zero VPN needed despite nationwide internet restrictions. LLM-powered speaking feedback and scoring on a Python / FastAPI backend. An Ekkhara EdTech product.",
+    "0_desc": "Telegram-native TOEFL speaking & English-practice bot for Myanmar learners — drill toward the TOEFL computer-based test inside an app people already use daily, with zero VPN needed despite nationwide internet restrictions. LLM-powered speaking feedback and scoring on a Python / FastAPI backend. Built with friends as part of the Ekkhara side project.",
     "1_desc": "Real-time European grid lakehouse on AWS — probabilistic load forecasting (DeepAR / quantile loss) and stochastic optimisation for battery flexibility decisions. Medallion architecture on S3 + Iceberg, MSK Kafka streaming, dbt models, Airflow orchestration, MLflow tracking. Cloud Data Engineering portfolio piece.",
     "2_desc": "Event-driven Call Detail Record ingestion, rating, and reconciliation pipeline simulating an MVNO billing back-end. Idempotent Kafka consumers, Spring Boot 3.5 microservices, MySQL for rated CDRs, MongoDB for raw events, Docker Compose for local infra. Built around real telecom domain models (3GPP TS 32.298).",
     "3_desc": "End-to-end CSRD/ESRS sustainability data pipeline — Claude/Mistral GenAI extraction from sustainability reports with page-level audit lineage, Snowflake warehouse (validated) + DuckDB local dev, dbt transformations, Airflow orchestration. Built for EU corporate sustainability reporting compliance.",
-    "4_desc": "AI-powered blood test interpretation for personalised supplement guidance — competing at Haleon VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence. Real-data moat through partner lab integrations.",
+    "4_desc": "AI-powered blood test interpretation for personalised supplement guidance — built for the Haleon challenge at VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence.",
     "5_desc": "From-scratch ReAct Agent Observatory — observe, debug, and benchmark LLM agents with a built-in 8-type failure taxonomy (hallucinated tools, malformed actions, context overflow, goal drift, …) and multi-provider eval harness (Groq, OpenAI, Anthropic, Google, Ollama). Composite scoring (answer + tools + efficiency + reliability), Clean Architecture FastAPI + PostgreSQL backend, Next.js 16 frontend with real-time SSE streaming. 50+ benchmark cases, 81 tests.",
     "6_desc": "Real-World Evidence platform for vaccine research — full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale. Built at Siloett.AI for healthcare and life-sciences buyers.",
     "7_desc": "Diameter Credit-Control Server (Gy / RFC 4006 / App-Id 4) for real-time prepaid mobile billing. Idempotent partial debits, jdiameter 1.7.x stack, designed against TRANSATEL/MVNO production patterns.",
@@ -136,7 +136,7 @@
     "githubBtn": "GITHUB",
     "hfModel": "HF MODEL",
     "hfCollection": "HF COLLECTION",
-    "demoBtn": "LIVE DEMO",
+    "demoBtn": "DEMO",
     "paperSoon": "PAPER · SOON",
     "moreOnGithub": "MORE RESEARCH ON GITHUB",
     "wikihow-my_status": "WMT 2026 · WIP",
@@ -146,7 +146,7 @@
     "agentprobe_status": "NeurIPS/ICML WS · WIP",
     "agentprobe_venue": "NeurIPS / ICML 에이전트 워크숍 · 진행 중",
     "agentprobe_contribution": "LLM 추론 루프를 8가지 실패 분류로 계측하고 동일한 과제에서 다섯 제공자를 벤치마크하는 ReAct Agent Observatory — 각 제공자 고유의 '실패 지문'을 측정합니다.",
-    "agentprobe_metrics": "제공자 5곳 · 결정론적 실패 8종 · 벤치마크 케이스 50+ · 테스트 81개 · 라이브 데모. 제공자 간 실패 축은 에이전트 신뢰성 문헌에서 아직 다뤄지지 않은 영역입니다."
+    "agentprobe_metrics": "제공자 5곳 · 결정론적 실패 8종 · 벤치마크 케이스 50+ · 테스트 81개 · 데모(저장된 실행 예시). 제공자 간 실패 축은 에이전트 신뢰성 문헌에서 아직 다뤄지지 않은 영역입니다."
   },
   "skills": {
     "label": "05 — SKILLS",

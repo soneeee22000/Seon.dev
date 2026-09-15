@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Pyae Sone Kyaw | AI Engineer · Full-Stack · Backend Systems",
-    "description": "Portfolio of Pyae Sone Kyaw (Seon) — Full-Stack AI Engineer at Siloett.AI (Station F, Paris). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
-    "ogDescription": "Full-Stack AI Engineer @ Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
+    "description": "Portfolio of Pyae Sone Kyaw (Seon) — AI Engineer in Paris. Most recently freelance AI Engineer at Hoora Games (agentic pipelines in Mastra / TypeScript) and Full-Stack AI Engineer at Siloett.AI (Station F). Full-stack AI systems (Python · FastAPI · Next.js · LLM evaluation harnesses), with deep backend roots (Java 21 · Spring Boot 3 · Kafka · microservices) and cloud data engineering on AWS, Snowflake, Databricks. Open to AI / Full-Stack / Backend roles in FR / DE / UK.",
+    "ogDescription": "AI Engineer · ex-Hoora Games (agentic AI, Mastra / TypeScript) · ex-Siloett.AI (Station F, Paris) · Full-stack AI systems · Backend (Java 21, Spring Boot, Kafka) · Cloud Data (AWS, Snowflake, Databricks). Open to AI / Full-Stack / Backend roles in FR / DE / UK."
   },
   "nav": {
     "about": "SOBRE",
@@ -15,7 +15,7 @@
     "research": "PESQUISA"
   },
   "hero": {
-    "subtitle": "FUNDADOR · ENGENHEIRO FULL-STACK & IA · PARIS",
+    "subtitle": "ENGENHEIRO FULL-STACK & IA · PARIS",
     "specialties": "AI Engineering  ·  Full-Stack Systems  ·  Backend & Cloud Data",
     "openTo": "OPEN TO AI / FULL-STACK / BACKEND ROLES · FR / DE / UK",
     "viewWork": "VER TRABALHOS",
@@ -27,7 +27,7 @@
     "heading": "AI Engineer · Full-Stack ·",
     "headingEm": "Backend Systems",
     "quote": "AI Engineer · Full-Stack · Backend Systems — building production-grade software at the intersection of telecom, healthcare, and finance, across Asia and Europe.",
-    "p1": "Atualmente fundador da Ekkhara, um estúdio de software e IA autofinanciado que cria EdTech para Mianmar — mais recentemente o SpeakProof, um bot de prática de TOEFL nativo do Telegram que funciona sem VPN. Antes, fui Engenheiro Full-Stack de IA na Siloett.AI (Station F, Paris), projetando sistemas de IA generativa de ponta a ponta no Azure com FastAPI e React/TypeScript.",
+    "p1": "Recentemente, Engenheiro de IA freelance para a Hoora Games, construindo um pipeline agêntico de geração de jogos de ponta a ponta em Mastra / TypeScript com uma camada de avaliação e guardrails. Antes, fui Engenheiro Full-Stack de IA na Siloett.AI (Station F, Paris), projetando sistemas de IA generativa de ponta a ponta no Azure com FastAPI e React/TypeScript. Paralelamente, desenvolvo o SpeakProof com amigos — um bot de prática de TOEFL nativo do Telegram que funciona sem VPN.",
     "p2": "Beyond AI, my engineering portfolio spans backend systems — Java 21, Spring Boot 3.5, Kafka, microservices — and cloud data engineering on AWS, Snowflake, Databricks, dbt, and Airflow. Telecom domain depth includes CDR pipelines, SMPP gateways, and Diameter Credit-Control.",
     "p3": "Dual Master's degrees from Telecom SudParis (Paris) and AIT (Bangkok), plus 5+ years shipping production software across healthcare, RegTech, telecom, and smart-city domains.",
     "p4": "Currently exploring AI Engineer, Full-Stack, and Backend Engineer roles across France, Germany, and the UK. If you're hiring or know of a fit — let's talk.",
@@ -41,7 +41,7 @@
     "kicker": "ENGINEERING · RESEARCH · ENTREPRENEURSHIP",
     "heading": "Três Pilares,",
     "headingEm": "Uma Tese",
-    "intro": "Ekkhara é onde minhas três obsessões se encontram: engenharia que entrega, pesquisa que faz as perguntas difíceis e empreendedorismo que transforma respostas em produtos. Estou cursando um doutorado na Europa para aprofundar o pilar da pesquisa — e fazer um nicho crescer até virar empresa.",
+    "intro": "Meu trabalho está onde minhas três obsessões se encontram: engenharia que entrega, pesquisa que faz as perguntas difíceis e empreendedorismo que transforma respostas em produtos. Estou cursando um doutorado na Europa para aprofundar o pilar da pesquisa — e fazer um nicho crescer até virar empresa.",
     "engineering_title": "Engenharia",
     "engineering_tagline": "Sistemas em produção que sobrevivem ao mundo real.",
     "engineering_pt0": "Back-ends de telecom — tarifação CDR, gateways SMPP, controle de crédito Diameter em Java 21 & Spring Boot 3.5.",
@@ -54,20 +54,20 @@
     "research_pt2": "Um inédito Instruction Faithfulness Score e um resultado honesto sobre «quando as métricas falham».",
     "entrepreneurship_title": "Empreendedorismo",
     "entrepreneurship_tagline": "Pesquisa que cresce até virar produtos que as pessoas usam.",
-    "entrepreneurship_pt0": "Ekkhara — um estúdio de ventures de IA autofinanciado na Station F, Paris.",
+    "entrepreneurship_pt0": "Ekkhara — um projeto paralelo informal com amigos, criando EdTech para Mianmar.",
     "entrepreneurship_pt1": "SpeakProof: um coach de TOEFL nativo do Telegram, já no ar para estudantes de Mianmar.",
-    "entrepreneurship_pt2": "VitaLens & VitalAge: ventures de health-AI apresentadas na VivaTech 2026."
+    "entrepreneurship_pt2": "VitaLens & VitalAge: protótipos de health-AI criados para desafios da VivaTech 2026."
   },
   "experience": {
     "label": "02 — EXPERIENCE",
     "heading": "Onde eu",
     "headingEm": "Construí & Aprendi",
-    "0_job": "Fundador & Engenheiro Full-Stack / IA",
-    "0_badge": "Fundador · EdTech para Mianmar",
-    "0_date": "May 2026 — Present",
-    "0_pt0": "Fundei a Ekkhara, um estúdio de software e IA autofinanciado que cria produtos EdTech para Mianmar — levando cada um da ideia ao produto no ar e dominando a arquitetura, o backend, a IA e o frontend de ponta a ponta.",
-    "0_pt1": "Criei o SpeakProof, um bot de speaking do TOEFL e prática de inglês que funciona inteiramente dentro do Telegram — permitindo que estudantes de Mianmar treinem para o TOEFL (prova por computador) a partir de um app que já usam diariamente, sem precisar de VPN apesar das restrições de internet do país.",
-    "0_pt2": "Desenvolvo toda a stack por trás de cada produto — serviços Python / FastAPI, feedback e pontuação guiados por LLM e UX conversacional — entregando ferramentas de IA que alcançam usuários onde o acesso e a infraestrutura são limitados.",
+    "0_job": "Engenheiro de IA freelance",
+    "0_badge": "IA agêntica · Mastra / TypeScript · Remoto",
+    "0_date": "May 2026 — Aug 2026",
+    "0_pt0": "Construí um pipeline agêntico de geração de jogos ponta a ponta em Mastra / TypeScript — projetando o grafo de agentes e orquestrando os fluxos de trabalho.",
+    "0_pt1": "Implementei o tool-calling dos agentes para as APIs do motor de jogo e de geração de assets.",
+    "0_pt2": "Construí a camada de avaliação e guardrails que controla o que o pipeline emite, rastreando cada falha até a etapa que a causou.",
     "1_job": "Engenheiro de IA Full-Stack",
     "1_badge": "AI Safety & Compliance · Station F · Paris",
     "1_date": "Jun 2025 — May 2026",
@@ -113,11 +113,11 @@
     "liveAtVercel": "LIVE ON VERCEL",
     "liveAtTelegram": "LIVE ON TELEGRAM",
     "openSourceOnGithub": "OPEN-SOURCE ON GITHUB",
-    "0_desc": "Telegram-native TOEFL speaking & English-practice bot for Myanmar learners — drill toward the TOEFL computer-based test inside an app people already use daily, with zero VPN needed despite nationwide internet restrictions. LLM-powered speaking feedback and scoring on a Python / FastAPI backend. An Ekkhara EdTech product.",
+    "0_desc": "Telegram-native TOEFL speaking & English-practice bot for Myanmar learners — drill toward the TOEFL computer-based test inside an app people already use daily, with zero VPN needed despite nationwide internet restrictions. LLM-powered speaking feedback and scoring on a Python / FastAPI backend. Built with friends as part of the Ekkhara side project.",
     "1_desc": "Real-time European grid lakehouse on AWS — probabilistic load forecasting (DeepAR / quantile loss) and stochastic optimisation for battery flexibility decisions. Medallion architecture on S3 + Iceberg, MSK Kafka streaming, dbt models, Airflow orchestration, MLflow tracking. Cloud Data Engineering portfolio piece.",
     "2_desc": "Event-driven Call Detail Record ingestion, rating, and reconciliation pipeline simulating an MVNO billing back-end. Idempotent Kafka consumers, Spring Boot 3.5 microservices, MySQL for rated CDRs, MongoDB for raw events, Docker Compose for local infra. Built around real telecom domain models (3GPP TS 32.298).",
     "3_desc": "End-to-end CSRD/ESRS sustainability data pipeline — Claude/Mistral GenAI extraction from sustainability reports with page-level audit lineage, Snowflake warehouse (validated) + DuckDB local dev, dbt transformations, Airflow orchestration. Built for EU corporate sustainability reporting compliance.",
-    "4_desc": "AI-powered blood test interpretation for personalised supplement guidance — competing at Haleon VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence. Real-data moat through partner lab integrations.",
+    "4_desc": "AI-powered blood test interpretation for personalised supplement guidance — built for the Haleon challenge at VivaTech 2026. OCR ingestion of French lab reports, validated biomarker classification, longitudinal tracking, and supplement recommendations grounded in clinical evidence.",
     "5_desc": "From-scratch ReAct Agent Observatory — observe, debug, and benchmark LLM agents with a built-in 8-type failure taxonomy (hallucinated tools, malformed actions, context overflow, goal drift, …) and multi-provider eval harness (Groq, OpenAI, Anthropic, Google, Ollama). Composite scoring (answer + tools + efficiency + reliability), Clean Architecture FastAPI + PostgreSQL backend, Next.js 16 frontend with real-time SSE streaming. 50+ benchmark cases, 81 tests.",
     "6_desc": "Real-World Evidence platform for vaccine research — full-stack application for ingesting, analyzing, and visualizing vaccine safety and efficacy data from real-world sources at scale. Built at Siloett.AI for healthcare and life-sciences buyers.",
     "7_desc": "Diameter Credit-Control Server (Gy / RFC 4006 / App-Id 4) for real-time prepaid mobile billing. Idempotent partial debits, jdiameter 1.7.x stack, designed against TRANSATEL/MVNO production patterns.",
@@ -136,7 +136,7 @@
     "githubBtn": "GITHUB",
     "hfModel": "HF MODEL",
     "hfCollection": "HF COLLECTION",
-    "demoBtn": "LIVE DEMO",
+    "demoBtn": "DEMO",
     "paperSoon": "PAPER · SOON",
     "moreOnGithub": "MORE RESEARCH ON GITHUB",
     "wikihow-my_status": "WMT 2026 · WIP",
@@ -146,7 +146,7 @@
     "agentprobe_status": "NeurIPS/ICML WS · WIP",
     "agentprobe_venue": "Workshops de agentes NeurIPS / ICML · Em andamento",
     "agentprobe_contribution": "Um ReAct Agent Observatory que instrumenta os loops de raciocínio dos LLMs com uma taxonomia de 8 tipos de falha e avalia cinco provedores em tarefas idênticas — medindo a 'impressão digital de falha' de cada um.",
-    "agentprobe_metrics": "5 provedores · 8 tipos de falha determinísticos · 50+ casos de referência · 81 testes · demo ao vivo. O eixo entre provedores é um espaço inexplorado na literatura sobre confiabilidade de agentes."
+    "agentprobe_metrics": "5 provedores · 8 tipos de falha determinísticos · 50+ casos de referência · 81 testes · demo (execuções de exemplo salvas). O eixo entre provedores é um espaço inexplorado na literatura sobre confiabilidade de agentes."
   },
   "skills": {
     "label": "05 — SKILLS",
